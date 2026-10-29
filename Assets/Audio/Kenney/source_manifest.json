@@ -1,0 +1,1578 @@
+[
+  {
+    "destination": "Weapons/Melee/sfx_melee_knife_slice_01.ogg",
+    "source": "RPG Audio/Audio/knifeSlice.ogg",
+    "pack": "RPG Audio",
+    "usage": "刀刃挥击",
+    "status": "待试听",
+    "sha256": "A642871216213BD4DF7E9CEB1AB421066392D459A7E2F16F6F0CF87A94CB6307"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_knife_slice_02.ogg",
+    "source": "RPG Audio/Audio/knifeSlice2.ogg",
+    "pack": "RPG Audio",
+    "usage": "刀刃挥击",
+    "status": "待试听",
+    "sha256": "35C95EDD8622B87F12F09190E3E3AC46472014E8EC0A749956FDCAD6244031EF"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_knife_draw_01.ogg",
+    "source": "RPG Audio/Audio/drawKnife1.ogg",
+    "pack": "RPG Audio",
+    "usage": "出刀、装备",
+    "status": "待试听",
+    "sha256": "E2B749609E66292A38811687C7010E76767E725BDE03ADEFFCA5391DBCDDF208"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_knife_draw_02.ogg",
+    "source": "RPG Audio/Audio/drawKnife2.ogg",
+    "pack": "RPG Audio",
+    "usage": "出刀、装备",
+    "status": "待试听",
+    "sha256": "25A80A53DF0C40B086048F0A8036FA80F3CA5C535F9F2D8E37C061EA8AE5C53E"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_knife_draw_03.ogg",
+    "source": "RPG Audio/Audio/drawKnife3.ogg",
+    "pack": "RPG Audio",
+    "usage": "出刀、装备",
+    "status": "待试听",
+    "sha256": "3CC931CADECAE73C620C74716175F7D0FC92457919342EFD7CA404DE5C5F3201"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_chop_01.ogg",
+    "source": "RPG Audio/Audio/chop.ogg",
+    "pack": "RPG Audio",
+    "usage": "劈砍命中",
+    "status": "待试听",
+    "sha256": "41095DFFEE1FF2D0715C4EADD82AE7846DFD4D67327088A69848A9BD2E08DB1B"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_whoosh_01.ogg",
+    "source": "Foley Sounds/Audio/Woosh/woosh1.ogg",
+    "pack": "Foley Sounds",
+    "usage": "挥动、长矛与飞刀投掷",
+    "status": "待试听",
+    "sha256": "BCDDE3410691845F4CC3BB7E2303445A483DC8D7692863C496C391733D40D2AF"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_whoosh_02.ogg",
+    "source": "Foley Sounds/Audio/Woosh/woosh2.ogg",
+    "pack": "Foley Sounds",
+    "usage": "挥动、长矛与飞刀投掷",
+    "status": "待试听",
+    "sha256": "FA0E2F01034CCB404042C5609739C58C0FF0DF2265FDD54531A06E56C323F086"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_whoosh_03.ogg",
+    "source": "Foley Sounds/Audio/Woosh/woosh3.ogg",
+    "pack": "Foley Sounds",
+    "usage": "挥动、长矛与飞刀投掷",
+    "status": "待试听",
+    "sha256": "7778451891D8D228BE5FA9B95983DF7B6511FFAD96EFD5140AF99129722693F9"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_whoosh_04.ogg",
+    "source": "Foley Sounds/Audio/Woosh/woosh4.ogg",
+    "pack": "Foley Sounds",
+    "usage": "挥动、长矛与飞刀投掷",
+    "status": "待试听",
+    "sha256": "B850161C99A7CEEE79E20315D162039571B072B6A4AC6DB2010B22B95D3B5440"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_whoosh_05.ogg",
+    "source": "Foley Sounds/Audio/Woosh/woosh5.ogg",
+    "pack": "Foley Sounds",
+    "usage": "挥动、长矛与飞刀投掷",
+    "status": "待试听",
+    "sha256": "585F8BC125B5A36FD6808CBE50FE9FA6C5598F60169BF43830A61AEDC96687F1"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_whoosh_06.ogg",
+    "source": "Foley Sounds/Audio/Woosh/woosh6.ogg",
+    "pack": "Foley Sounds",
+    "usage": "挥动、长矛与飞刀投掷",
+    "status": "待试听",
+    "sha256": "5EFCB2B81DFAFDE73BFF6BE8094EED88EC7BF10F8B535A3D00AD2BD83D391A6D"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_whoosh_07.ogg",
+    "source": "Foley Sounds/Audio/Woosh/woosh7.ogg",
+    "pack": "Foley Sounds",
+    "usage": "挥动、长矛与飞刀投掷",
+    "status": "待试听",
+    "sha256": "F0A5CC4DA7019469D70567FF7B8E5BB8011765FD29510C2CACF79202B5DDD60C"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_whoosh_08.ogg",
+    "source": "Foley Sounds/Audio/Woosh/woosh8.ogg",
+    "pack": "Foley Sounds",
+    "usage": "挥动、长矛与飞刀投掷",
+    "status": "待试听",
+    "sha256": "F1A3F112932DF2D1E67E5574196F4BC6003C72CF35CB5D5296CE616CE2B0A3E7"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_01.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword1.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "1BEF37494D7DB86A0BD997994DF695C6FC2C6E1F61AEA722E7AF1658048D84C9"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_02.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword2.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "BA296465EFB7509B1E811A0E82E98847BFD31D1407C932F4F9D3AE07AB657AFC"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_03.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword3.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "FE142DE41564679775F1689AE25ADB10CE985C9E1F9C200470577923E51B6F61"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_04.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword4.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "06BCFC88D068C861C899D5095D8396AB3E6934C7A1F2E5986829C745F6C65AEA"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_05.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword5.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "AE0D204540AF94E2D4812D07296C731D50244F065FBE1653BC0D8D37ADE7597D"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_06.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword6.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "D49BEAFB771CCBA2024343FCB90318640A727604CCDB406D4B443BA780AE7DFB"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_07.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword7.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "E5B93DA74CA8296F79A002BE3454894B643B8B0B58C598F3580100B3125E94E3"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_08.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword8.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "6AB9AAFC4231FC4D88E34B5B37AEFC61A7B66FD68608C2059AFB9D4C4FB2762A"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_09.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword9.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "F3A63A45B3A80B355F434E9DAB63CE1BFB49CFF187B39B58DC7D78192E079D07"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_10.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword10.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "EF6B60BC605486E0D1B14353FE57EB486BE642D45B04CA56A34C6B4AA688D05D"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_sword_11.ogg",
+    "source": "Foley Sounds/Audio/Swords/sword11.ogg",
+    "pack": "Foley Sounds",
+    "usage": "近战刀剑候选",
+    "status": "待试听",
+    "sha256": "B7EC46AF67EFC747ED71357C580FACCB7C435992DDD3B78CC4A11A3EA28B705C"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_metal_hit_01.ogg",
+    "source": "Foley Sounds/Audio/Swords/swordMetal1.ogg",
+    "pack": "Foley Sounds",
+    "usage": "刀刃金属碰撞",
+    "status": "待试听",
+    "sha256": "2D4F7F7231294D7DEDCC2F4CC6863541CCD958F55D0E5BE6F593AFF581604304"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_metal_hit_02.ogg",
+    "source": "Foley Sounds/Audio/Swords/swordMetal2.ogg",
+    "pack": "Foley Sounds",
+    "usage": "刀刃金属碰撞",
+    "status": "待试听",
+    "sha256": "E0EF3EA0AD3F67DF4A9D7A0E0E07C4F1D04C98520BC2736BCDABD8E50ACD4784"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_metal_hit_03.ogg",
+    "source": "Foley Sounds/Audio/Swords/swordMetal3.ogg",
+    "pack": "Foley Sounds",
+    "usage": "刀刃金属碰撞",
+    "status": "待试听",
+    "sha256": "97F7C3EC5034A90634615A4D622C44B8DA962771234064265FBCBCAE9418D4CF"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_metal_hit_04.ogg",
+    "source": "Foley Sounds/Audio/Swords/swordMetal4.ogg",
+    "pack": "Foley Sounds",
+    "usage": "刀刃金属碰撞",
+    "status": "待试听",
+    "sha256": "CEDE00C28B0197FD2CCA31444A0E7D5C060477E7948C3154984A8CBCF47AA6C2"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_metal_hit_05.ogg",
+    "source": "Foley Sounds/Audio/Swords/swordMetal5.ogg",
+    "pack": "Foley Sounds",
+    "usage": "刀刃金属碰撞",
+    "status": "待试听",
+    "sha256": "0F50CD4DF5AEFCF124F9724C9CD6C606B988CEF9096E89D7BDA14D54DE224121"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_metal_hit_06.ogg",
+    "source": "Foley Sounds/Audio/Swords/swordMetal6.ogg",
+    "pack": "Foley Sounds",
+    "usage": "刀刃金属碰撞",
+    "status": "待试听",
+    "sha256": "B97F9AD75C2C5A7DAE04808F8D572CDC8C734512A2205AA257E8B26227F4DC4A"
+  },
+  {
+    "destination": "Weapons/Melee/sfx_melee_metal_hit_07.ogg",
+    "source": "Foley Sounds/Audio/Swords/swordMetal7.ogg",
+    "pack": "Foley Sounds",
+    "usage": "刀刃金属碰撞",
+    "status": "待试听",
+    "sha256": "EC338B99A29AFC43A43172B17EEEBC9C03CCF1B7EFC00E9BD37797729963188E"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_stone_hit_01.ogg",
+    "source": "Foley Sounds/Audio/Rocks/stoneHit1.ogg",
+    "pack": "Foley Sounds",
+    "usage": "重锤石质撞击层",
+    "status": "待试听",
+    "sha256": "3260381A9891D763B57C6FB33B9F238A294A6E31F8E6D32D7F805568A7B83DA9"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_stone_hit_02.ogg",
+    "source": "Foley Sounds/Audio/Rocks/stoneHit2.ogg",
+    "pack": "Foley Sounds",
+    "usage": "重锤石质撞击层",
+    "status": "待试听",
+    "sha256": "F6C5A422906864BCB35E5F3BAD06E0BFB5483EA0B6CF2EA324B44C034A3CBBC9"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_stone_hit_03.ogg",
+    "source": "Foley Sounds/Audio/Rocks/stoneHit3.ogg",
+    "pack": "Foley Sounds",
+    "usage": "重锤石质撞击层",
+    "status": "待试听",
+    "sha256": "B8E8F08C11C9B3AF93AC9E3C859BF85B88EF5F9E6C27555D7511CA7C5812CEE2"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_stone_hit_04.ogg",
+    "source": "Foley Sounds/Audio/Rocks/stoneHit4.ogg",
+    "pack": "Foley Sounds",
+    "usage": "重锤石质撞击层",
+    "status": "待试听",
+    "sha256": "55C3EF25CE63E23C373B1C093CA4714FD3EB74B9FBD52398BC425213D32E7257"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_stone_hit_05.ogg",
+    "source": "Foley Sounds/Audio/Rocks/stoneHit5.ogg",
+    "pack": "Foley Sounds",
+    "usage": "重锤石质撞击层",
+    "status": "待试听",
+    "sha256": "4347742647F2BC4C00A3722D8841328DC808C5AC88EC14CEC0C6E6AE53D2C589"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_rock_hit_01.ogg",
+    "source": "Foley Sounds/Audio/Rocks/rockHit1.ogg",
+    "pack": "Foley Sounds",
+    "usage": "重锤岩石撞击层",
+    "status": "待试听",
+    "sha256": "9213C3B1F002D1A26B38EA861027020F03BD62F67444BEB9AECC4B35B54AA71D"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_rock_hit_02.ogg",
+    "source": "Foley Sounds/Audio/Rocks/rockHit2.ogg",
+    "pack": "Foley Sounds",
+    "usage": "重锤岩石撞击层",
+    "status": "待试听",
+    "sha256": "E31EC757AE1506EA67BD424C1326AFCC14355B6C159E2E52A2EF5B3ED0A2BF4D"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_mining_hit_01.ogg",
+    "source": "Impact Sounds/Audio/impactMining_000.ogg",
+    "pack": "Impact Sounds",
+    "usage": "重锤落地候选",
+    "status": "待试听",
+    "sha256": "9110431DF3DF7EEC39A9850BD0564575D4F2453444AB34B454452D31E7878E42"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_mining_hit_02.ogg",
+    "source": "Impact Sounds/Audio/impactMining_001.ogg",
+    "pack": "Impact Sounds",
+    "usage": "重锤落地候选",
+    "status": "待试听",
+    "sha256": "3A4C3A0D14A84740BB494F5A86EC2428AFFEC263D8412935FD9A620DB3CBD0A0"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_mining_hit_03.ogg",
+    "source": "Impact Sounds/Audio/impactMining_002.ogg",
+    "pack": "Impact Sounds",
+    "usage": "重锤落地候选",
+    "status": "待试听",
+    "sha256": "DB595729FE32658BCC9D8DAD37A57801E68B015CEFE1D2D1C0EC47C41571E235"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_mining_hit_04.ogg",
+    "source": "Impact Sounds/Audio/impactMining_003.ogg",
+    "pack": "Impact Sounds",
+    "usage": "重锤落地候选",
+    "status": "待试听",
+    "sha256": "B11024637A2AC3C551BB7B5AFD8D4C9269A7FE96F250BA0C1C510360FF5ECCED"
+  },
+  {
+    "destination": "Weapons/Hammer/sfx_hammer_mining_hit_05.ogg",
+    "source": "Impact Sounds/Audio/impactMining_004.ogg",
+    "pack": "Impact Sounds",
+    "usage": "重锤落地候选",
+    "status": "待试听",
+    "sha256": "0C169CDFC2E821FA9231C10761964E1BE43E4B611DE20BD5F15C1F0CB85EC2FA"
+  },
+  {
+    "destination": "Combat/Hits/sfx_hit_punch_heavy_01.ogg",
+    "source": "Impact Sounds/Audio/impactPunch_heavy_000.ogg",
+    "pack": "Impact Sounds",
+    "usage": "重击、受伤，也可用于重锤",
+    "status": "待试听",
+    "sha256": "FF099BDCAFFCB13F13C932A2A02DE0885089523908CB5F965FEC977508E73C7C"
+  },
+  {
+    "destination": "Combat/Hits/sfx_hit_punch_heavy_02.ogg",
+    "source": "Impact Sounds/Audio/impactPunch_heavy_001.ogg",
+    "pack": "Impact Sounds",
+    "usage": "重击、受伤，也可用于重锤",
+    "status": "待试听",
+    "sha256": "DD3CB705F4628EE74BF7B53F21F564BBC157923CE9D23A44345D8180D462CDD5"
+  },
+  {
+    "destination": "Combat/Hits/sfx_hit_punch_heavy_03.ogg",
+    "source": "Impact Sounds/Audio/impactPunch_heavy_002.ogg",
+    "pack": "Impact Sounds",
+    "usage": "重击、受伤，也可用于重锤",
+    "status": "待试听",
+    "sha256": "E4644C152F34D7430ABF1D053725B7C7C90F9E32A8B21B1F89E6F719B8969A79"
+  },
+  {
+    "destination": "Combat/Hits/sfx_hit_punch_heavy_04.ogg",
+    "source": "Impact Sounds/Audio/impactPunch_heavy_003.ogg",
+    "pack": "Impact Sounds",
+    "usage": "重击、受伤，也可用于重锤",
+    "status": "待试听",
+    "sha256": "688D327FE487E4106BEB38051D56885EC09B0D742F72F55F791D5719553DDA88"
+  },
+  {
+    "destination": "Combat/Hits/sfx_hit_punch_heavy_05.ogg",
+    "source": "Impact Sounds/Audio/impactPunch_heavy_004.ogg",
+    "pack": "Impact Sounds",
+    "usage": "重击、受伤，也可用于重锤",
+    "status": "待试听",
+    "sha256": "2F6ADD56716DAD3F686CCCBD1F2590C9E60C88F81C86FFB54A69CA0CE17A4D80"
+  },
+  {
+    "destination": "Combat/Hits/sfx_hit_soft_medium_01.ogg",
+    "source": "Impact Sounds/Audio/impactSoft_medium_000.ogg",
+    "pack": "Impact Sounds",
+    "usage": "普通命中、受伤",
+    "status": "待试听",
+    "sha256": "976B7A3FF7F6181A72704836A225A3FCE938B1058A574B66801F17A4D61DCE06"
+  },
+  {
+    "destination": "Combat/Hits/sfx_hit_soft_medium_02.ogg",
+    "source": "Impact Sounds/Audio/impactSoft_medium_001.ogg",
+    "pack": "Impact Sounds",
+    "usage": "普通命中、受伤",
+    "status": "待试听",
+    "sha256": "DF5F98F7DD01E974A97CB1282BA73323314910AA66888FC823B840089E4694BE"
+  },
+  {
+    "destination": "Combat/Hits/sfx_hit_soft_medium_03.ogg",
+    "source": "Impact Sounds/Audio/impactSoft_medium_002.ogg",
+    "pack": "Impact Sounds",
+    "usage": "普通命中、受伤",
+    "status": "待试听",
+    "sha256": "3C1FCE0D7B26E958F4887FFD9EDC2D087DC477E81147750E79422CA1535CFA5A"
+  },
+  {
+    "destination": "Combat/Hits/sfx_hit_soft_medium_04.ogg",
+    "source": "Impact Sounds/Audio/impactSoft_medium_003.ogg",
+    "pack": "Impact Sounds",
+    "usage": "普通命中、受伤",
+    "status": "待试听",
+    "sha256": "8229C8D60BAF48762F1747C2BFAD95E319CDF82491FAE4BCF7B76A884F625837"
+  },
+  {
+    "destination": "Combat/Hits/sfx_hit_soft_medium_05.ogg",
+    "source": "Impact Sounds/Audio/impactSoft_medium_004.ogg",
+    "pack": "Impact Sounds",
+    "usage": "普通命中、受伤",
+    "status": "待试听",
+    "sha256": "3B2D3D29F728D4509DD9470AC4C62F86FCD81C969D9528FCE66BDC2ED8C3DD1D"
+  },
+  {
+    "destination": "Player/Footsteps/sfx_footstep_grass_01.ogg",
+    "source": "Impact Sounds/Audio/footstep_grass_000.ogg",
+    "pack": "Impact Sounds",
+    "usage": "玩家草地脚步",
+    "status": "待试听",
+    "sha256": "DE44D80F152915FC43AEE6FBD7F5D26B921C392FEC15ED7520F675712BE53D2B"
+  },
+  {
+    "destination": "Player/Footsteps/sfx_footstep_grass_02.ogg",
+    "source": "Impact Sounds/Audio/footstep_grass_001.ogg",
+    "pack": "Impact Sounds",
+    "usage": "玩家草地脚步",
+    "status": "待试听",
+    "sha256": "A0BC739D8B49C2E255C6AB0069AEF2AE93BB2591121CEE18EEF2B03A1ABEE02A"
+  },
+  {
+    "destination": "Player/Footsteps/sfx_footstep_grass_03.ogg",
+    "source": "Impact Sounds/Audio/footstep_grass_002.ogg",
+    "pack": "Impact Sounds",
+    "usage": "玩家草地脚步",
+    "status": "待试听",
+    "sha256": "7DB0B66CF043A155FD3D7177716366C141681F2D0A530930E75D5D5CF6C0C440"
+  },
+  {
+    "destination": "Player/Footsteps/sfx_footstep_grass_04.ogg",
+    "source": "Impact Sounds/Audio/footstep_grass_003.ogg",
+    "pack": "Impact Sounds",
+    "usage": "玩家草地脚步",
+    "status": "待试听",
+    "sha256": "EE3C60F827EA73909BBCFFE46E4537282B8147CC3402D94189A37108323D0348"
+  },
+  {
+    "destination": "Player/Footsteps/sfx_footstep_grass_05.ogg",
+    "source": "Impact Sounds/Audio/footstep_grass_004.ogg",
+    "pack": "Impact Sounds",
+    "usage": "玩家草地脚步",
+    "status": "待试听",
+    "sha256": "CCEC0CBA2C7BF537D817347D89F784C6519EAA3E538C8D8B266D2691AD72F574"
+  },
+  {
+    "destination": "Pickups/sfx_pickup_material_01.ogg",
+    "source": "Foley Sounds/Audio/Helmet/pickup1.ogg",
+    "pack": "Foley Sounds",
+    "usage": "材料拾取候选",
+    "status": "待试听",
+    "sha256": "1FF23A1770C745E3EF12F44F98AAFFC46B713A8117C8888AA60786B3BCEE2A89"
+  },
+  {
+    "destination": "Pickups/sfx_pickup_material_02.ogg",
+    "source": "Foley Sounds/Audio/Helmet/pickup2.ogg",
+    "pack": "Foley Sounds",
+    "usage": "材料拾取候选",
+    "status": "待试听",
+    "sha256": "D7A43972E876BBB0509693793706CE995B4CA704BFA877EDAAEED958C7B406BB"
+  },
+  {
+    "destination": "Pickups/sfx_pickup_material_03.ogg",
+    "source": "Foley Sounds/Audio/Helmet/pickup3.ogg",
+    "pack": "Foley Sounds",
+    "usage": "材料拾取候选",
+    "status": "待试听",
+    "sha256": "B3F57E0A4724CB2AC52436748ECB850293636F3B62E1787FD14B45036DB834E6"
+  },
+  {
+    "destination": "Pickups/sfx_pickup_material_04.ogg",
+    "source": "Foley Sounds/Audio/Helmet/pickup4.ogg",
+    "pack": "Foley Sounds",
+    "usage": "材料拾取候选",
+    "status": "待试听",
+    "sha256": "0A2A28E27E1973ADF0D25257BD504918B9E686B5B46C6F4C58F73A03765571A8"
+  },
+  {
+    "destination": "Shop/sfx_shop_coins_01.ogg",
+    "source": "RPG Audio/Audio/handleCoins.ogg",
+    "pack": "RPG Audio",
+    "usage": "购买、材料结算",
+    "status": "待试听",
+    "sha256": "FC7D7DE1B012B77E89B9F052065734EADA8001A69226B5CA6086A0618F7FF4D6"
+  },
+  {
+    "destination": "Shop/sfx_shop_coins_02.ogg",
+    "source": "RPG Audio/Audio/handleCoins2.ogg",
+    "pack": "RPG Audio",
+    "usage": "购买、材料结算",
+    "status": "待试听",
+    "sha256": "32D79EA56FF22E6D74C4DD541674C95F5ADBCFF01300B9F99694627E3E9FDBFE"
+  },
+  {
+    "destination": "UI/sfx_ui_select_01.ogg",
+    "source": "Interface Sounds/Audio/select_001.ogg",
+    "pack": "Interface Sounds",
+    "usage": "菜单与卡片选择",
+    "status": "待试听",
+    "sha256": "510DEB19199CFBBA6EE90C85B70FF00D429EE8437D5BE196C2B2C7CFCA01FC50"
+  },
+  {
+    "destination": "UI/sfx_ui_select_02.ogg",
+    "source": "Interface Sounds/Audio/select_002.ogg",
+    "pack": "Interface Sounds",
+    "usage": "菜单与卡片选择",
+    "status": "待试听",
+    "sha256": "43F8583C0993043328E5C801065A225D65E07A5CB28977C4CEA7C31BFE491BD2"
+  },
+  {
+    "destination": "UI/sfx_ui_select_03.ogg",
+    "source": "Interface Sounds/Audio/select_003.ogg",
+    "pack": "Interface Sounds",
+    "usage": "菜单与卡片选择",
+    "status": "待试听",
+    "sha256": "79E8064C63965F0AACEA295E97565EF559F91E6F4C073C53CCABB8025A8BD903"
+  },
+  {
+    "destination": "UI/sfx_ui_select_04.ogg",
+    "source": "Interface Sounds/Audio/select_004.ogg",
+    "pack": "Interface Sounds",
+    "usage": "菜单与卡片选择",
+    "status": "待试听",
+    "sha256": "B958B3D7034D5910DFE988A587F7D9EAC3EF2B2E493F73506CF5BBA908C79534"
+  },
+  {
+    "destination": "UI/sfx_ui_select_05.ogg",
+    "source": "Interface Sounds/Audio/select_005.ogg",
+    "pack": "Interface Sounds",
+    "usage": "菜单与卡片选择",
+    "status": "待试听",
+    "sha256": "6E596518AE6D1BF3EC957F014BFD151A86EFCE51AED7047F18AC9E36BB391558"
+  },
+  {
+    "destination": "UI/sfx_ui_select_06.ogg",
+    "source": "Interface Sounds/Audio/select_006.ogg",
+    "pack": "Interface Sounds",
+    "usage": "菜单与卡片选择",
+    "status": "待试听",
+    "sha256": "24168541B68B8D1B2246B1B713BDC86D61CDFE8D2BF10D18F566DAB9EAB462B1"
+  },
+  {
+    "destination": "UI/sfx_ui_select_07.ogg",
+    "source": "Interface Sounds/Audio/select_007.ogg",
+    "pack": "Interface Sounds",
+    "usage": "菜单与卡片选择",
+    "status": "待试听",
+    "sha256": "31C30A57765D51371E8505C2ADC48E5CC4FFF18566E3284463706A66B4A7B263"
+  },
+  {
+    "destination": "UI/sfx_ui_select_08.ogg",
+    "source": "Interface Sounds/Audio/select_008.ogg",
+    "pack": "Interface Sounds",
+    "usage": "菜单与卡片选择",
+    "status": "待试听",
+    "sha256": "3620ADC320AC310607495580E2B051CC1F40E981C60D7C33574FB0784256A1B9"
+  },
+  {
+    "destination": "UI/sfx_ui_click_01.ogg",
+    "source": "Interface Sounds/Audio/click_001.ogg",
+    "pack": "Interface Sounds",
+    "usage": "点击",
+    "status": "待试听",
+    "sha256": "CA2CEB907E5515B5F8439CA03B025F64AB9E7C6696350F9489A6900A6464C9EC"
+  },
+  {
+    "destination": "UI/sfx_ui_click_02.ogg",
+    "source": "Interface Sounds/Audio/click_002.ogg",
+    "pack": "Interface Sounds",
+    "usage": "点击",
+    "status": "待试听",
+    "sha256": "775B61D6CD2AF764CF54532C765AB35F5DF71A63BA4CB9AC34AB69C4BA429C1E"
+  },
+  {
+    "destination": "UI/sfx_ui_click_03.ogg",
+    "source": "Interface Sounds/Audio/click_003.ogg",
+    "pack": "Interface Sounds",
+    "usage": "点击",
+    "status": "待试听",
+    "sha256": "D57BC684B6B4DF72822755281C84089A471383D777C82658163892C3DB370A43"
+  },
+  {
+    "destination": "UI/sfx_ui_click_04.ogg",
+    "source": "Interface Sounds/Audio/click_004.ogg",
+    "pack": "Interface Sounds",
+    "usage": "点击",
+    "status": "待试听",
+    "sha256": "DDA6FE98408C0A5F0426CFF4DC4BD9E9FDD7D954C4517D0452872632E1529626"
+  },
+  {
+    "destination": "UI/sfx_ui_click_05.ogg",
+    "source": "Interface Sounds/Audio/click_005.ogg",
+    "pack": "Interface Sounds",
+    "usage": "点击",
+    "status": "待试听",
+    "sha256": "BBCED7E9D4A633472D6D9988B4991ADA201A7AB98D88D4D617B934DCD8C6B73F"
+  },
+  {
+    "destination": "UI/sfx_ui_confirm_01.ogg",
+    "source": "Interface Sounds/Audio/confirmation_001.ogg",
+    "pack": "Interface Sounds",
+    "usage": "确认、购买成功",
+    "status": "待试听",
+    "sha256": "1D59821014076ADF376AE092A556FF7EE4816F5532A8AE0719B6D44D244BFBC1"
+  },
+  {
+    "destination": "UI/sfx_ui_confirm_02.ogg",
+    "source": "Interface Sounds/Audio/confirmation_002.ogg",
+    "pack": "Interface Sounds",
+    "usage": "确认、购买成功",
+    "status": "待试听",
+    "sha256": "9F3A15FFD9D8E031E2AFA17539BAA4EF3655B2AD06FCF9D44E5D3BD0D0EC64E2"
+  },
+  {
+    "destination": "UI/sfx_ui_confirm_03.ogg",
+    "source": "Interface Sounds/Audio/confirmation_003.ogg",
+    "pack": "Interface Sounds",
+    "usage": "确认、购买成功",
+    "status": "待试听",
+    "sha256": "9CDDAA348F8BA91A913DCEB0F5B1B874379AF0F5CCE71A9DF6CF2B744FBC60CD"
+  },
+  {
+    "destination": "UI/sfx_ui_confirm_04.ogg",
+    "source": "Interface Sounds/Audio/confirmation_004.ogg",
+    "pack": "Interface Sounds",
+    "usage": "确认、购买成功",
+    "status": "待试听",
+    "sha256": "A1521B718078C9CD8C4A2BE8F2189A810B078E0F9EFE2945C47E020015F6A030"
+  },
+  {
+    "destination": "UI/sfx_ui_back_01.ogg",
+    "source": "Interface Sounds/Audio/back_001.ogg",
+    "pack": "Interface Sounds",
+    "usage": "返回、取消",
+    "status": "待试听",
+    "sha256": "275226B7A353A6406A1876F595AC9C0864B5EA2F5468F4F22AF3E7DCEF65266E"
+  },
+  {
+    "destination": "UI/sfx_ui_back_02.ogg",
+    "source": "Interface Sounds/Audio/back_002.ogg",
+    "pack": "Interface Sounds",
+    "usage": "返回、取消",
+    "status": "待试听",
+    "sha256": "72CA7476AC72629EC5005558CCA0E28BD4BECDC1C6992A435E1DEF5D5EE29389"
+  },
+  {
+    "destination": "UI/sfx_ui_back_03.ogg",
+    "source": "Interface Sounds/Audio/back_003.ogg",
+    "pack": "Interface Sounds",
+    "usage": "返回、取消",
+    "status": "待试听",
+    "sha256": "DD52A0860BD813FED3E305F7D37A7054AF4B7420744F80F51AC170BB78729700"
+  },
+  {
+    "destination": "UI/sfx_ui_back_04.ogg",
+    "source": "Interface Sounds/Audio/back_004.ogg",
+    "pack": "Interface Sounds",
+    "usage": "返回、取消",
+    "status": "待试听",
+    "sha256": "0D25A09E2316CD743A1EE368D8C699F093AF94E340249688B17F7CC14759A9C9"
+  },
+  {
+    "destination": "UI/sfx_ui_error_01.ogg",
+    "source": "Interface Sounds/Audio/error_001.ogg",
+    "pack": "Interface Sounds",
+    "usage": "材料不足、无效操作",
+    "status": "待试听",
+    "sha256": "350F02AAB97813254A8701A0A4F5735A4AE43C27366C374F4837BD07C777C426"
+  },
+  {
+    "destination": "UI/sfx_ui_error_02.ogg",
+    "source": "Interface Sounds/Audio/error_002.ogg",
+    "pack": "Interface Sounds",
+    "usage": "材料不足、无效操作",
+    "status": "待试听",
+    "sha256": "99C4112D7A07FBF47345724EFC83A50B63937DDB8269F91DF3979D03BB1E710F"
+  },
+  {
+    "destination": "UI/sfx_ui_error_03.ogg",
+    "source": "Interface Sounds/Audio/error_003.ogg",
+    "pack": "Interface Sounds",
+    "usage": "材料不足、无效操作",
+    "status": "待试听",
+    "sha256": "4DE2677FE56234534E312419A590D46091540E54196A610A0DE13FC5D9B76153"
+  },
+  {
+    "destination": "UI/sfx_ui_error_04.ogg",
+    "source": "Interface Sounds/Audio/error_004.ogg",
+    "pack": "Interface Sounds",
+    "usage": "材料不足、无效操作",
+    "status": "待试听",
+    "sha256": "88004B4A2E19714C1E7C42A5E01B1B19E4DF5262A7B94A950DDD13571BFABFF3"
+  },
+  {
+    "destination": "UI/sfx_ui_error_05.ogg",
+    "source": "Interface Sounds/Audio/error_005.ogg",
+    "pack": "Interface Sounds",
+    "usage": "材料不足、无效操作",
+    "status": "待试听",
+    "sha256": "25635C536B112E74ECE28B627B685A7F70E5E4A6D289BC947C80971DB6344333"
+  },
+  {
+    "destination": "UI/sfx_ui_error_06.ogg",
+    "source": "Interface Sounds/Audio/error_006.ogg",
+    "pack": "Interface Sounds",
+    "usage": "材料不足、无效操作",
+    "status": "待试听",
+    "sha256": "B1A3F4CF361F6997FD0D71074FA961689FC7FDAB71D91E8CDAAECA4C09528FCC"
+  },
+  {
+    "destination": "UI/sfx_ui_error_07.ogg",
+    "source": "Interface Sounds/Audio/error_007.ogg",
+    "pack": "Interface Sounds",
+    "usage": "材料不足、无效操作",
+    "status": "待试听",
+    "sha256": "787F7E0824ADFA57FDACF2F4C64B0F4CD5C8717995A0C5D0F5A22E5A338ED173"
+  },
+  {
+    "destination": "UI/sfx_ui_error_08.ogg",
+    "source": "Interface Sounds/Audio/error_008.ogg",
+    "pack": "Interface Sounds",
+    "usage": "材料不足、无效操作",
+    "status": "待试听",
+    "sha256": "E5D4C5B36E738EEB55EE9C8DEFFD526AF313623E50580A096302021C4E138268"
+  },
+  {
+    "destination": "UI/sfx_ui_scroll_01.ogg",
+    "source": "Interface Sounds/Audio/scroll_001.ogg",
+    "pack": "Interface Sounds",
+    "usage": "列表滚动",
+    "status": "待试听",
+    "sha256": "A6205096A4F8E181B8A5CD4A0790FCB437434DEA0697615C7E9D441AF07FECD4"
+  },
+  {
+    "destination": "UI/sfx_ui_scroll_02.ogg",
+    "source": "Interface Sounds/Audio/scroll_002.ogg",
+    "pack": "Interface Sounds",
+    "usage": "列表滚动",
+    "status": "待试听",
+    "sha256": "9D52B362D7679FF860C90C6B9B3F9A524DB6A0377723E8A3903C81A71A33F238"
+  },
+  {
+    "destination": "UI/sfx_ui_scroll_03.ogg",
+    "source": "Interface Sounds/Audio/scroll_003.ogg",
+    "pack": "Interface Sounds",
+    "usage": "列表滚动",
+    "status": "待试听",
+    "sha256": "A74F5667788A554B172AFD4236FDE1E1012281A76C4288DFB6B3243CFEEC04E6"
+  },
+  {
+    "destination": "UI/sfx_ui_scroll_04.ogg",
+    "source": "Interface Sounds/Audio/scroll_004.ogg",
+    "pack": "Interface Sounds",
+    "usage": "列表滚动",
+    "status": "待试听",
+    "sha256": "53E1FF696F8883ABE8867B8E5C3114A275F188EC9B63850B84C02AD114A082C1"
+  },
+  {
+    "destination": "UI/sfx_ui_scroll_05.ogg",
+    "source": "Interface Sounds/Audio/scroll_005.ogg",
+    "pack": "Interface Sounds",
+    "usage": "列表滚动",
+    "status": "待试听",
+    "sha256": "657F3C520ACDA55E6AF699D5ED7052472B8FA3D651AADDD504CE4C43E08C7BE7"
+  },
+  {
+    "destination": "UI/sfx_ui_toggle_01.ogg",
+    "source": "Interface Sounds/Audio/toggle_001.ogg",
+    "pack": "Interface Sounds",
+    "usage": "设置开关",
+    "status": "待试听",
+    "sha256": "78303D57ADEA79B64761A963A48016BE53C9539A13547D27E4D2D6302C2B48B1"
+  },
+  {
+    "destination": "UI/sfx_ui_toggle_02.ogg",
+    "source": "Interface Sounds/Audio/toggle_002.ogg",
+    "pack": "Interface Sounds",
+    "usage": "设置开关",
+    "status": "待试听",
+    "sha256": "A5C2643804FA0A653E04CC54B441C74BD0484ECD20E61330F6266DEFA6BB2A63"
+  },
+  {
+    "destination": "UI/sfx_ui_toggle_03.ogg",
+    "source": "Interface Sounds/Audio/toggle_003.ogg",
+    "pack": "Interface Sounds",
+    "usage": "设置开关",
+    "status": "待试听",
+    "sha256": "88B7705175CFC5D1F8A2B38B1ECC63D363B35AE1C78DD1C161B8EC28ABE0C486"
+  },
+  {
+    "destination": "UI/sfx_ui_toggle_04.ogg",
+    "source": "Interface Sounds/Audio/toggle_004.ogg",
+    "pack": "Interface Sounds",
+    "usage": "设置开关",
+    "status": "待试听",
+    "sha256": "E34078E6DFB313935DBC1C1B157C38BC27CDEC879DCCBABDC6830A9BFDAE6108"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_slide_01.ogg",
+    "source": "Casino Audio/Audio/card-slide-1.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片滑入、移动",
+    "status": "待试听",
+    "sha256": "006CF9822D15D7063F8899E56041F41646DF30ADB6FBD8B974EE5D5420012690"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_slide_02.ogg",
+    "source": "Casino Audio/Audio/card-slide-2.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片滑入、移动",
+    "status": "待试听",
+    "sha256": "E674A1679EC87B507047FE012D068AD2C412125F56186F0E732684705C2A6888"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_slide_03.ogg",
+    "source": "Casino Audio/Audio/card-slide-3.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片滑入、移动",
+    "status": "待试听",
+    "sha256": "AF2AB62656CB3DF73316CE5771B8EE1111A840962B21607E3202151E7413C52C"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_slide_04.ogg",
+    "source": "Casino Audio/Audio/card-slide-4.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片滑入、移动",
+    "status": "待试听",
+    "sha256": "B9C82BCDBE6B7D00A06E2546BD2683A9AB082CA5FD090A42882F33EDDD925B7F"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_slide_05.ogg",
+    "source": "Casino Audio/Audio/card-slide-5.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片滑入、移动",
+    "status": "待试听",
+    "sha256": "8638AB0C17F029ADED0E27A4F9B9BB9F8C621B19A6E9975E855CB40EA63E2201"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_slide_06.ogg",
+    "source": "Casino Audio/Audio/card-slide-6.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片滑入、移动",
+    "status": "待试听",
+    "sha256": "BE85DA181AC879C20CB667D0F9F156DBDC236D3751737AD27359A15E946430A0"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_slide_07.ogg",
+    "source": "Casino Audio/Audio/card-slide-7.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片滑入、移动",
+    "status": "待试听",
+    "sha256": "BDA2040194F43484D03EE3C65ED6FFF57251882EA7227ABCE4214BFA30BF2705"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_slide_08.ogg",
+    "source": "Casino Audio/Audio/card-slide-8.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片滑入、移动",
+    "status": "待试听",
+    "sha256": "95D9AA26F8C63AF9934F27A8E3B7E9B583F177640F0BBD6982F12DBA52B9AE6B"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_place_01.ogg",
+    "source": "Casino Audio/Audio/card-place-1.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片出现、落位",
+    "status": "待试听",
+    "sha256": "D8F26C33A665DCBDCC6F632F6050BC9DD548FEB0D4942D4547615926D3926810"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_place_02.ogg",
+    "source": "Casino Audio/Audio/card-place-2.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片出现、落位",
+    "status": "待试听",
+    "sha256": "903D5050718595E87864DD755643B476AB1A5533080DCC2DDDC72570D33BA9F8"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_place_03.ogg",
+    "source": "Casino Audio/Audio/card-place-3.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片出现、落位",
+    "status": "待试听",
+    "sha256": "1D988631A6E5201ED1BB0D728F2E43A3EC79401258426858793598044AC95841"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_place_04.ogg",
+    "source": "Casino Audio/Audio/card-place-4.ogg",
+    "pack": "Casino Audio",
+    "usage": "卡片出现、落位",
+    "status": "待试听",
+    "sha256": "18E3BA713B7259605FD27CDC048085ED56CF86B32403F070B6CB125019F77183"
+  },
+  {
+    "destination": "Shop/Cards/sfx_shop_card_shuffle_01.ogg",
+    "source": "Casino Audio/Audio/card-shuffle.ogg",
+    "pack": "Casino Audio",
+    "usage": "商店刷新",
+    "status": "待试听",
+    "sha256": "96C84883A30845EDE723A4CF2E8369E9837E7DD4E0D4EB0212B0A7ED21B0F544"
+  },
+  {
+    "destination": "Weapons/Poison/sfx_poison_slime_01.ogg",
+    "source": "Sci-Fi Sounds/Audio/slime_000.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "毒液喷洒与落地候选",
+    "status": "待试听",
+    "sha256": "EF4D3FA7A45EAECBD5BAC2AAD057CA3ABC93B07B0D7614B0FD19932477C5273D"
+  },
+  {
+    "destination": "Weapons/Poison/sfx_poison_slime_02.ogg",
+    "source": "Sci-Fi Sounds/Audio/slime_001.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "毒液喷洒与落地候选",
+    "status": "待试听",
+    "sha256": "575DF1AD96393057D1148D5AED84B173730B963DFC84FC5E2C622830934CC38B"
+  },
+  {
+    "destination": "Weapons/Poison/sfx_poison_drip_01.ogg",
+    "source": "Foley Sounds/Audio/Water/drip1.ogg",
+    "pack": "Foley Sounds",
+    "usage": "毒液滴落候选",
+    "status": "待试听",
+    "sha256": "4FC914478049BEEEC3868DAA33D790603FFD476D3433BB97D53677244EDDFDE6"
+  },
+  {
+    "destination": "Weapons/Poison/sfx_poison_drip_02.ogg",
+    "source": "Foley Sounds/Audio/Water/drip2.ogg",
+    "pack": "Foley Sounds",
+    "usage": "毒液滴落候选",
+    "status": "待试听",
+    "sha256": "CF23C4D4E600C37D0D134AE63766F03CA7B6E9401BCED176AE8C42AE5CCE64A7"
+  },
+  {
+    "destination": "Weapons/Poison/sfx_poison_drip_03.ogg",
+    "source": "Foley Sounds/Audio/Water/drip3.ogg",
+    "pack": "Foley Sounds",
+    "usage": "毒液滴落候选",
+    "status": "待试听",
+    "sha256": "2E94F82701E47CD2DABCBB2EA7EBA1DAC598B903C19598B228485AA205461551"
+  },
+  {
+    "destination": "Weapons/Poison/sfx_poison_drip_04.ogg",
+    "source": "Foley Sounds/Audio/Water/drip4.ogg",
+    "pack": "Foley Sounds",
+    "usage": "毒液滴落候选",
+    "status": "待试听",
+    "sha256": "065B0A2DB52BB81605DCE9DB90E59CF01F3043FAFA3B701F1A7670791A819CC6"
+  },
+  {
+    "destination": "Weapons/Fireball/sfx_fireball_explosion_crunch_01.ogg",
+    "source": "Sci-Fi Sounds/Audio/explosionCrunch_000.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "火球爆炸候选",
+    "status": "待试听",
+    "sha256": "A20AA9B8037A992231C81B58A526262C8797A5221FBED59A7E9A791179874EE0"
+  },
+  {
+    "destination": "Weapons/Fireball/sfx_fireball_explosion_crunch_02.ogg",
+    "source": "Sci-Fi Sounds/Audio/explosionCrunch_001.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "火球爆炸候选",
+    "status": "待试听",
+    "sha256": "8089F8C7B458E37E9ED8F6B9F2E8B6C4818315D2CE0301CD716CA16F287121BB"
+  },
+  {
+    "destination": "Weapons/Fireball/sfx_fireball_explosion_crunch_03.ogg",
+    "source": "Sci-Fi Sounds/Audio/explosionCrunch_002.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "火球爆炸候选",
+    "status": "待试听",
+    "sha256": "2D9E74CDE399CD512C846265B8F9CB4FBEA8D7BB9F7885906202A8E34A201B5C"
+  },
+  {
+    "destination": "Weapons/Fireball/sfx_fireball_explosion_crunch_04.ogg",
+    "source": "Sci-Fi Sounds/Audio/explosionCrunch_003.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "火球爆炸候选",
+    "status": "待试听",
+    "sha256": "C4A57C52CEE432D7B32F1A254B092142FD5D4B0DFD0BEA9E0B8C886510CE1A2E"
+  },
+  {
+    "destination": "Weapons/Fireball/sfx_fireball_explosion_crunch_05.ogg",
+    "source": "Sci-Fi Sounds/Audio/explosionCrunch_004.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "火球爆炸候选",
+    "status": "待试听",
+    "sha256": "692FC7DC6EECDD5C120D5471545C0DE646B63BFF8B472D7B1F5010D212BA1B37"
+  },
+  {
+    "destination": "Weapons/Fireball/sfx_fireball_explosion_low_01.ogg",
+    "source": "Sci-Fi Sounds/Audio/lowFrequency_explosion_000.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "爆炸低频层候选",
+    "status": "待试听",
+    "sha256": "099906DD99FCB234BFEB73EF7688B5F52BEAE61EE3C5F7CE30F210EB5C9944F5"
+  },
+  {
+    "destination": "Weapons/Fireball/sfx_fireball_explosion_low_02.ogg",
+    "source": "Sci-Fi Sounds/Audio/lowFrequency_explosion_001.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "爆炸低频层候选",
+    "status": "待试听",
+    "sha256": "3043D6233DC181A24FF973CA0C30E97AFC533FE81F3BEA03540F1850EAF24A2E"
+  },
+  {
+    "destination": "Weapons/Fire/sfx_fire_thruster_01.ogg",
+    "source": "Sci-Fi Sounds/Audio/thrusterFire_000.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "喷火、火把候选；可能需要加工",
+    "status": "待试听",
+    "sha256": "E32CD53D5C868320E05D5F8C4C6153E7BC47EB91A7BADCAEF22B304D8F8BD367"
+  },
+  {
+    "destination": "Weapons/Fire/sfx_fire_thruster_02.ogg",
+    "source": "Sci-Fi Sounds/Audio/thrusterFire_001.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "喷火、火把候选；可能需要加工",
+    "status": "待试听",
+    "sha256": "633D91450BA61E40A0C4FC80549CBB3E688B794013C40649BF417C7D8F525864"
+  },
+  {
+    "destination": "Weapons/Fire/sfx_fire_thruster_03.ogg",
+    "source": "Sci-Fi Sounds/Audio/thrusterFire_002.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "喷火、火把候选；可能需要加工",
+    "status": "待试听",
+    "sha256": "C0D3521391B92F334C21EF5C4EA8FF97F3A79E5FEA96729D648B593C03833042"
+  },
+  {
+    "destination": "Weapons/Fire/sfx_fire_thruster_04.ogg",
+    "source": "Sci-Fi Sounds/Audio/thrusterFire_003.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "喷火、火把候选；可能需要加工",
+    "status": "待试听",
+    "sha256": "899CB16595AABA99484695BB15D6C96D4B65250181D6E06DE71633BF10D08DB3"
+  },
+  {
+    "destination": "Weapons/Fire/sfx_fire_thruster_05.ogg",
+    "source": "Sci-Fi Sounds/Audio/thrusterFire_004.ogg",
+    "pack": "Sci-Fi Sounds",
+    "usage": "喷火、火把候选；可能需要加工",
+    "status": "待试听",
+    "sha256": "CE93BC791CAC87E792226A861E386C50CE9EE4F3E68541AE1CFD3DFE3875C54B"
+  },
+  {
+    "destination": "Weapons/Frost/sfx_frost_glass_light_01.ogg",
+    "source": "Impact Sounds/Audio/impactGlass_light_000.ogg",
+    "pack": "Impact Sounds",
+    "usage": "冰晶碎裂候选；原素材为玻璃",
+    "status": "待试听",
+    "sha256": "518B3CA93556B42D330D20334CF6BAD51D3B371BD3CF7B731F34EAD41B5A0112"
+  },
+  {
+    "destination": "Weapons/Frost/sfx_frost_glass_light_02.ogg",
+    "source": "Impact Sounds/Audio/impactGlass_light_001.ogg",
+    "pack": "Impact Sounds",
+    "usage": "冰晶碎裂候选；原素材为玻璃",
+    "status": "待试听",
+    "sha256": "40BD734D148E6B9FD3E72883E1AE289278FBC94027E4C43DCEAF31DF428E136A"
+  },
+  {
+    "destination": "Weapons/Frost/sfx_frost_glass_light_03.ogg",
+    "source": "Impact Sounds/Audio/impactGlass_light_002.ogg",
+    "pack": "Impact Sounds",
+    "usage": "冰晶碎裂候选；原素材为玻璃",
+    "status": "待试听",
+    "sha256": "1893814A6AC478E652624E4342B00BBD8690E442D5D3E042F11AC5019FAA9F70"
+  },
+  {
+    "destination": "Weapons/Frost/sfx_frost_glass_light_04.ogg",
+    "source": "Impact Sounds/Audio/impactGlass_light_003.ogg",
+    "pack": "Impact Sounds",
+    "usage": "冰晶碎裂候选；原素材为玻璃",
+    "status": "待试听",
+    "sha256": "2A80CF5619EBBEBBACDAD212D85813F08AF889343EABA91F0156081DC3945BC4"
+  },
+  {
+    "destination": "Weapons/Frost/sfx_frost_glass_light_05.ogg",
+    "source": "Impact Sounds/Audio/impactGlass_light_004.ogg",
+    "pack": "Impact Sounds",
+    "usage": "冰晶碎裂候选；原素材为玻璃",
+    "status": "待试听",
+    "sha256": "AFF091A74C44A7D8BA67674C93F70A0E48981730BCAA10D92621CCD0CA105D37"
+  },
+  {
+    "destination": "Weapons/Frost/sfx_frost_glass_medium_01.ogg",
+    "source": "Impact Sounds/Audio/impactGlass_medium_000.ogg",
+    "pack": "Impact Sounds",
+    "usage": "冰晶落地候选；原素材为玻璃",
+    "status": "待试听",
+    "sha256": "BFEA5B9C5B0084BE5BA2635CD3BEC1A43BD3D74F7EB964E1C43121352819E5EA"
+  },
+  {
+    "destination": "Weapons/Frost/sfx_frost_glass_medium_02.ogg",
+    "source": "Impact Sounds/Audio/impactGlass_medium_001.ogg",
+    "pack": "Impact Sounds",
+    "usage": "冰晶落地候选；原素材为玻璃",
+    "status": "待试听",
+    "sha256": "99D8547B5CC5C7CAFF732D88C89951B8AFFD46B7F72A6DFAE76FE57BD0BDDDFD"
+  },
+  {
+    "destination": "Weapons/Frost/sfx_frost_glass_medium_03.ogg",
+    "source": "Impact Sounds/Audio/impactGlass_medium_002.ogg",
+    "pack": "Impact Sounds",
+    "usage": "冰晶落地候选；原素材为玻璃",
+    "status": "待试听",
+    "sha256": "86A36B7F56B80FB243A8C8C491CE6C0AD16750EB9CCB112DAA7B13C75D73C771"
+  },
+  {
+    "destination": "Weapons/Frost/sfx_frost_glass_medium_04.ogg",
+    "source": "Impact Sounds/Audio/impactGlass_medium_003.ogg",
+    "pack": "Impact Sounds",
+    "usage": "冰晶落地候选；原素材为玻璃",
+    "status": "待试听",
+    "sha256": "B0D027D2BEE0D1DDDEB0EC287EBBD984F47552B74ABE6EFD5F22421781BC4DBA"
+  },
+  {
+    "destination": "Weapons/Frost/sfx_frost_glass_medium_05.ogg",
+    "source": "Impact Sounds/Audio/impactGlass_medium_004.ogg",
+    "pack": "Impact Sounds",
+    "usage": "冰晶落地候选；原素材为玻璃",
+    "status": "待试听",
+    "sha256": "7747834354EDFF7912A6682C12CE2AE9C03F506BFB50793722B58DEE5C8DC72A"
+  },
+  {
+    "destination": "Jingles/jingle_hit_01.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_00.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "8760B8C589B2E60B8E296EF907276F531C7AE0AE55FB80A618EA1FB08CD886B2"
+  },
+  {
+    "destination": "Jingles/jingle_hit_02.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_01.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "46C0D3CA05AB363B257AE0CDC224B28AD3283120B83F490A445643C0832AF8A4"
+  },
+  {
+    "destination": "Jingles/jingle_hit_03.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_02.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "632F4EAFC356BEF7F7C53BBCE66AA6612CA480BD2543B401A434C4BB81777BF4"
+  },
+  {
+    "destination": "Jingles/jingle_hit_04.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_03.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "9C23F2E9007ED53FAA82F0B85C4C26B771583607A3BF64323FD289B8749E721C"
+  },
+  {
+    "destination": "Jingles/jingle_hit_05.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_04.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "37BAD0AA489D30FB66220A124521A8A7175BC8B503F69A1423B886B7817B1F39"
+  },
+  {
+    "destination": "Jingles/jingle_hit_06.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_05.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "52884AF27317FF0BD361168B85677B5B79EDB473BEE39A761323864ECFD593D2"
+  },
+  {
+    "destination": "Jingles/jingle_hit_07.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_06.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "F02AE69AFE67319D5F57F1FCA7559D9911AF44AB80BF76CC5A9DE8D2B9B7D9AC"
+  },
+  {
+    "destination": "Jingles/jingle_hit_08.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_07.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "0F69535E56716573947325AB90A2A4EE93F55906AE4DCBC28A94AE3C6E3E9DC6"
+  },
+  {
+    "destination": "Jingles/jingle_hit_09.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_08.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "81FB23DB9AAA052A7F6254DD81B730A7A000C474DA7E095A02DDE70579DF6C47"
+  },
+  {
+    "destination": "Jingles/jingle_hit_10.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_09.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "47A17A5563389BF3600B788BE6CE0AAA8643B62E37DE1C6C7852A48DEB4E3C22"
+  },
+  {
+    "destination": "Jingles/jingle_hit_11.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_10.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "2BC2B49861BFAE9615F46D1B3BEAECAB53D538D17F290777F24CEC5D1A810461"
+  },
+  {
+    "destination": "Jingles/jingle_hit_12.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_11.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "888D4AB816DE4848FD8C2E7AD92448BEBBBAD0D9082DE1326BBFC6CB3EA1731D"
+  },
+  {
+    "destination": "Jingles/jingle_hit_13.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_12.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "CE9A0B612500B1481FB31D9EB16BF6E6FA2CA0C207CBCE95E770DE53892343EE"
+  },
+  {
+    "destination": "Jingles/jingle_hit_14.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_13.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "E18240FC9C6386694BA1B482BE04CC2BF600A545C174555D56E7734671F92BBD"
+  },
+  {
+    "destination": "Jingles/jingle_hit_15.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_14.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "401B944D8B12B7EC132D4CB425AA43E7BED862EA5B04897E2633397D6A47D6D5"
+  },
+  {
+    "destination": "Jingles/jingle_hit_16.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_15.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "3052957CB9A5AFE004D0063734B81A1E6242B1162EA20F43BAD4F3EBDD7764AE"
+  },
+  {
+    "destination": "Jingles/jingle_hit_17.ogg",
+    "source": "Music Jingles/Audio (Hit)/jingles-hit_16.ogg",
+    "pack": "Music Jingles",
+    "usage": "结算提示乐；试听后决定事件",
+    "status": "待试听",
+    "sha256": "B8AF540A0AF28BEE5D3471A0D931F7ACE0D69050668C0F2668B4402473480706"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_01.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_00.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "935DA660033A7A24F5CFBB92211D882BDA89948D4FB532DDE43847F875F8742A"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_02.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_01.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "10B6B81D6A3E304A3346B3EA762E8246948043D975C4B32BE48D3B2BCB179184"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_03.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_02.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "7CB57CB824B8C25A8E379B3BD09DB57A59B7C77AAC64E59278247AFF7F36A719"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_04.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_03.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "BB261574D0267F0595CFDD8BD3EAAAF45F64BE2F7F5ADB91E5BB54E4D1A48E53"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_05.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_04.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "4A34B90CD4C46583E8081FDD3CDA3869B2CEA468F14D959682DAFB5BBD736F06"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_06.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_05.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "0434B710F9EFDFBE0497D8D288B437EF6BF9505540EC0452EC0663C73515F9BC"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_07.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_06.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "831E1C9A172AC56162384CAD7CB472D4620501D21DCE0DF1C96E85723CB6FDAC"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_08.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_07.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "3A26094B558A5C26A7198311B1133760B9FFC3A18855254218ADB26FEA542ADE"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_09.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_08.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "E33062E47DFEC4388796862F129E9FE4CAA9FB446578B90B1C53765DD36FB6B0"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_10.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_09.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "EB87C97320F0F2B27C1ABCA138193C495F0CC4C67B0948E83CA42B60E8A4DE95"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_11.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_10.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "0A43254CCAD50EF71CB2D79F8EC2F2F6A3484771E7DC9521D648B8BF85210687"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_12.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_11.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "07552CCFEF1008BA863473A81323ACEB9BA0C67D5197ADD418EADC7558D9E82A"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_13.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_12.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "8F54F7FE2EBF51B634A243A6BE2033FCEEDD0448F7E444B254072A40B6C1F2DF"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_14.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_13.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "9109DB1056340D99CACEA88908F3908251FAAA0A17DB6D5F0FC2AB7E182EE65B"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_15.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_14.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "CCE55CF73A235DB3C4E204F93038EBAB746F868130322E06BBC91A1BF6D683C7"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_16.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_15.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "484DBEDE43496332C3D2D094DF4ABCE7AE6E9B35C7889123D4451825798CB222"
+  },
+  {
+    "destination": "Jingles/jingle_pizzicato_17.ogg",
+    "source": "Music Jingles/Audio (Pizzicato)/jingles-pizzicato_16.ogg",
+    "pack": "Music Jingles",
+    "usage": "升级、胜利提示乐候选",
+    "status": "待试听",
+    "sha256": "EB6BB90A28E0AD7B1F59CE97F5A2B7A16CD381FCDAE874606623CB1B172A3B55"
+  },
+  {
+    "destination": "Music/Loops/music_loop_alpha_dance.ogg",
+    "source": "Music Loops/Loops/Alpha Dance.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "00CEA1A7A89052312D9055DC6DDA8C7E5CF577E8DB8C5F2DBE1DA7C3AF89F9DE"
+  },
+  {
+    "destination": "Music/Loops/music_loop_cheerful_annoyance.ogg",
+    "source": "Music Loops/Loops/Cheerful Annoyance.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "0E262E050E53EEC55EBD1702981FA3944CD558D482580B6E34EEA5A01EF54B05"
+  },
+  {
+    "destination": "Music/Loops/music_loop_drumming_sticks.ogg",
+    "source": "Music Loops/Loops/Drumming Sticks.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "35B3F446A74DFD543503AEDE4B99E223635B747E90C18821D48ABC1C451ED089"
+  },
+  {
+    "destination": "Music/Loops/music_loop_farm_frolics.ogg",
+    "source": "Music Loops/Loops/Farm Frolics.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "3C1A6AE05701A7E32B6B3C19FAE046A46D7183785FF0DBAB4CD9B0683655DD89"
+  },
+  {
+    "destination": "Music/Loops/music_loop_flowing_rocks.ogg",
+    "source": "Music Loops/Loops/Flowing Rocks.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "8563774243E381E827CBA402CF6CCDC471B8BED3E3FAFDF182F36039C2A8479F"
+  },
+  {
+    "destination": "Music/Loops/music_loop_game_over.ogg",
+    "source": "Music Loops/Loops/Game Over.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "FD3C38CB009383F6A0C5C66176B30955AF2DDD0E441A97721092CA21AC0924D9"
+  },
+  {
+    "destination": "Music/Loops/music_loop_german_virtue.ogg",
+    "source": "Music Loops/Loops/German Virtue.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "D762ADD2C70A6B0B3D88B4C78EBFCBB901C202720540F3F6E6B430A511075576"
+  },
+  {
+    "destination": "Music/Loops/music_loop_infinite_descent.ogg",
+    "source": "Music Loops/Loops/Infinite Descent.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "586735F25B5F677979E66206CC6DD1C43AAF9DE0043697C67C24C149EC6BA95B"
+  },
+  {
+    "destination": "Music/Loops/music_loop_italian_mom.ogg",
+    "source": "Music Loops/Loops/Italian Mom.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "D9392F3A561623C72A5A0A793984272A2264D350D9D61BFCD9BF4BDB8CFDD49B"
+  },
+  {
+    "destination": "Music/Loops/music_loop_mishief_stroll.ogg",
+    "source": "Music Loops/Loops/Mishief Stroll.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "83774BBA960B6D2192D45E7B1C6C4B07D1B73061672230734DDE195972A88A95"
+  },
+  {
+    "destination": "Music/Loops/music_loop_mission_plausible.ogg",
+    "source": "Music Loops/Loops/Mission Plausible.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "324BB691A715A51875973079F9E0706FC81168203401725D4131D0FA1528C621"
+  },
+  {
+    "destination": "Music/Loops/music_loop_night_at_the_beach.ogg",
+    "source": "Music Loops/Loops/Night at the Beach.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "8BEFF4D1153FCEA045D1F3D01A241F81C6BB7645D64D5E52511152D1FF19C768"
+  },
+  {
+    "destination": "Music/Loops/music_loop_polka_train.ogg",
+    "source": "Music Loops/Loops/Polka Train.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "18FDA64504DEF86792493065B584FF5E762729989F2A9F8FB83284136A483E7B"
+  },
+  {
+    "destination": "Music/Loops/music_loop_sad_descent.ogg",
+    "source": "Music Loops/Loops/Sad Descent.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "65C7299112AD20154F902FC9F853254EAC2635D087BF32981EEB95A8EED686D6"
+  },
+  {
+    "destination": "Music/Loops/music_loop_sad_town.ogg",
+    "source": "Music Loops/Loops/Sad Town.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "1924036D9D420EB799CB6F0FFC85B4A85B830CC7877252C7A69846C9439FF0C3"
+  },
+  {
+    "destination": "Music/Loops/music_loop_space_cadet.ogg",
+    "source": "Music Loops/Loops/Space Cadet.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "BF1A3B86027AE92C79F425E3F857EE9BE74CBDFEA46B75B668FE55489598BFBC"
+  },
+  {
+    "destination": "Music/Loops/music_loop_swinging_pants.ogg",
+    "source": "Music Loops/Loops/Swinging Pants.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "8F60328D8664E050B7FB5C8C7F97862ACA0F190A3F6E31D00F0415726D76D52C"
+  },
+  {
+    "destination": "Music/Loops/music_loop_time_driving.ogg",
+    "source": "Music Loops/Loops/Time Driving.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "E7F220DCA59444699153F4E44972B632258C32D7EE7E617DED9995791E4BEAC2"
+  },
+  {
+    "destination": "Music/Loops/music_loop_wacky_waiting.ogg",
+    "source": "Music Loops/Loops/Wacky Waiting.ogg",
+    "pack": "Music Loops",
+    "usage": "背景音乐候选；试听后决定场景，循环接缝尚未验证",
+    "status": "待试听",
+    "sha256": "5B145CB963C583FD9A8728461A7ED3E3D98860B381AC0EF41EE2181E7BAF0964"
+  }
+]

@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5433414f382a34db2316618ffd0441, type: 3}
+  m_Name: DefaultWaveConfiguration
+  m_EditorClassIdentifier: Assembly-CSharp::WaveConfiguration
+  Rules:
+    Endless: 0
+    FinalBoss: 1
+    BossHealth: 3600
+    FinalWave: 20
+    StartWave: 1
+    StartingMaterials: 0
+    TestMode: 0
+    EndOfWaveSpawnMultiplier: 1.25
+    MaxEnemies: 240
+    MaxInitialEnemies: 64
+    MaxSpawnRate: 12
+    MaxEnemySpeed: 4.2
+    ExtraInitialPerWave: 2
+    ExtraLimitPerWave: 4
+    ExtraHealthMultiplierPerWave: 0.1
+    ExtraSpawnRatePerWave: 0.18
+    ExtraSpeedPerWave: 0
+    Waves:
+    - Wave: 1
+      InitialEnemies: 4
+      EnemyLimit: 14
+      HealthMultiplier: 1
+      Duration: 45
+      SpawnRate: 0.6666667
+      EnemySpeed: 2.8
+    - Wave: 2
+      InitialEnemies: 6
+      EnemyLimit: 18
+      HealthMultiplier: 1
+      Duration: 45
+      SpawnRate: 0.8466667
+      EnemySpeed: 2.8999999
+    - Wave: 3
+      InitialEnemies: 8
+      EnemyLimit: 22
+      HealthMultiplier: 1
+      Duration: 45
+      SpawnRate: 1.0266666
+      EnemySpeed: 3
+    - Wave: 4
+      InitialEnemies: 10
+      EnemyLimit: 26
+      HealthMultiplier: 1
+      Duration: 50
+      SpawnRate: 1.2066667
+      EnemySpeed: 3.1
+    - Wave: 5
+      InitialEnemies: 12
+      EnemyLimit: 30
+      HealthMultiplier: 1
+      Duration: 50
+      SpawnRate: 1.3866668
+      EnemySpeed: 3.2
+    - Wave: 6
+      InitialEnemies: 14
+      EnemyLimit: 34
+      HealthMultiplier: 1
+      Duration: 50
+      SpawnRate: 1.5666667
+      EnemySpeed: 3.3
+    - Wave: 7
+      InitialEnemies: 16
+      EnemyLimit: 38
+      HealthMultiplier: 1
+      Duration: 50
+      SpawnRate: 1.7466667
+      EnemySpeed: 3.3999999
+    - Wave: 8
+      InitialEnemies: 18
+      EnemyLimit: 42
+      HealthMultiplier: 1
+      Duration: 55
+      SpawnRate: 1.9266667
+      EnemySpeed: 3.5
+    - Wave: 9
+      InitialEnemies: 20
+      EnemyLimit: 46
+      HealthMultiplier: 1
+      Duration: 55
+      SpawnRate: 2.1066668
+      EnemySpeed: 3.6
+    - Wave: 10
+      InitialEnemies: 22
+      EnemyLimit: 50
+      HealthMultiplier: 1
+      Duration: 55
+      SpawnRate: 2.2866669
+      EnemySpeed: 3.7
+    - Wave: 11
+      InitialEnemies: 24
+      EnemyLimit: 54
+      HealthMultiplier: 1
+      Duration: 55
+      SpawnRate: 2.4666667
+      EnemySpeed: 3.8
+    - Wave: 12
+      InitialEnemies: 26
+      EnemyLimit: 58
+      HealthMultiplier: 1
+      Duration: 55
+      SpawnRate: 2.6466668
+      EnemySpeed: 3.8999999
+    - Wave: 13
+      InitialEnemies: 28
+      EnemyLimit: 62
+      HealthMultiplier: 1
+      Duration: 60
+      SpawnRate: 2.8266668
+      EnemySpeed: 4
+    - Wave: 14
+      InitialEnemies: 30
+      EnemyLimit: 66
+      HealthMultiplier: 1
+      Duration: 60
+      SpawnRate: 3.0066667
+      EnemySpeed: 4.1
+    - Wave: 15
+      InitialEnemies: 32
+      EnemyLimit: 70
+      HealthMultiplier: 1
+      Duration: 60
+      SpawnRate: 3.1866667
+      EnemySpeed: 4.2
+    - Wave: 16
+      InitialEnemies: 34
+      EnemyLimit: 74
+      HealthMultiplier: 1
+      Duration: 60
+      SpawnRate: 3.3666668
+      EnemySpeed: 4.2
+    - Wave: 17
+      InitialEnemies: 36
+      EnemyLimit: 78
+      HealthMultiplier: 1
+      Duration: 60
+      SpawnRate: 3.5466669
+      EnemySpeed: 4.2
+    - Wave: 18
+      InitialEnemies: 38
+      EnemyLimit: 82
+      HealthMultiplier: 1
+      Duration: 60
+      SpawnRate: 3.726667
+      EnemySpeed: 4.2
+    - Wave: 19
+      InitialEnemies: 40
+      EnemyLimit: 86
+      HealthMultiplier: 1
+      Duration: 60
+      SpawnRate: 3.9066668
+      EnemySpeed: 4.2
+    - Wave: 20
+      InitialEnemies: 42
+      EnemyLimit: 90
+      HealthMultiplier: 1
+      Duration: 60
+      SpawnRate: 4.086667
+      EnemySpeed: 4.2
+    Enemies:
+    - Kind: 1
+      FromWave: 3
+      Every: 6
+      MaxAlive: 2
+      MaxAttacks: 1
+      Enabled: 1
+    - Kind: 1
+      FromWave: 8
+      Every: 5
+      MaxAlive: 3
+      MaxAttacks: 2
+      Enabled: 1
+    - Kind: 1
+      FromWave: 13
+      Every: 5
+      MaxAlive: 4
+      MaxAttacks: 2
+      Enabled: 1
+    - Kind: 2
+      FromWave: 1
+      Every: 7
+      MaxAlive: 2
+      MaxAttacks: 0
+      Enabled: 1
+    - Kind: 2
+      FromWave: 10
+      Every: 7
+      MaxAlive: 3
+      MaxAttacks: 0
+      Enabled: 1
+    - Kind: 2
+      FromWave: 15
+      Every: 7
+      MaxAlive: 4
+      MaxAttacks: 0
+      Enabled: 1
+    - Kind: 3
+      FromWave: 8
+      Every: 9
+      MaxAlive: 2
+      MaxAttacks: 2
+      Enabled: 1
+    - Kind: 3
+      FromWave: 13
+      Every: 9
+      MaxAlive: 3
+      MaxAttacks: 3
+      Enabled: 1
+    - Kind: 4
+      FromWave: 1
+      Every: 11
+      MaxAlive: 2
+      MaxAttacks: 0
+      Enabled: 1
+    - Kind: 4
+      FromWave: 16
+      Every: 11
+      MaxAlive: 3
+      MaxAttacks: 0
+      Enabled: 1
+    - Kind: 6
+      FromWave: 1
+      Every: 8
+      MaxAlive: 2
+      MaxAttacks: 1
+      Enabled: 1
+    - Kind: 6
+      FromWave: 13
+      Every: 8
+      MaxAlive: 3
+      MaxAttacks: 2
+      Enabled: 1
+    EnemyDefinitions:
+    - Kind: 0
+      BaseHealth: 10
+    - Kind: 1
+      BaseHealth: 20
+    - Kind: 2
+      BaseHealth: 120
+    - Kind: 3
+      BaseHealth: 24
+    - Kind: 4
+      BaseHealth: 45
+    - Kind: 5
+      BaseHealth: 14
+    - Kind: 6
+      BaseHealth: 18

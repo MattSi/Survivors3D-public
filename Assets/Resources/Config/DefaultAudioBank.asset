@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a45425bff264c589361e89add949181, type: 3}
+  m_Name: DefaultAudioBank
+  m_EditorClassIdentifier: 
+  sounds:
+  - cue: 0
+    clips:
+    - {fileID: 8300000, guid: 754bd26550517d2498da535b91a948ef, type: 3}
+    - {fileID: 8300000, guid: c31946c055dd3764da0902efef01e09d, type: 3}
+    - {fileID: 8300000, guid: ba74540ddbe23b440bc485449c629d23, type: 3}
+    volume: 0.22
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.09
+    maxDuration: 0.18
+    interfaceSound: 1
+    jingle: 0
+  - cue: 1
+    clips:
+    - {fileID: 8300000, guid: efe11a7226349bb4cb8ef32ff02368ec, type: 3}
+    - {fileID: 8300000, guid: 61da2d4ae963e8e4889cbc9df0a02f3b, type: 3}
+    volume: 0.25
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.08
+    maxDuration: 0.2
+    interfaceSound: 1
+    jingle: 0
+  - cue: 2
+    clips:
+    - {fileID: 8300000, guid: 37a1ccbc47f737e4f99b7382faaadeff, type: 3}
+    volume: 0.4
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.1
+    maxDuration: 0.7
+    interfaceSound: 1
+    jingle: 0
+  - cue: 3
+    clips:
+    - {fileID: 8300000, guid: deac53f8193ea9e4591d08545996c12d, type: 3}
+    volume: 0.3
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.12
+    maxDuration: 0.35
+    interfaceSound: 1
+    jingle: 0
+  - cue: 4
+    clips:
+    - {fileID: 8300000, guid: ad86d9d90b507584d868b0449c55297c, type: 3}
+    volume: 0.35
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.25
+    maxDuration: 0.55
+    interfaceSound: 1
+    jingle: 0
+  - cue: 5
+    clips:
+    - {fileID: 8300000, guid: e4af9eaf82a27044a848bba91b6829ae, type: 3}
+    - {fileID: 8300000, guid: f77c4282d62c2ab479a5a3c213bb86a1, type: 3}
+    volume: 0.3
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.12
+    maxDuration: 0.3
+    interfaceSound: 1
+    jingle: 0
+  - cue: 6
+    clips:
+    - {fileID: 8300000, guid: 3742a56914be6e74a934ba0ac4383ec3, type: 3}
+    - {fileID: 8300000, guid: f87c330b2b8a0c3429065e48476cd4ae, type: 3}
+    volume: 0.45
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.12
+    maxDuration: 0.6
+    interfaceSound: 1
+    jingle: 0
+  - cue: 7
+    clips:
+    - {fileID: 8300000, guid: d3ce0532d92fe064ab2947b88c1b55f1, type: 3}
+    volume: 0.4
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.2
+    maxDuration: 0.6
+    interfaceSound: 1
+    jingle: 0
+  - cue: 8
+    clips:
+    - {fileID: 8300000, guid: 7d71d66ff827a0a4b9ef362e89c19e3e, type: 3}
+    - {fileID: 8300000, guid: cf0e58cccc7aea341b6d67afc755cca9, type: 3}
+    - {fileID: 8300000, guid: 901bc5a5b11c2b3458016f5e41aa8ac3, type: 3}
+    volume: 0.22
+    pitch: 1.12
+    pitchVariation: 0.04
+    cooldown: 0.07
+    maxDuration: 0.22
+    interfaceSound: 1
+    jingle: 0
+  - cue: 9
+    clips:
+    - {fileID: 8300000, guid: ebec0d4072cbbe74692604393800d68e, type: 3}
+    - {fileID: 8300000, guid: 32cefced2b1e4d340a056564f19bca7c, type: 3}
+    - {fileID: 8300000, guid: eede0659930ad004cbd527366221c4ec, type: 3}
+    volume: 0.7
+    pitch: 0.85
+    pitchVariation: 0.04
+    cooldown: 0.2
+    maxDuration: 0.4
+    interfaceSound: 0
+    jingle: 0
+  - cue: 10
+    clips:
+    - {fileID: 8300000, guid: b71ea8f511971124f851be79b951f3f9, type: 3}
+    - {fileID: 8300000, guid: 3c5ad6946f8fc43498a7431f3d671eee, type: 3}
+    - {fileID: 8300000, guid: b4b761a421efeb04796bdbe174110f70, type: 3}
+    volume: 0.22
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.09
+    maxDuration: 0.17
+    interfaceSound: 0
+    jingle: 0
+  - cue: 11
+    clips:
+    - {fileID: 8300000, guid: bb32e2f3cb68b8a488e1c17b5031e645, type: 3}
+    - {fileID: 8300000, guid: 0928abd3818e2f746bb2044db2ae1700, type: 3}
+    - {fileID: 8300000, guid: 0425ba64be9be134da9564cde7822c59, type: 3}
+    - {fileID: 8300000, guid: 8f594df33999cf14dbb38bdd3f81b0da, type: 3}
+    - {fileID: 8300000, guid: f39ca52f63acac247aa16b7858721cba, type: 3}
+    volume: 0.16
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.18
+    maxDuration: 0.22
+    interfaceSound: 0
+    jingle: 0
+  - cue: 12
+    clips:
+    - {fileID: 8300000, guid: 74f7d55b2ac96334abf702e9a6eed332, type: 3}
+    - {fileID: 8300000, guid: 91eb9d8de7e47484ea1b9da44185f40a, type: 3}
+    volume: 0.38
+    pitch: 1.15
+    pitchVariation: 0.04
+    cooldown: 0.15
+    maxDuration: 0.25
+    interfaceSound: 0
+    jingle: 0
+  - cue: 13
+    clips:
+    - {fileID: 8300000, guid: 8244ca97082ed974ab527b0bed4e16dc, type: 3}
+    - {fileID: 8300000, guid: e2feee3e5d421ee40b04684253a8bdb0, type: 3}
+    volume: 0.4
+    pitch: 1.35
+    pitchVariation: 0.04
+    cooldown: 0.045
+    maxDuration: 0.12
+    interfaceSound: 0
+    jingle: 0
+  - cue: 14
+    clips:
+    - {fileID: 8300000, guid: 2a9c677d47ccdc345850b7e45aefa1ef, type: 3}
+    - {fileID: 8300000, guid: 0f943e05a1e82cf4c8398442e83e0302, type: 3}
+    volume: 0.3
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.16
+    maxDuration: 0.25
+    interfaceSound: 0
+    jingle: 0
+  - cue: 15
+    clips:
+    - {fileID: 8300000, guid: 74f7d55b2ac96334abf702e9a6eed332, type: 3}
+    - {fileID: 8300000, guid: 91eb9d8de7e47484ea1b9da44185f40a, type: 3}
+    - {fileID: 8300000, guid: ee6ee200d590d594fbf65ac859d520c8, type: 3}
+    volume: 0.35
+    pitch: 0.9
+    pitchVariation: 0.04
+    cooldown: 0.12
+    maxDuration: 0.35
+    interfaceSound: 0
+    jingle: 0
+  - cue: 16
+    clips:
+    - {fileID: 8300000, guid: 2267b7e7f4f8bbd419b83c1630fb5f3c, type: 3}
+    - {fileID: 8300000, guid: 3203ab583dab34b43bdc1f7e610be6b1, type: 3}
+    volume: 0.35
+    pitch: 1.25
+    pitchVariation: 0.04
+    cooldown: 0.12
+    maxDuration: 0.22
+    interfaceSound: 0
+    jingle: 0
+  - cue: 17
+    clips:
+    - {fileID: 8300000, guid: 57409909cca9b8f4582df82e3aa0cf2d, type: 3}
+    - {fileID: 8300000, guid: 72617e578d95514438eeb654ba23b471, type: 3}
+    - {fileID: 8300000, guid: 24ca59360b9a19540b144e2789266a32, type: 3}
+    volume: 0.65
+    pitch: 0.8
+    pitchVariation: 0.04
+    cooldown: 0.18
+    maxDuration: 0.65
+    interfaceSound: 0
+    jingle: 0
+  - cue: 18
+    clips:
+    - {fileID: 8300000, guid: fd4c65be9b774e449bfeef4b28ec8cd9, type: 3}
+    - {fileID: 8300000, guid: c8946808a9031a84fb395e75bdba1bbc, type: 3}
+    - {fileID: 8300000, guid: c68ca7e881cc19a42b6643036ab522af, type: 3}
+    volume: 0.4
+    pitch: 1.1
+    pitchVariation: 0.04
+    cooldown: 0.2
+    maxDuration: 0.55
+    interfaceSound: 0
+    jingle: 0
+  - cue: 19
+    clips:
+    - {fileID: 8300000, guid: 74f7d55b2ac96334abf702e9a6eed332, type: 3}
+    - {fileID: 8300000, guid: 91eb9d8de7e47484ea1b9da44185f40a, type: 3}
+    volume: 0.32
+    pitch: 0.8
+    pitchVariation: 0.04
+    cooldown: 0.15
+    maxDuration: 0.4
+    interfaceSound: 0
+    jingle: 0
+  - cue: 20
+    clips:
+    - {fileID: 8300000, guid: 470d21b7483bc514c98470ea591f9e81, type: 3}
+    volume: 0.3
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.4
+    maxDuration: 0.65
+    interfaceSound: 0
+    jingle: 0
+  - cue: 21
+    clips:
+    - {fileID: 8300000, guid: 470d21b7483bc514c98470ea591f9e81, type: 3}
+    volume: 0.22
+    pitch: 1.25
+    pitchVariation: 0.04
+    cooldown: 0.12
+    maxDuration: 0.22
+    interfaceSound: 0
+    jingle: 0
+  - cue: 22
+    clips:
+    - {fileID: 8300000, guid: 447bcb720766e594f9862ea1a4695d52, type: 3}
+    - {fileID: 8300000, guid: 7aaf9606392ef014caeb9b23ea652fe1, type: 3}
+    - {fileID: 8300000, guid: cb6fdbf88e5d631458fe9375795a7401, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.14
+    maxDuration: 0.65
+    interfaceSound: 0
+    jingle: 0
+  - cue: 23
+    clips:
+    - {fileID: 8300000, guid: 74f7d55b2ac96334abf702e9a6eed332, type: 3}
+    - {fileID: 8300000, guid: 91eb9d8de7e47484ea1b9da44185f40a, type: 3}
+    - {fileID: 8300000, guid: ee6ee200d590d594fbf65ac859d520c8, type: 3}
+    volume: 0.32
+    pitch: 1.2
+    pitchVariation: 0.04
+    cooldown: 0.15
+    maxDuration: 0.3
+    interfaceSound: 0
+    jingle: 0
+  - cue: 24
+    clips:
+    - {fileID: 8300000, guid: f95f8e7653b045544bbc088aca055135, type: 3}
+    - {fileID: 8300000, guid: b0a547deade777d45ad26b0668ccf61b, type: 3}
+    volume: 0.28
+    pitch: 1
+    pitchVariation: 0.04
+    cooldown: 0.3
+    maxDuration: 0.45
+    interfaceSound: 0
+    jingle: 0
+  - cue: 25
+    clips:
+    - {fileID: 8300000, guid: 5997c9cde206a0649a9dbf2d0ec33a8c, type: 3}
+    volume: 0.38
+    pitch: 1
+    pitchVariation: 0
+    cooldown: 0.5
+    maxDuration: 1.5
+    interfaceSound: 0
+    jingle: 1
+  - cue: 26
+    clips:
+    - {fileID: 8300000, guid: 8b0dcfdbce7ccbd45a259b13959b66ec, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchVariation: 0
+    cooldown: 0.5
+    maxDuration: 2
+    interfaceSound: 0
+    jingle: 1
+  - cue: 27
+    clips:
+    - {fileID: 8300000, guid: 490da86530b238d43a889d268769fa15, type: 3}
+    volume: 0.5
+    pitch: 0.8
+    pitchVariation: 0
+    cooldown: 0.5
+    maxDuration: 2
+    interfaceSound: 0
+    jingle: 1
+  menuMusic: {fileID: 8300000, guid: c170425318ce5f646831bc3458390917, type: 3}
+  combatMusic: {fileID: 8300000, guid: ec7f4b441a23a63408548ea18560ce62, type: 3}
+  shopMusic: {fileID: 8300000, guid: 2e79b96dc3781094cb54d47328a59087, type: 3}

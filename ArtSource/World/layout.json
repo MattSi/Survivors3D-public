@@ -1,0 +1,4409 @@
+{
+  "objects": [
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -27,
+        -0.9999999403953552,
+        -21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -27,
+        -0.9999999403953552,
+        -15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -27,
+        -0.9999999403953552,
+        -9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -27,
+        -0.9999999403953552,
+        -3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -27,
+        -0.9999999403953552,
+        3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -27,
+        -0.9999999403953552,
+        9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -27,
+        -0.9999999403953552,
+        15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -27,
+        -0.9999999403953552,
+        21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -21,
+        -0.9999999403953552,
+        -27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -21,
+        -0.9999999403953552,
+        -21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -21,
+        -0.9999999403953552,
+        -15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -21,
+        -0.9999999403953552,
+        -9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -21,
+        -0.9999999403953552,
+        -3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -21,
+        -0.9999999403953552,
+        3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -21,
+        -0.9999999403953552,
+        9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -21,
+        -0.9999999403953552,
+        15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -21,
+        -0.9999999403953552,
+        21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -21,
+        -0.9999999403953552,
+        27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -15,
+        -0.9999999403953552,
+        -27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -15,
+        -0.9999999403953552,
+        -21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -15,
+        -0.9999999403953552,
+        -15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -15,
+        -0.9999999403953552,
+        -9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -15,
+        -0.9999999403953552,
+        -3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -15,
+        -0.9999999403953552,
+        3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -15,
+        -0.9999999403953552,
+        9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -15,
+        -0.9999999403953552,
+        15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -15,
+        -0.9999999403953552,
+        21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -15,
+        -0.9999999403953552,
+        27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -9,
+        -0.9999999403953552,
+        -27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -9,
+        -0.9999999403953552,
+        -21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -9,
+        -0.9999999403953552,
+        -15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -9,
+        -0.9999999403953552,
+        -9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -9,
+        -0.9999999403953552,
+        -3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -9,
+        -0.9999999403953552,
+        3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -9,
+        -0.9999999403953552,
+        9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -9,
+        -0.9999999403953552,
+        15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -9,
+        -0.9999999403953552,
+        21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -9,
+        -0.9999999403953552,
+        27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -3,
+        -0.9999999403953552,
+        -27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -3,
+        -0.9999999403953552,
+        -21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -3,
+        -0.9999999403953552,
+        -15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -3,
+        -0.9999999403953552,
+        -9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -3,
+        -0.9999999403953552,
+        -3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -3,
+        -0.9999999403953552,
+        3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -3,
+        -0.9999999403953552,
+        9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -3,
+        -0.9999999403953552,
+        15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -3,
+        -0.9999999403953552,
+        21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        -3,
+        -0.9999999403953552,
+        27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        3,
+        -0.9999999403953552,
+        -27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        3,
+        -0.9999999403953552,
+        -21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        3,
+        -0.9999999403953552,
+        -15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        3,
+        -0.9999999403953552,
+        -9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        3,
+        -0.9999999403953552,
+        -3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        3,
+        -0.9999999403953552,
+        3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        3,
+        -0.9999999403953552,
+        9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        3,
+        -0.9999999403953552,
+        15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        3,
+        -0.9999999403953552,
+        21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        3,
+        -0.9999999403953552,
+        27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        9,
+        -0.9999999403953552,
+        -27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        9,
+        -0.9999999403953552,
+        -21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        9,
+        -0.9999999403953552,
+        -15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        9,
+        -0.9999999403953552,
+        -9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        9,
+        -0.9999999403953552,
+        -3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        9,
+        -0.9999999403953552,
+        3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        9,
+        -0.9999999403953552,
+        9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        9,
+        -0.9999999403953552,
+        15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        9,
+        -0.9999999403953552,
+        21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        9,
+        -0.9999999403953552,
+        27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        15,
+        -0.9999999403953552,
+        -27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        15,
+        -0.9999999403953552,
+        -21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        15,
+        -0.9999999403953552,
+        -15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        15,
+        -0.9999999403953552,
+        -9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        15,
+        -0.9999999403953552,
+        -3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        15,
+        -0.9999999403953552,
+        3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        15,
+        -0.9999999403953552,
+        9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        15,
+        -0.9999999403953552,
+        15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        15,
+        -0.9999999403953552,
+        21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        15,
+        -0.9999999403953552,
+        27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        21,
+        -0.9999999403953552,
+        -27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        21,
+        -0.9999999403953552,
+        -21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        21,
+        -0.9999999403953552,
+        -15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        21,
+        -0.9999999403953552,
+        -9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        21,
+        -0.9999999403953552,
+        -3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        21,
+        -0.9999999403953552,
+        3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        21,
+        -0.9999999403953552,
+        9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        21,
+        -0.9999999403953552,
+        15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        21,
+        -0.9999999403953552,
+        21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        21,
+        -0.9999999403953552,
+        27
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        27,
+        -0.9999999403953552,
+        -21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        27,
+        -0.9999999403953552,
+        -15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        27,
+        -0.9999999403953552,
+        -9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        27,
+        -0.9999999403953552,
+        -3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        27,
+        -0.9999999403953552,
+        3
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        27,
+        -0.9999999403953552,
+        9
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        27,
+        -0.9999999403953552,
+        15
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "prefab": "Cubes/Cube_SoilWGrass_1",
+      "pos": [
+        27,
+        -0.9999999403953552,
+        21
+      ],
+      "scale": [
+        6,
+        1,
+        6
+      ],
+      "yaw": 0,
+      "materials": [
+        "aaf1629ace864ec8b37564a811664a97"
+      ]
+    },
+    {
+      "cube": true,
+      "name": "Quiet Central Clearing",
+      "pos": [
+        0,
+        0.003,
+        0
+      ],
+      "scale": [
+        35.9,
+        0.008,
+        35.9
+      ],
+      "material": "632f2a2bfc484e0aba0d44eec85ff967"
+    },
+    {
+      "cube": true,
+      "name": "North South Trail",
+      "pos": [
+        0,
+        0.009,
+        0
+      ],
+      "scale": [
+        3.6,
+        0.008,
+        36
+      ],
+      "material": "9755351eb83148e2b652b3f22018556f"
+    },
+    {
+      "cube": true,
+      "name": "East West Trail",
+      "pos": [
+        0,
+        0.01,
+        0
+      ],
+      "scale": [
+        36,
+        0.008,
+        3.2
+      ],
+      "material": "9755351eb83148e2b652b3f22018556f"
+    },
+    {
+      "cube": true,
+      "name": "Arena Stone Edge",
+      "pos": [
+        -18.15,
+        0.09,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.18,
+        36.6
+      ],
+      "material": "885db71aca6d40f2809b9655c85f19e2"
+    },
+    {
+      "cube": true,
+      "name": "Arena Stone Edge",
+      "pos": [
+        0,
+        0.09,
+        -18.15
+      ],
+      "scale": [
+        36.6,
+        0.18,
+        0.3
+      ],
+      "material": "885db71aca6d40f2809b9655c85f19e2"
+    },
+    {
+      "cube": true,
+      "name": "Arena Stone Edge",
+      "pos": [
+        18.15,
+        0.09,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.18,
+        36.6
+      ],
+      "material": "885db71aca6d40f2809b9655c85f19e2"
+    },
+    {
+      "cube": true,
+      "name": "Arena Stone Edge",
+      "pos": [
+        0,
+        0.09,
+        18.15
+      ],
+      "scale": [
+        36.6,
+        0.18,
+        0.3
+      ],
+      "material": "885db71aca6d40f2809b9655c85f19e2"
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        -25,
+        3.81699192602989e-05,
+        25.284755659607633
+      ],
+      "scale": [
+        3.3130782827308036,
+        3.3130782827308036,
+        3.3130782827308036
+      ],
+      "yaw": 312,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        -20,
+        1.1393929091733253e-07,
+        25.25098684983424
+      ],
+      "scale": [
+        3.1680523934684794,
+        3.1680523934684794,
+        3.1680523934684794
+      ],
+      "yaw": 259,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        -15,
+        4.635022230092304e-05,
+        22.87477118487943
+      ],
+      "scale": [
+        4.023113432798249,
+        4.023113432798249,
+        4.023113432798249
+      ],
+      "yaw": 179,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        -10,
+        1.2922192478147742e-07,
+        25.210778508795862
+      ],
+      "scale": [
+        3.5929820591001054,
+        3.5929820591001054,
+        3.5929820591001054
+      ],
+      "yaw": 7,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        10,
+        3.367851962205993e-05,
+        25.003052288303365
+      ],
+      "scale": [
+        2.9232331143656776,
+        2.9232331143656776,
+        2.9232331143656776
+      ],
+      "yaw": 30,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        15,
+        3.347223398558856e-05,
+        24.338325977465065
+      ],
+      "scale": [
+        2.9053279032602544,
+        2.9053279032602544,
+        2.9053279032602544
+      ],
+      "yaw": 192,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_3",
+      "pos": [
+        20,
+        1.7729525706142422e-07,
+        22.843196958975092
+      ],
+      "scale": [
+        3.7179177345304284,
+        3.7179177345304284,
+        3.7179177345304284
+      ],
+      "yaw": 305,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        25,
+        3.513506557713811e-05,
+        22.779854012078108
+      ],
+      "scale": [
+        3.049658605042262,
+        3.049658605042262,
+        3.049658605042262
+      ],
+      "yaw": 172,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        -25,
+        3.522039645893185e-05,
+        -24.704290978184147
+      ],
+      "scale": [
+        3.0570651675080924,
+        3.0570651675080924,
+        3.0570651675080924
+      ],
+      "yaw": 23,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        -20,
+        1.0607895593421297e-07,
+        -24.10047712529185
+      ],
+      "scale": [
+        2.949497820623162,
+        2.949497820623162,
+        2.949497820623162
+      ],
+      "yaw": 224,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        -15,
+        1.488818640854691e-07,
+        -24.805137159651835
+      ],
+      "scale": [
+        4.139621565683003,
+        4.139621565683003,
+        4.139621565683003
+      ],
+      "yaw": 115,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        -10,
+        4.010791547668223e-05,
+        -23.153596385895916
+      ],
+      "scale": [
+        3.481292764211051,
+        3.481292764211051,
+        3.481292764211051
+      ],
+      "yaw": 270,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_3",
+      "pos": [
+        -5,
+        1.661192436610771e-07,
+        -23.543832569783408
+      ],
+      "scale": [
+        3.4835544519971307,
+        3.4835544519971307,
+        3.4835544519971307
+      ],
+      "yaw": 183,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        0,
+        4.722819935646512e-05,
+        -22.776617571681292
+      ],
+      "scale": [
+        4.099320214783191,
+        4.099320214783191,
+        4.099320214783191
+      ],
+      "yaw": 227,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        5,
+        1.160572067556048e-07,
+        -25.402415649549287
+      ],
+      "scale": [
+        3.226940493320456,
+        3.226940493320456,
+        3.226940493320456
+      ],
+      "yaw": 296,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        10,
+        3.364990816373672e-05,
+        -23.048071251880287
+      ],
+      "scale": [
+        2.9207496927854155,
+        2.9207496927854155,
+        2.9207496927854155
+      ],
+      "yaw": 268,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        15,
+        4.276103218659211e-05,
+        -23.520833407703524
+      ],
+      "scale": [
+        3.711578379782033,
+        3.711578379782033,
+        3.711578379782033
+      ],
+      "yaw": 309,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        20,
+        4.1576376898089876e-05,
+        -22.811787406801525
+      ],
+      "scale": [
+        3.6087524952918546,
+        3.6087524952918546,
+        3.6087524952918546
+      ],
+      "yaw": 105,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        25,
+        1.4174252296010704e-07,
+        -24.946098149453316
+      ],
+      "scale": [
+        3.9411140398076543,
+        3.9411140398076543,
+        3.9411140398076543
+      ],
+      "yaw": 164,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        22.97783119804531,
+        3.887159525410407e-05,
+        -25
+      ],
+      "scale": [
+        3.3739824591514087,
+        3.3739824591514087,
+        3.3739824591514087
+      ],
+      "yaw": 178,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        24.277628474391104,
+        1.0360214899066056e-07,
+        -20
+      ],
+      "scale": [
+        2.880630846794322,
+        2.880630846794322,
+        2.880630846794322
+      ],
+      "yaw": 328,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        25.04210000327277,
+        1.4867623966424442e-07,
+        -15
+      ],
+      "scale": [
+        4.133904232052332,
+        4.133904232052332,
+        4.133904232052332
+      ],
+      "yaw": 357,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        22.54203789292367,
+        1.4733016232236307e-07,
+        -10
+      ],
+      "scale": [
+        4.096476901142972,
+        4.096476901142972,
+        4.096476901142972
+      ],
+      "yaw": 43,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        22.877141863442272,
+        1.1429705080917497e-07,
+        -5
+      ],
+      "scale": [
+        3.1779998143494885,
+        3.1779998143494885,
+        3.1779998143494885
+      ],
+      "yaw": 47,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        23.25663848172437,
+        1.3164175021856867e-07,
+        0
+      ],
+      "scale": [
+        3.6602646769401175,
+        3.6602646769401175,
+        3.6602646769401175
+      ],
+      "yaw": 359,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        22.51492608160386,
+        4.693779829454134e-05,
+        5
+      ],
+      "scale": [
+        4.074113940570754,
+        4.074113940570754,
+        4.074113940570754
+      ],
+      "yaw": 134,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_3",
+      "pos": [
+        25.212933895058704,
+        1.6366981029971785e-07,
+        10
+      ],
+      "scale": [
+        3.4321893343696863,
+        3.4321893343696863,
+        3.4321893343696863
+      ],
+      "yaw": 0,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        25.163040403264258,
+        1.0259661806516074e-07,
+        15
+      ],
+      "scale": [
+        2.8526723205511884,
+        2.8526723205511884,
+        2.8526723205511884
+      ],
+      "yaw": 172,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        22.808452106355187,
+        1.327373023511099e-07,
+        20
+      ],
+      "scale": [
+        3.6907262194661707,
+        3.6907262194661707,
+        3.6907262194661707
+      ],
+      "yaw": 267,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        24.34585001738257,
+        4.25999097614686e-05,
+        25
+      ],
+      "scale": [
+        3.697593251757599,
+        3.697593251757599,
+        3.697593251757599
+      ],
+      "yaw": 354,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_3",
+      "pos": [
+        -24.470702414712477,
+        2.2004493841415763e-07,
+        -25
+      ],
+      "scale": [
+        4.614387279633868,
+        4.614387279633868,
+        4.614387279633868
+      ],
+      "yaw": 357,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        -24.85931336270649,
+        3.678834931890318e-05,
+        -20
+      ],
+      "scale": [
+        3.19316057115019,
+        3.19316057115019,
+        3.19316057115019
+      ],
+      "yaw": 196,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        -24.68962032868027,
+        1.2839467005568988e-07,
+        -15
+      ],
+      "scale": [
+        3.5699804562909314,
+        3.5699804562909314,
+        3.5699804562909314
+      ],
+      "yaw": 148,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_3",
+      "pos": [
+        -24.248026443332357,
+        2.2815715514364403e-07,
+        -10
+      ],
+      "scale": [
+        4.784502120520236,
+        4.784502120520236,
+        4.784502120520236
+      ],
+      "yaw": 326,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        -24.643262464192546,
+        1.3142378707362272e-07,
+        -5
+      ],
+      "scale": [
+        3.6542042683007927,
+        3.6542042683007927,
+        3.6542042683007927
+      ],
+      "yaw": 315,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        -24.791728354869434,
+        1.223103554431482e-07,
+        0
+      ],
+      "scale": [
+        3.4008076686099638,
+        3.4008076686099638,
+        3.4008076686099638
+      ],
+      "yaw": 190,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_1",
+      "pos": [
+        -22.9478541324734,
+        4.029172374111828e-05,
+        5
+      ],
+      "scale": [
+        3.4972469810627205,
+        3.4972469810627205,
+        3.4972469810627205
+      ],
+      "yaw": 222,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_3",
+      "pos": [
+        -23.991841196136768,
+        1.8465196096612326e-07,
+        10
+      ],
+      "scale": [
+        3.872189317246789,
+        3.872189317246789,
+        3.872189317246789
+      ],
+      "yaw": 88,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_2",
+      "pos": [
+        -24.84765453953758,
+        1.3971650211448005e-07,
+        15
+      ],
+      "scale": [
+        3.884781056360684,
+        3.884781056360684,
+        3.884781056360684
+      ],
+      "yaw": 296,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_3",
+      "pos": [
+        -25.25591304666281,
+        1.6613317509617095e-07,
+        20
+      ],
+      "scale": [
+        3.4838465970350825,
+        3.4838465970350825,
+        3.4838465970350825
+      ],
+      "yaw": 331,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Tree_3",
+      "pos": [
+        -22.73472520861775,
+        2.2564823018819634e-07,
+        25
+      ],
+      "scale": [
+        4.731889452019842,
+        4.731889452019842,
+        4.731889452019842
+      ],
+      "yaw": 280,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -15,
+        1.3887678278378084e-09,
+        18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -10,
+        1.3887678278378084e-09,
+        18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -5,
+        1.3887678278378084e-09,
+        18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        5,
+        1.3887678278378084e-09,
+        18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        10,
+        1.3887678278378084e-09,
+        18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        15,
+        1.3887678278378084e-09,
+        18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -15,
+        1.3887678278378084e-09,
+        -18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -10,
+        1.3887678278378084e-09,
+        -18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -5,
+        1.3887678278378084e-09,
+        -18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        5,
+        1.3887678278378084e-09,
+        -18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        10,
+        1.3887678278378084e-09,
+        -18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        15,
+        1.3887678278378084e-09,
+        -18.8
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        18.8,
+        1.3887678278378084e-09,
+        -15
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        18.8,
+        1.3887678278378084e-09,
+        -10
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        18.8,
+        1.3887678278378084e-09,
+        -5
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        18.8,
+        1.3887678278378084e-09,
+        5
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        18.8,
+        1.3887678278378084e-09,
+        10
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        18.8,
+        1.3887678278378084e-09,
+        15
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -18.8,
+        1.3887678278378084e-09,
+        -15
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -18.8,
+        1.3887678278378084e-09,
+        -10
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -18.8,
+        1.3887678278378084e-09,
+        -5
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -18.8,
+        1.3887678278378084e-09,
+        5
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -18.8,
+        1.3887678278378084e-09,
+        10
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FanceWooden",
+      "pos": [
+        -18.8,
+        1.3887678278378084e-09,
+        15
+      ],
+      "scale": [
+        1.6879915363532767,
+        1.6879915363532767,
+        1.6879915363532767
+      ],
+      "yaw": 90,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Rocks/Green/Rock_3",
+      "pos": [
+        -20,
+        0.008748261456043212,
+        -19
+      ],
+      "scale": [
+        1.9180420808244443,
+        1.9180420808244443,
+        1.9180420808244443
+      ],
+      "yaw": 132,
+      "materials": [
+        "dc3c838adcb84893b604b46707e6b60b"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/MushroomRed",
+      "pos": [
+        -19,
+        1.8523323220716312e-08,
+        -18.3
+      ],
+      "scale": [
+        0.5458104323890925,
+        0.5458104323890925,
+        0.5458104323890925
+      ],
+      "yaw": 175,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "Rocks/Green/Rock_3",
+      "pos": [
+        -21,
+        0.009723100778298936,
+        9
+      ],
+      "scale": [
+        2.1317740150520423,
+        2.1317740150520423,
+        2.1317740150520423
+      ],
+      "yaw": 350,
+      "materials": [
+        "dc3c838adcb84893b604b46707e6b60b"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/MushroomRed",
+      "pos": [
+        -20,
+        1.8523323220716312e-08,
+        9.7
+      ],
+      "scale": [
+        0.5458104323890925,
+        0.5458104323890925,
+        0.5458104323890925
+      ],
+      "yaw": 217,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "Rocks/Green/Rock_3",
+      "pos": [
+        20,
+        0.00988810566073158,
+        -12
+      ],
+      "scale": [
+        2.167951066873999,
+        2.167951066873999,
+        2.167951066873999
+      ],
+      "yaw": 290,
+      "materials": [
+        "dc3c838adcb84893b604b46707e6b60b"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/MushroomRed",
+      "pos": [
+        21,
+        1.8523323220716312e-08,
+        -11.3
+      ],
+      "scale": [
+        0.5458104323890925,
+        0.5458104323890925,
+        0.5458104323890925
+      ],
+      "yaw": 153,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "Rocks/Green/Rock_3",
+      "pos": [
+        21,
+        0.0064580537119936126,
+        17
+      ],
+      "scale": [
+        1.4159177617252814,
+        1.4159177617252814,
+        1.4159177617252814
+      ],
+      "yaw": 244,
+      "materials": [
+        "dc3c838adcb84893b604b46707e6b60b"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/MushroomRed",
+      "pos": [
+        22,
+        1.8523323220716312e-08,
+        17.7
+      ],
+      "scale": [
+        0.5458104323890925,
+        0.5458104323890925,
+        0.5458104323890925
+      ],
+      "yaw": 149,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "Rocks/Green/Rock_3",
+      "pos": [
+        -18,
+        0.008423929450616494,
+        22
+      ],
+      "scale": [
+        1.846932816693238,
+        1.846932816693238,
+        1.846932816693238
+      ],
+      "yaw": 237,
+      "materials": [
+        "dc3c838adcb84893b604b46707e6b60b"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/MushroomRed",
+      "pos": [
+        -17,
+        1.8523323220716312e-08,
+        22.7
+      ],
+      "scale": [
+        0.5458104323890925,
+        0.5458104323890925,
+        0.5458104323890925
+      ],
+      "yaw": 161,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "Rocks/Green/Rock_3",
+      "pos": [
+        13,
+        0.008621005974865103,
+        22
+      ],
+      "scale": [
+        1.8901415237661539,
+        1.8901415237661539,
+        1.8901415237661539
+      ],
+      "yaw": 284,
+      "materials": [
+        "dc3c838adcb84893b604b46707e6b60b"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/MushroomRed",
+      "pos": [
+        14,
+        1.8523323220716312e-08,
+        22.7
+      ],
+      "scale": [
+        0.5458104323890925,
+        0.5458104323890925,
+        0.5458104323890925
+      ],
+      "yaw": 343,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "Rocks/Green/Rock_3",
+      "pos": [
+        -25,
+        0.007122305967800422,
+        -8
+      ],
+      "scale": [
+        1.5615539873138424,
+        1.5615539873138424,
+        1.5615539873138424
+      ],
+      "yaw": 86,
+      "materials": [
+        "dc3c838adcb84893b604b46707e6b60b"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/MushroomRed",
+      "pos": [
+        -24,
+        1.8523323220716312e-08,
+        -7.3
+      ],
+      "scale": [
+        0.5458104323890925,
+        0.5458104323890925,
+        0.5458104323890925
+      ],
+      "yaw": 174,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "Rocks/Green/Rock_3",
+      "pos": [
+        25,
+        0.010962441229915324,
+        7
+      ],
+      "scale": [
+        2.4034973912465345,
+        2.4034973912465345,
+        2.4034973912465345
+      ],
+      "yaw": 352,
+      "materials": [
+        "dc3c838adcb84893b604b46707e6b60b"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/MushroomRed",
+      "pos": [
+        26,
+        1.8523323220716312e-08,
+        7.7
+      ],
+      "scale": [
+        0.5458104323890925,
+        0.5458104323890925,
+        0.5458104323890925
+      ],
+      "yaw": 231,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Stump1",
+      "pos": [
+        -8,
+        5.1183703618680804e-08,
+        21
+      ],
+      "scale": [
+        3.231539495710412,
+        3.231539495710412,
+        3.231539495710412
+      ],
+      "yaw": 25,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Stump1",
+      "pos": [
+        8,
+        5.1183703618680804e-08,
+        21
+      ],
+      "scale": [
+        3.231539495710412,
+        3.231539495710412,
+        3.231539495710412
+      ],
+      "yaw": 25,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Stump1",
+      "pos": [
+        -22,
+        5.1183703618680804e-08,
+        -3
+      ],
+      "scale": [
+        3.231539495710412,
+        3.231539495710412,
+        3.231539495710412
+      ],
+      "yaw": 25,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Stump1",
+      "pos": [
+        21,
+        5.1183703618680804e-08,
+        -3
+      ],
+      "scale": [
+        3.231539495710412,
+        3.231539495710412,
+        3.231539495710412
+      ],
+      "yaw": 25,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "Items/Camp",
+      "pos": [
+        -4,
+        1.0192224918993967e-07,
+        23
+      ],
+      "scale": [
+        2.699999898077751,
+        2.699999898077751,
+        2.699999898077751
+      ],
+      "yaw": 180,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/Camp",
+      "pos": [
+        4,
+        9.059755483550193e-08,
+        23
+      ],
+      "scale": [
+        2.399999909402445,
+        2.399999909402445,
+        2.399999909402445
+      ],
+      "yaw": 180,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/FirePlace",
+      "pos": [
+        0,
+        0.00801022617831203,
+        21
+      ],
+      "scale": [
+        1.5049664502288458,
+        1.5049664502288458,
+        1.5049664502288458
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a",
+        "dd3c1c7111a445fda420b87a7ada9e9a",
+        "776e1f8779b8477abacab661423158bd",
+        "776e1f8779b8477abacab661423158bd",
+        "776e1f8779b8477abacab661423158bd",
+        "dd3c1c7111a445fda420b87a7ada9e9a",
+        "776e1f8779b8477abacab661423158bd",
+        "776e1f8779b8477abacab661423158bd"
+      ]
+    },
+    {
+      "prefab": "Items/Chest",
+      "pos": [
+        -7,
+        0.02323582515415088,
+        21
+      ],
+      "scale": [
+        2.3028593557514077,
+        2.3028593557514077,
+        2.3028593557514077
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a",
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/Box",
+      "pos": [
+        7,
+        3.208660380617628e-08,
+        22
+      ],
+      "scale": [
+        1.6999999358267923,
+        1.6999999358267923,
+        1.6999999358267923
+      ],
+      "yaw": 18,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/Box",
+      "pos": [
+        8,
+        3.208660380617628e-08,
+        23
+      ],
+      "scale": [
+        1.6999999358267923,
+        1.6999999358267923,
+        1.6999999358267923
+      ],
+      "yaw": 24,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/Box",
+      "pos": [
+        -7,
+        3.208660380617628e-08,
+        24
+      ],
+      "scale": [
+        1.6999999358267923,
+        1.6999999358267923,
+        1.6999999358267923
+      ],
+      "yaw": 11,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/Barrel",
+      "pos": [
+        6,
+        0.00031804186603891194,
+        21
+      ],
+      "scale": [
+        1.7001188618751653,
+        1.7001188618751653,
+        1.7001188618751653
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "Items/Barrel",
+      "pos": [
+        -6,
+        0.00031804186603891194,
+        23
+      ],
+      "scale": [
+        1.7001188618751653,
+        1.7001188618751653,
+        1.7001188618751653
+      ],
+      "yaw": 0,
+      "materials": [
+        "dd3c1c7111a445fda420b87a7ada9e9a"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        -8.319588335578949,
+        3.278605755719373e-05,
+        24.493837709422667
+      ],
+      "scale": [
+        0.7203355045264281,
+        0.7203355045264281,
+        0.7203355045264281
+      ],
+      "yaw": 345,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -22.60617032992037,
+        1.3896225323801925e-08,
+        -22.762468425928237
+      ],
+      "scale": [
+        0.7396491626997346,
+        0.7396491626997346,
+        0.7396491626997346
+      ],
+      "yaw": 355,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        26.483935710533114,
+        1.0331904610169466e-08,
+        12.623406335080105
+      ],
+      "scale": [
+        0.5499324036517977,
+        0.5499324036517977,
+        0.5499324036517977
+      ],
+      "yaw": 323,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -22.513830699031633,
+        8.927654925403428e-09,
+        17.68666183198325
+      ],
+      "scale": [
+        0.47518893343909696,
+        0.47518893343909696,
+        0.47518893343909696
+      ],
+      "yaw": 348,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        -10.905786403393492,
+        2.9723508778816017e-05,
+        19.73823837400451
+      ],
+      "scale": [
+        0.6530488960172733,
+        0.6530488960172733,
+        0.6530488960172733
+      ],
+      "yaw": 55,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        17.248135023091145,
+        1.2086546263733739e-08,
+        -24.468613861697865
+      ],
+      "scale": [
+        0.6433260555001125,
+        0.6433260555001125,
+        0.6433260555001125
+      ],
+      "yaw": 47,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        23.23886587504949,
+        1.2739262664332247e-08,
+        5.628761313518659
+      ],
+      "scale": [
+        0.6780679460447445,
+        0.6780679460447445,
+        0.6780679460447445
+      ],
+      "yaw": 144,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -25.6707400020707,
+        9.691187431638174e-09,
+        -4.863060053899034
+      ],
+      "scale": [
+        0.5158291911904767,
+        0.5158291911904767,
+        0.5158291911904767
+      ],
+      "yaw": 79,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        -21.850340679045203,
+        4.324521951133211e-05,
+        23.124255293966065
+      ],
+      "scale": [
+        0.9501315295597824,
+        0.9501315295597824,
+        0.9501315295597824
+      ],
+      "yaw": 147,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        11.782928150341512,
+        1.163777830775693e-08,
+        -23.77991934532561
+      ],
+      "scale": [
+        0.6194396521675344,
+        0.6194396521675344,
+        0.6194396521675344
+      ],
+      "yaw": 184,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        21.907893001026135,
+        9.828523157906693e-09,
+        -14.468867819959161
+      ],
+      "scale": [
+        0.5231391082777651,
+        0.5231391082777651,
+        0.5231391082777651
+      ],
+      "yaw": 279,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -22.348915451604938,
+        9.621620728096847e-09,
+        8.230724326499853
+      ],
+      "scale": [
+        0.5121263904062962,
+        0.5121263904062962,
+        0.5121263904062962
+      ],
+      "yaw": 49,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        -12.30460557272141,
+        2.1298716831204748e-05,
+        21.06451784678948
+      ],
+      "scale": [
+        0.4679495821541707,
+        0.4679495821541707,
+        0.4679495821541707
+      ],
+      "yaw": 165,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -17.029775685645284,
+        7.849909816415912e-09,
+        -25.496390785558766
+      ],
+      "scale": [
+        0.4178241995713351,
+        0.4178241995713351,
+        0.4178241995713351
+      ],
+      "yaw": 320,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        24.52084365108741,
+        8.942573615269022e-09,
+        -12.144513556558328
+      ],
+      "scale": [
+        0.47598300493769047,
+        0.47598300493769047,
+        0.47598300493769047
+      ],
+      "yaw": 283,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -22.157195545404694,
+        1.5139277078998316e-08,
+        1.7671531122794946
+      ],
+      "scale": [
+        0.8058126112981556,
+        0.8058126112981556,
+        0.8058126112981556
+      ],
+      "yaw": 120,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        -16.966554335529548,
+        4.204813775163666e-05,
+        23.952829511926726
+      ],
+      "scale": [
+        0.9238307005618047,
+        0.9238307005618047,
+        0.9238307005618047
+      ],
+      "yaw": 64,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -24.981166365859472,
+        1.1321557910879005e-08,
+        -25.623405426484656
+      ],
+      "scale": [
+        0.6026083079478407,
+        0.6026083079478407,
+        0.6026083079478407
+      ],
+      "yaw": 167,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        21.87927835460509,
+        1.2763093614646712e-08,
+        -20.108213478269985
+      ],
+      "scale": [
+        0.6793363870807604,
+        0.6793363870807604,
+        0.6793363870807604
+      ],
+      "yaw": 133,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -26.83230168233147,
+        1.5503289148623537e-08,
+        24.523290746891618
+      ],
+      "scale": [
+        0.8251877449216531,
+        0.8251877449216531,
+        0.8251877449216531
+      ],
+      "yaw": 139,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        18.665404117337125,
+        3.178045921601347e-05,
+        26.868578507623262
+      ],
+      "scale": [
+        0.6982417170321129,
+        0.6982417170321129,
+        0.6982417170321129
+      ],
+      "yaw": 313,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        8.930332330893144,
+        1.549263616000303e-08,
+        -19.51689101662634
+      ],
+      "scale": [
+        0.8246207223000559,
+        0.8246207223000559,
+        0.8246207223000559
+      ],
+      "yaw": 270,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        22.76972040499733,
+        7.671013029463762e-09,
+        4.711053380609016
+      ],
+      "scale": [
+        0.40830212752690825,
+        0.40830212752690825,
+        0.40830212752690825
+      ],
+      "yaw": 251,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -23.84755530742556,
+        1.1062584474118878e-08,
+        5.689549892349252
+      ],
+      "scale": [
+        0.5888240261592453,
+        0.5888240261592453,
+        0.5888240261592453
+      ],
+      "yaw": 248,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        -3.9388168394354963,
+        3.725214593504231e-05,
+        26.063231612207176
+      ],
+      "scale": [
+        0.818458983365112,
+        0.818458983365112,
+        0.818458983365112
+      ],
+      "yaw": 107,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        14.504828258450154,
+        8.888673326929789e-09,
+        -20.04157269841178
+      ],
+      "scale": [
+        0.4731140745475721,
+        0.4731140745475721,
+        0.4731140745475721
+      ],
+      "yaw": 70,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        26.580247000847155,
+        7.477746381126386e-09,
+        11.701841757651614
+      ],
+      "scale": [
+        0.39801519627114673,
+        0.39801519627114673,
+        0.39801519627114673
+      ],
+      "yaw": 150,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -24.899907190077297,
+        9.283204871863743e-09,
+        -3.6383969413053165
+      ],
+      "scale": [
+        0.49411365681321084,
+        0.49411365681321084,
+        0.49411365681321084
+      ],
+      "yaw": 67,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        -24.430531772736725,
+        3.2415693408501435e-05,
+        21.77664656760623
+      ],
+      "scale": [
+        0.7121983125068823,
+        0.7121983125068823,
+        0.7121983125068823
+      ],
+      "yaw": 188,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        9.359356889452407,
+        1.3160478295467987e-08,
+        -26.403746362169844
+      ],
+      "scale": [
+        0.7004878321379813,
+        0.7004878321379813,
+        0.7004878321379813
+      ],
+      "yaw": 101,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        25.930757768080966,
+        1.5058974015186203e-08,
+        4.05930115416156
+      ],
+      "scale": [
+        0.801538350300882,
+        0.801538350300882,
+        0.801538350300882
+      ],
+      "yaw": 304,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -21.309509018055298,
+        7.679567418005486e-09,
+        20.856368999119034
+      ],
+      "scale": [
+        0.4087574487508278,
+        0.4087574487508278,
+        0.4087574487508278
+      ],
+      "yaw": 227,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        7.193839298187072,
+        3.7119488881515316e-05,
+        24.358280329112524
+      ],
+      "scale": [
+        0.8155444034277511,
+        0.8155444034277511,
+        0.8155444034277511
+      ],
+      "yaw": 207,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        0.9517341125747087,
+        9.303473357459565e-09,
+        -23.728496968894113
+      ],
+      "scale": [
+        0.49519247987852655,
+        0.49519247987852655,
+        0.49519247987852655
+      ],
+      "yaw": 337,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        22.50114438850587,
+        8.53500490618506e-09,
+        9.366064972153538
+      ],
+      "scale": [
+        0.4542894984355889,
+        0.4542894984355889,
+        0.4542894984355889
+      ],
+      "yaw": 235,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -26.021776918372993,
+        1.3772912834705311e-08,
+        -4.693175546306698
+      ],
+      "scale": [
+        0.73308565518705,
+        0.73308565518705,
+        0.73308565518705
+      ],
+      "yaw": 248,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        -17.41062994456938,
+        4.2138556920054516e-05,
+        20.044777338185803
+      ],
+      "scale": [
+        0.9258172808997279,
+        0.9258172808997279,
+        0.9258172808997279
+      ],
+      "yaw": 171,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        1.9894619640976892,
+        1.2777033367409803e-08,
+        -26.917471637835824
+      ],
+      "scale": [
+        0.6800783530621123,
+        0.6800783530621123,
+        0.6800783530621123
+      ],
+      "yaw": 188,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        23.82479748339137,
+        9.936919281397418e-09,
+        16.075062772845016
+      ],
+      "scale": [
+        0.528908668004354,
+        0.528908668004354,
+        0.528908668004354
+      ],
+      "yaw": 114,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -25.565400363045114,
+        1.2654266595255046e-08,
+        -10.707316099923606
+      ],
+      "scale": [
+        0.6735438922199956,
+        0.6735438922199956,
+        0.6735438922199956
+      ],
+      "yaw": 308,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        3.9380859052715245,
+        3.9226311179713806e-05,
+        22.12635684886301
+      ],
+      "scale": [
+        0.8618329485043563,
+        0.8618329485043563,
+        0.8618329485043563
+      ],
+      "yaw": 86,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -11.771247365430018,
+        1.478851437401824e-08,
+        -23.175591934891838
+      ],
+      "scale": [
+        0.7871426966271243,
+        0.7871426966271243,
+        0.7871426966271243
+      ],
+      "yaw": 175,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        25.14461143448066,
+        9.923916014926567e-09,
+        -24.669783073581513
+      ],
+      "scale": [
+        0.52821654802692,
+        0.52821654802692,
+        0.52821654802692
+      ],
+      "yaw": 181,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -21.42352394993764,
+        1.0824923165743519e-08,
+        -4.565737662058563
+      ],
+      "scale": [
+        0.5761741170184612,
+        0.5761741170184612,
+        0.5761741170184612
+      ],
+      "yaw": 186,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        10.606597394401291,
+        4.224299639101921e-05,
+        24.69218816254989
+      ],
+      "scale": [
+        0.92811189832601,
+        0.92811189832601,
+        0.92811189832601
+      ],
+      "yaw": 45,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        6.841782379195692,
+        8.413505964095537e-09,
+        -25.742040192794992
+      ],
+      "scale": [
+        0.44782251990786653,
+        0.44782251990786653,
+        0.44782251990786653
+      ],
+      "yaw": 73,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        25.75166754906758,
+        1.3728200971340182e-08,
+        -19.155781186506708
+      ],
+      "scale": [
+        0.730705793639748,
+        0.730705793639748,
+        0.730705793639748
+      ],
+      "yaw": 265,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -20.730308504665405,
+        7.720553705450184e-09,
+        -19.243960961127556
+      ],
+      "scale": [
+        0.41093901046879416,
+        0.41093901046879416,
+        0.41093901046879416
+      ],
+      "yaw": 317,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        16.326349263321525,
+        2.5777760679988895e-05,
+        21.41561845246548
+      ],
+      "scale": [
+        0.5663577028921275,
+        0.5663577028921275,
+        0.5663577028921275
+      ],
+      "yaw": 114,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        10.27992274932862,
+        7.193485321789328e-09,
+        -20.418387918099477
+      ],
+      "scale": [
+        0.38288493969948145,
+        0.38288493969948145,
+        0.38288493969948145
+      ],
+      "yaw": 280,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        21.187176232207634,
+        1.1160081333833103e-08,
+        0.8001989664484164
+      ],
+      "scale": [
+        0.5940134548690663,
+        0.5940134548690663,
+        0.5940134548690663
+      ],
+      "yaw": 279,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -22.472952143717617,
+        1.4796754014875774e-08,
+        -16.639650977124216
+      ],
+      "scale": [
+        0.7875812648943489,
+        0.7875812648943489,
+        0.7875812648943489
+      ],
+      "yaw": 24,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        3.1825834448618977,
+        3.0497922209445114e-05,
+        22.013302266766523
+      ],
+      "scale": [
+        0.6700633689617904,
+        0.6700633689617904,
+        0.6700633689617904
+      ],
+      "yaw": 192,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -20.196042345321565,
+        1.4722076168410616e-08,
+        -25.16832879609909
+      ],
+      "scale": [
+        0.7836064152266794,
+        0.7836064152266794,
+        0.7836064152266794
+      ],
+      "yaw": 239,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        26.89926368583474,
+        8.646348289404728e-09,
+        7.991627883699444
+      ],
+      "scale": [
+        0.4602159308481034,
+        0.4602159308481034,
+        0.4602159308481034
+      ],
+      "yaw": 89,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -23.662713308603216,
+        8.514638045930551e-09,
+        -5.889622268608747
+      ],
+      "scale": [
+        0.4532054392192874,
+        0.4532054392192874,
+        0.4532054392192874
+      ],
+      "yaw": 44,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Flower1",
+      "pos": [
+        -20.99536195651038,
+        2.0868436470979328e-05,
+        25.449988235009585
+      ],
+      "scale": [
+        0.45849598378144457,
+        0.45849598378144457,
+        0.45849598378144457
+      ],
+      "yaw": 335,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        21.035179722030833,
+        9.301263957848386e-09,
+        -20.18869856014503
+      ],
+      "scale": [
+        0.49507488099577973,
+        0.49507488099577973,
+        0.49507488099577973
+      ],
+      "yaw": 345,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        25.679088757938587,
+        1.4328705203927264e-08,
+        -16.84869750443134
+      ],
+      "scale": [
+        0.7626686067405045,
+        0.7626686067405045,
+        0.7626686067405045
+      ],
+      "yaw": 194,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    },
+    {
+      "prefab": "TreesAndPlants/Grass3",
+      "pos": [
+        -23.798345159344642,
+        7.346432754343317e-09,
+        -24.029021543909902
+      ],
+      "scale": [
+        0.3910258152098881,
+        0.3910258152098881,
+        0.3910258152098881
+      ],
+      "yaw": 33,
+      "materials": [
+        "ca1db2516a37402b85411a7afd08462d"
+      ]
+    }
+  ],
+  "materials": {
+    "632f2a2bfc484e0aba0d44eec85ff967": {
+      "color": [
+        0.23,
+        0.34,
+        0.12
+      ]
+    },
+    "9755351eb83148e2b652b3f22018556f": {
+      "color": [
+        0.38,
+        0.27,
+        0.14
+      ]
+    },
+    "885db71aca6d40f2809b9655c85f19e2": {
+      "color": [
+        0.28,
+        0.31,
+        0.24
+      ]
+    },
+    "aaf1629ace864ec8b37564a811664a97": {
+      "texture": "Assets/KUBIKOS - World/Textures/SoilWGrass_1_D.png"
+    },
+    "ca1db2516a37402b85411a7afd08462d": {
+      "texture": "Assets/KUBIKOS - World/Textures/TreesAndPlants_D.png"
+    },
+    "dd3c1c7111a445fda420b87a7ada9e9a": {
+      "texture": "Assets/KUBIKOS - World/Textures/Items_D.png"
+    },
+    "dc3c838adcb84893b604b46707e6b60b": {
+      "texture": "Assets/KUBIKOS - World/Textures/Rocks/Rocks_D.png"
+    },
+    "776e1f8779b8477abacab661423158bd": {
+      "color": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

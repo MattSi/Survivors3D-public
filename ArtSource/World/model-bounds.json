@@ -1,0 +1,362 @@
+{
+  "TreesAndPlants/Tree_1": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/TreesAndPlants/Tree_1.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/TreesAndPlants/Tree_1.fbx",
+    "min": [
+      -0.6665331721305847,
+      -0.398773193359375,
+      -1.1520983207446989e-05
+    ],
+    "max": [
+      0.28730589151382446,
+      0.27792245149612427,
+      1.267182469367981
+    ],
+    "size": [
+      0.9538390636444092,
+      0.6766956448554993,
+      1.2671939903511884
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/TreesAndPlants_Mat.mat"
+    ]
+  },
+  "TreesAndPlants/Tree_2": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/TreesAndPlants/Tree_2.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/TreesAndPlants/Tree_2.fbx",
+    "min": [
+      -0.4489831328392029,
+      -0.47581419348716736,
+      -3.5965090461331783e-08
+    ],
+    "max": [
+      0.503186047077179,
+      0.4763721525669098,
+      1.242872953414917
+    ],
+    "size": [
+      0.9521691799163818,
+      0.9521863460540771,
+      1.2428729893800075
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/TreesAndPlants_Mat.mat"
+    ]
+  },
+  "TreesAndPlants/Tree_3": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/TreesAndPlants/Tree_3.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/TreesAndPlants/Tree_3.fbx",
+    "min": [
+      -0.5652074813842773,
+      -0.3359375,
+      -4.7686707915772786e-08
+    ],
+    "max": [
+      0.32063964009284973,
+      0.6316297054290771,
+      1.0597339868545532
+    ],
+    "size": [
+      0.8858471214771271,
+      0.9675672054290771,
+      1.0597340345412611
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/TreesAndPlants_Mat.mat"
+    ]
+  },
+  "TreesAndPlants/Stump1": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/TreesAndPlants/Stump1.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/TreesAndPlants/Stump1.fbx",
+    "min": [
+      -0.21838682889938354,
+      -0.20979125797748566,
+      -1.5838798717027203e-08
+    ],
+    "max": [
+      0.21838714182376862,
+      0.20979127287864685,
+      0.18567000329494476
+    ],
+    "size": [
+      0.43677397072315216,
+      0.4195825308561325,
+      0.18567001913374348
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/TreesAndPlants_Mat.mat"
+    ]
+  },
+  "TreesAndPlants/Grass3": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/TreesAndPlants/Grass3.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/TreesAndPlants/Grass3.fbx",
+    "min": [
+      -0.44059813022613525,
+      -0.39731138944625854,
+      -1.8787590150282085e-08
+    ],
+    "max": [
+      0.4333776831626892,
+      0.24884922802448273,
+      0.6658852100372314
+    ],
+    "size": [
+      0.8739758133888245,
+      0.6461606174707413,
+      0.6658852288248216
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/TreesAndPlants_Mat.mat"
+    ]
+  },
+  "TreesAndPlants/Flower1": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/TreesAndPlants/Flower1.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/TreesAndPlants/Flower1.fbx",
+    "min": [
+      -0.20878112316131592,
+      -0.16030791401863098,
+      -4.551498204818927e-05
+    ],
+    "max": [
+      0.19950439035892487,
+      0.16949650645256042,
+      0.5570578575134277
+    ],
+    "size": [
+      0.4082855135202408,
+      0.3298044204711914,
+      0.5571033724954759
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/TreesAndPlants_Mat.mat"
+    ]
+  },
+  "TreesAndPlants/MushroomRed": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/TreesAndPlants/MushroomRed.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/TreesAndPlants/MushroomRed.fbx",
+    "min": [
+      -0.43465879559516907,
+      -0.44452208280563354,
+      -3.393728320588707e-08
+    ],
+    "max": [
+      0.3850952088832855,
+      0.4495129883289337,
+      0.7328551411628723
+    ],
+    "size": [
+      0.8197540044784546,
+      0.8940350711345673,
+      0.7328551751001555
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/TreesAndPlants_Mat.mat"
+    ]
+  },
+  "Rocks/Green/Rock_3": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/Rocks/Green/Rock_3.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/Rocks/Rock_3.fbx",
+    "min": [
+      -0.4714343249797821,
+      -0.43183469772338867,
+      -0.004561037290841341
+    ],
+    "max": [
+      0.3685876429080963,
+      0.4299454092979431,
+      0.8072110414505005
+    ],
+    "size": [
+      0.8400219678878784,
+      0.8617801070213318,
+      0.8117720787413418
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/RocksGreen_Mat.mat"
+    ]
+  },
+  "Rocks/Green/RockFlat_2": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/Rocks/Green/RockFlat_2.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/Rocks/RockFlat_2.fbx",
+    "min": [
+      -0.4175402820110321,
+      -0.4123315215110779,
+      -3.105293444605195e-08
+    ],
+    "max": [
+      0.4182971119880676,
+      0.4113085865974426,
+      0.17363803088665009
+    ],
+    "size": [
+      0.8358373939990997,
+      0.8236401081085205,
+      0.17363806193958453
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/RocksGreen_Mat.mat"
+    ]
+  },
+  "Items/Camp": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/Items/Camp.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/Items/Camp.fbx",
+    "min": [
+      -0.5000008940696716,
+      -0.5,
+      -3.774898260644477e-08
+    ],
+    "max": [
+      0.5,
+      0.5000004768371582,
+      1.0
+    ],
+    "size": [
+      1.0000008940696716,
+      1.0000004768371582,
+      1.0000000377489826
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/Items.mat"
+    ]
+  },
+  "Items/Box": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/Items/Box.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/Items/Box.fbx",
+    "min": [
+      -0.25,
+      -0.25,
+      -1.887447353965399e-08
+    ],
+    "max": [
+      0.25,
+      0.2500000298023224,
+      0.5
+    ],
+    "size": [
+      0.5,
+      0.5000000298023224,
+      0.5000000188744735
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/Items.mat"
+    ]
+  },
+  "Items/Barrel": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/Items/Barrel.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/Items/Barrel.fbx",
+    "min": [
+      -0.25269103050231934,
+      -0.2526901066303253,
+      -0.0001870703708846122
+    ],
+    "max": [
+      0.25268980860710144,
+      0.25268983840942383,
+      0.49977797269821167
+    ],
+    "size": [
+      0.5053808391094208,
+      0.5053799450397491,
+      0.4999650430690963
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/Items.mat"
+    ]
+  },
+  "Items/FanceWooden": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/Items/FanceWooden.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/Items/FanceWooden.fbx",
+    "min": [
+      -0.5115655064582825,
+      -0.2027195692062378,
+      -8.227338810229412e-10
+    ],
+    "max": [
+      0.4884345233440399,
+      0.010897479020059109,
+      0.503557026386261
+    ],
+    "size": [
+      1.0000000298023224,
+      0.2136170482262969,
+      0.5035570272089949
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/Items.mat"
+    ]
+  },
+  "Items/Chest": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/Items/Chest.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/Items/ChestHead.fbx",
+    "min": [
+      -0.4948168694972992,
+      -0.6150311231613159,
+      -0.010089988820254803
+    ],
+    "max": [
+      0.49481627345085144,
+      0.00348101113922894,
+      0.31559208035469055
+    ],
+    "size": [
+      0.9896331429481506,
+      0.6185121343005449,
+      0.32568206917494535
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/Items.mat",
+      "Assets/KUBIKOS - World/URP Support/Materials URP/Items.mat"
+    ]
+  },
+  "Items/FirePlace": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/Items/FirePlace.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/Items/Wood2.fbx",
+    "min": [
+      -0.49990150332450867,
+      -0.18958404660224915,
+      -0.005322528071701527
+    ],
+    "max": [
+      0.5000985264778137,
+      0.18958407640457153,
+      0.39335745573043823
+    ],
+    "size": [
+      1.0000000298023224,
+      0.3791681230068207,
+      0.39867998380213976
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/Items.mat",
+      "Assets/KUBIKOS - World/URP Support/Materials URP/Items.mat",
+      "Assets/KUBIKOS - World/Materials/Particle/Fire_Mat.mat",
+      "Assets/KUBIKOS - World/Materials/Particle/Fire_Mat.mat",
+      "Assets/KUBIKOS - World/Materials/Particle/Fire_Mat.mat",
+      "Assets/KUBIKOS - World/URP Support/Materials URP/Items.mat",
+      "Assets/KUBIKOS - World/Materials/Particle/Fire_Mat.mat",
+      "Assets/KUBIKOS - World/Materials/Particle/Fire_Mat.mat"
+    ]
+  },
+  "Cubes/Cube_SoilWGrass_1": {
+    "prefab": "Assets/KUBIKOS - World/URP Support/Prefabs URP/Cubes/Cube_SoilWGrass_1.prefab",
+    "fbx": "Assets/KUBIKOS - World/Models/Cube.fbx",
+    "min": [
+      -0.5,
+      -0.5000000596046448,
+      -6.417321287699451e-07
+    ],
+    "max": [
+      0.5,
+      0.5000000596046448,
+      0.9999999403953552
+    ],
+    "size": [
+      1.0,
+      1.0000001192092896,
+      1.000000582127484
+    ],
+    "materials": [
+      "Assets/KUBIKOS - World/URP Support/Materials URP/SoilWGrass1_Mat.mat"
+    ]
+  }
+}
