@@ -1,129 +1,131 @@
-# 波次与敌人配置
+# Wave and Enemy Configuration
 
-Unity 菜单：**Tools → Survivors → Wave Configuration**。
+Unity menu: **Tools → Survivors → Wave Configuration**.
 
-普通 Mixed 模式现在默认在最终波迎战「林地石王」（默认第 20 波、1800 血），必须击败后才能通关。
-编辑器中的「最终波林地石王」可关闭此机制，「林地石王血量」独立调整 Boss 血量。
-无尽和单一敌人测试模式仍使用原计时规则。直接试玩使用 **Tools → Survivors → Play Forest Stone King**。
-模型、招式和验证见 `ArtSource/Enemies/FOREST_BOSS.md`。
+> The configuration window's UI is in Chinese. Below, each field or button is given in English, with the original label in backticks where it helps you find it.
 
-默认配置资产：`Assets/Resources/Config/DefaultWaveConfiguration.asset`。
-`ForestCamp` 和 `Playground` 场景都自动读取它。也可以在 Project 中右键
-**Create → Survivors → Wave Configuration**，或在编辑窗口中点击「复制为测试配置」，
-再把新资产拖到场景 `SurvivorPlayground` 组件的 **Wave Configuration** 字段。
-窗口选择某个资产只会编辑该资产，不会自动把自定义资产应用到场景。
+Regular Mixed mode now ends with a fight against the Forest Stone King on the final wave by default (wave 20, 1800 health), and you must defeat it to win.
+The editor's **Final-wave Forest Stone King** (`最终波林地石王`) option turns this off, and **Forest Stone King health** (`林地石王血量`) sets the boss's health separately.
+Endless and single-enemy test modes still use the original timing rules. To play the boss directly, use **Tools → Survivors → Play Forest Stone King**.
+Models, attacks, and verification are described in `ArtSource/Enemies/FOREST_BOSS.md`.
 
-修改后点击「保存」，重新开始一局即可生效。每局读取深拷贝：编辑中的资产不会改变正在进行的战斗。
-Unity Play 模式下修改配置资产也会保留，建议用测试副本。
+Default configuration asset: `Assets/Resources/Config/DefaultWaveConfiguration.asset`.
+Both the `ForestCamp` and `Playground` scenes read it automatically. You can also right-click in the Project window and choose
+**Create → Survivors → Wave Configuration**, or click **Copy as test configuration** (`复制为测试配置`) in the editor window,
+then drag the new asset into the **Wave Configuration** field of the scene's `SurvivorPlayground` component.
+Selecting an asset in the window only edits that asset; it does not apply a custom asset to the scene automatically.
 
-## 快速测试
+After editing, click **Save** (`保存`) and start a new run for the changes to take effect. Each run reads a deep copy, so editing the asset doesn't change a fight in progress.
+Changes made to the configuration asset in Play Mode are also kept, so using a test copy is recommended.
 
-| 目的 | 设置 |
+## Quick testing
+
+| Goal | Settings |
 |---|---|
-| 直接测试完整敌人组合 | 起始波次 = 11，敌人测试模式 = Mixed |
-| 从第一波只测试冲锋怪 | 起始波次 = 1，测试模式 = ChargerOnly |
-| 只测试石甲怪 | 测试模式 = StoneArmorOnly |
-| 只测试投弹怪 | 测试模式 = BomberOnly |
-| 只测试骨针射手 | 测试模式 = ShooterOnly；可从第一波直接测试 |
-| 只测试分裂怪及其小怪 | 测试模式 = SplitterOnly；可从第一波直接测试 |
-| 只刷普通怪 | 测试模式 = NormalOnly |
-| 测试商店与装备 | 设置开局测试材料；缩短对应波次的时长，结束该波后进入商店 |
-| 测试无尽衔接 | 无尽模式 = 开，起始波次 = 20 |
-| 恢复默认正常游玩 | 默认资产：起始波次 = 1，Mixed，材料 = 0，无尽模式 = 关 |
+| Test the full enemy mix directly | Start wave = 11, enemy test mode = Mixed |
+| Test only chargers from wave 1 | Start wave = 1, test mode = ChargerOnly |
+| Test only stone-armored enemies | Test mode = StoneArmorOnly |
+| Test only bombers | Test mode = BomberOnly |
+| Test only bone-needle shooters | Test mode = ShooterOnly; works from wave 1 |
+| Test only splitters and their offspring | Test mode = SplitterOnly; works from wave 1 |
+| Spawn only regular enemies | Test mode = NormalOnly |
+| Test the shop and equipment | Set starting test materials; shorten the wave's duration, and the shop opens after it ends |
+| Test the transition into endless | Endless mode = on, start wave = 20 |
+| Restore normal play | Default asset: start wave = 1, Mixed, materials = 0, endless mode = off |
 
-Only 模式忽略该类型的解锁波次和每 N 只间隔，但遵守阶段的启用开关、存活上限和同时攻击上限。
-在解锁前测试时使用该类型的第一条阶段。达到上限时暂停补怪，死亡后继续补充所选类型，不会改刷普通怪。
-若需要只观察移动，可把同时攻击设为 0；石甲怪没有主动攻击，该值不影响其接触伤害。
+Only modes ignore that type's unlock wave and every-N spacing, but still respect the stage's enabled toggle, alive cap, and simultaneous attack cap.
+When testing before unlock, the type's first stage is used. When a cap is reached, spawning pauses; after deaths, the selected type keeps refilling and regular enemies are never spawned instead.
+To watch movement only, set simultaneous attacks to 0. Stone-armored enemies have no active attack, so this value doesn't affect their contact damage.
 
-## 敌人基础属性表
+## Enemy base stats table
 
-同一个窗口中的「敌人基础属性」按类型配置 `BaseHealth`，与解锁波次、起始波次分开。
+The **Enemy base stats** (`敌人基础属性`) section in the same window sets `BaseHealth` per type, separately from unlock waves and the start wave.
 
-| 类型 | 默认基础血量 |
+| Type | Default base health |
 |---|---:|
-| Normal 普通怪（三种外形共用） | 10 |
-| Charger 冲锋小鬼 | 20 |
-| StoneArmor 石甲怪 | 120 |
-| Bomber 投弹怪 | 24 |
-| Splitter 分裂母体 | 45 |
-| Splitling 分裂小怪 | 14 |
-| Shooter 骨针射手 | 18 |
+| Normal (shared by three looks) | 10 |
+| Charger (charging imp) | 20 |
+| StoneArmor | 120 |
+| Bomber | 24 |
+| Splitter (mother) | 45 |
+| Splitling (split offspring) | 14 |
+| Shooter (bone-needle shooter) | 18 |
 
-**实际出生血量 = 敌人基础血量 × 波次血量倍率**，向上取整，最低 1，最高 1,000,000。
-默认第 1–20 波倍率均为 1，所以同一种怪提前到第一波测试也保留完整血量。Only 模式同样使用显式倍率；需要测基础属性时将对应波次倍率设为 1。
-母体和小怪分别查自己的属性行，小怪血量不再按母体或普通怪的百分比计算。
-重复类型取最后一行；缺失类型使用该类型的默认血量。旧配置的 `EnemyHealth` 与 `ExtraHealthPerWave` 已停用，其他波次/刷怪参数保留；缺失新属性时使用默认值。旧自定义资产需要重新填写想要的倍率。
+**Actual spawn health = enemy base health × wave health multiplier**, rounded up, with a minimum of 1 and a maximum of 1,000,000.
+By default, waves 1–20 all have a multiplier of 1, so an enemy moved to wave 1 for testing keeps its full health. Only modes also use the explicit multiplier; to test base stats, set the wave's multiplier to 1.
+Mothers and offspring each look up their own stats row; offspring health is no longer a percentage of the mother's or a regular enemy's.
+For duplicate types, the last row wins; missing types use that type's default health. The old `EnemyHealth` and `ExtraHealthPerWave` settings are retired, while other wave/spawn parameters are kept; missing new stats use defaults. Older custom assets need their desired multipliers filled in again.
 
-修改石甲血量只需要编辑 StoneArmor 的基础血量并保存、开始新局。当前战斗使用独立副本，不会中途改血量。
+To change stone-armor health, just edit StoneArmor's base health, save, and start a new run. The current fight uses its own copy, so health doesn't change mid-fight.
 
-重锤中心现在造成固定的 38/43/48 伤害（一级/二级/三级），不暴击，可受复仇护符加成；击杀时压扁，未击杀则眩晕 1 秒。外围仍只击退、眩晕。无加成的一级重锤命中 120 血石甲后剩 82 血，四次中心命中可击杀。
+The hammer's center now deals a fixed 38/43/48 damage (levels 1/2/3). It can't crit but does get the Vengeance Charm bonus. It flattens enemies it kills; otherwise it stuns for 1 second. The outer ring still only knocks back and stuns. A level 1 hammer with no bonuses leaves a 120-health stone-armored enemy at 82 health, and four center hits kill it.
 
-## 波次表
+## Wave table
 
-每行包含：波次、时长（秒）、开场人数、基础生成速度（只/秒）、场上人数上限、血量倍率、基础移速。
-默认 20 行保留时长、人数与刷怪节奏，血量倍率统一为 1。输入的生成速度为整波开头的速度；波末乘以「波末刷怪倍率」。
-危险契约仍提高速度和人数上限，但受全局硬上限约束。
-血量来自上方敌人属性表；移动仍沿用波次基础移速和各类怪物的固有速度倍率。
+Each row contains: wave, duration (seconds), opening count, base spawn rate (enemies/second), on-field cap, health multiplier, and base movement speed.
+The default 20 rows keep the durations, counts, and spawn pacing, with all health multipliers set to 1. The spawn rate you enter applies at the start of the wave; at the end of the wave it is multiplied by the **end-of-wave spawn multiplier** (`波末刷怪倍率`).
+Danger Contracts still raise speed and the on-field cap, within the global hard caps.
+Health comes from the enemy stats table above; movement still uses the wave's base speed and each enemy type's built-in speed multiplier.
 
-波次行可乱序填写，取不超过当前波次的最近一行；缺行则沿用上一行。重复波次取数组中靠后的一行。
-没有有效行时采用安全的基础值。时长至少 1 秒，血量倍率限制在 0.1–1000，负人数归零，异常浮点值回退。
+Wave rows can be in any order; the closest row at or below the current wave is used, and missing rows reuse the previous row. For duplicate waves, the later row in the array wins.
+With no valid rows, safe base values are used. Duration is at least 1 second, the health multiplier is clamped to 0.1–1000, negative counts become zero, and invalid floating-point values fall back to defaults.
 
-## 特殊敌人阶段表
+## Special enemy stage table
 
-每类敌人取不超过当前波次的最近阶段；不需要每波重复填写。
+Each enemy type uses the closest stage at or below the current wave, so you don't need to repeat it every wave.
 
-| 类型 | 生效波次 | 每 N 次成功生成 | 存活上限 | 同时攻击上限 |
+| Type | Starting wave | Every N successful spawns | Alive cap | Simultaneous attack cap |
 |---|---:|---:|---:|---:|
-| Charger 冲锋 | 3 | 6 | 2 | 1 |
-| Charger 冲锋 | 8 | 5 | 3 | 2 |
-| Charger 冲锋 | 13 | 5 | 4 | 2 |
-| StoneArmor 石甲 | 5 | 7 | 2 | 0 |
-| StoneArmor 石甲 | 10 | 7 | 3 | 0 |
-| StoneArmor 石甲 | 15 | 7 | 4 | 0 |
-| Bomber 投弹 | 8 | 9 | 2 | 2 |
-| Bomber 投弹 | 13 | 9 | 3 | 3 |
-| Splitter 分裂 | 11 | 11 | 2 | 0 |
-| Splitter 分裂 | 16 | 11 | 3 | 0 |
-| Shooter 骨针射手 | 6 | 8 | 2 | 1 |
-| Shooter 骨针射手 | 13 | 8 | 3 | 2 |
+| Charger | 3 | 6 | 2 | 1 |
+| Charger | 8 | 5 | 3 | 2 |
+| Charger | 13 | 5 | 4 | 2 |
+| StoneArmor | 5 | 7 | 2 | 0 |
+| StoneArmor | 10 | 7 | 3 | 0 |
+| StoneArmor | 15 | 7 | 4 | 0 |
+| Bomber | 8 | 9 | 2 | 2 |
+| Bomber | 13 | 9 | 3 | 3 |
+| Splitter | 11 | 11 | 2 | 0 |
+| Splitter | 16 | 11 | 3 | 0 |
+| Shooter | 6 | 8 | 2 | 1 |
+| Shooter | 13 | 8 | 3 | 2 |
 
-上表是新建配置的初始值；已有资产内自行修改过的阶段保持原值，以编辑窗口显示为准。
+The table above shows the initial values for a new configuration. Stages you've edited in existing assets keep their values; the editor window shows the current ones.
 
-生成次数包含开场敌人，每波重置。优先级为冲锋 → 石甲 → 投弹 → 分裂 → 骨针射手；达到类型上限后让后续类型或普通怪填补。
-投弹的同时攻击上限包含「正在抬手」和「已投出的炸弹」，冲锋则包含蓄力与冲刺。
-射手的同时攻击上限包含蓄力和已射出的骨针。旧自定义配置需要手动添加 Shooter 阶段，默认资产已追加。
-关闭某一阶段的启用开关，可让该类型从该阶段起停止生成；后续启用阶段可以恢复。
+The spawn count includes opening enemies and resets each wave. Priority is Charger → StoneArmor → Bomber → Splitter → Shooter; once a type reaches its cap, later types or regular enemies fill in.
+The bomber's simultaneous attack cap includes bombers winding up and bombs already thrown; the charger's includes charging up and dashing.
+The shooter's simultaneous attack cap includes charging and needles already fired. Older custom configurations need a Shooter stage added by hand; the default asset already has one.
+Turning off a stage's enabled toggle stops that type from spawning from that stage onward; a later enabled stage can bring it back.
 
-分裂怪母体默认 45 血、基础移速的 80%；死亡生成两只小怪，各自默认 14 血、基础移速的 130%。母体与小怪的血量分别乘波次倍率。小怪不再分裂，出生后的 0.4 秒不移动、不造成接触伤害。母体和小怪各按普通击杀计分、掉落。
-分裂的「存活上限」只计算母体，「同时攻击」填 0，不控制死亡分裂。小怪计入场上总人数，每只母体预留一个额外名额，因此临近人数上限时会提前停止传送门补怪。人数上限至少为 2 才能生成母体。
-死亡分裂不推进传送门生成序号；附近位置被玩家、怪物或障碍物占用时，子怪等待空位。结算、死亡和重新开始都会清空待生成子怪。
-`SplitterOnly` 允许分裂小怪出现；已有自定义配置需手动添加 `Splitter` 阶段后才能刷出它，默认资产已追加阶段。
+The splitter mother has 45 health and 80% of base speed by default. On death it spawns two offspring, each with 14 health and 130% of base speed by default. Mother and offspring health are each multiplied by the wave multiplier. Offspring don't split again, and for 0.4 seconds after spawning they don't move or deal contact damage. Mothers and offspring each score and drop loot like regular kills.
+The splitter's alive cap counts only mothers, and simultaneous attacks should be 0; it doesn't control splitting on death. Offspring count toward the total on-field count, and each mother reserves one extra slot, so portal spawning stops early near the cap. The on-field cap must be at least 2 for a mother to spawn.
+Splitting on death doesn't advance the portal spawn counter. If nearby spots are taken by the player, enemies, or obstacles, offspring wait for space. Settlement, death, and restart all clear pending offspring.
+`SplitterOnly` allows split offspring to appear. Existing custom configurations need a `Splitter` stage added by hand before it spawns; the default asset already has one.
 
-## 无尽模式与表尾增长
+## Endless mode and growth past the table
 
-无尽模式关闭时，在「普通模式总波数」结束后胜利；起始波次会限制到该范围内。
-开启后波数持续增加，20 波以后仍然结算、进商店、继续下一波。HUD 显示 `当前波 / ∞`，储蓄罐利息继续生效。
+With endless mode off, you win after the **total waves in regular mode** (`普通模式总波数`); the start wave is clamped to that range.
+With it on, waves keep increasing: after wave 20 you still get settlement, the shop, and the next wave. The HUD shows `current wave / ∞`, and Piggy Bank interest keeps working.
 
-超过最高配置波次后，以最后一行作为基础，按超出波数累加：开场人数、人数上限、基础刷怪速度、血量倍率、基础移速。
-血量倍率默认每波加 0.1（加法增长），例如第 21 波 1.1、第 22 波 1.2；设为 0 可保持基础血量。时长与特殊敌人阶段沿用表尾；仍可追加例如第 30、50 波的专门数值行。
-总人数硬上限最多 240，最终生成速度最多 30 只/秒，基础移速最多 10，最终敌人血量最多 1,000,000。
-默认限制更保守：开场最多 64、最终生成速度最多 12 只/秒、基础移速最多 4.2。
-这些限制也适用于普通模式。当前没有新增无尽专属敌种、装备层级或经济曲线，后续可在此基础上扩展。
+Past the highest configured wave, the last row is the base, and values grow with the number of extra waves: opening count, on-field cap, base spawn rate, health multiplier, and base movement speed.
+The health multiplier grows by 0.1 per wave by default (additive), for example 1.1 at wave 21 and 1.2 at wave 22; set it to 0 to keep base health. Duration and special enemy stages reuse the end of the table; you can still add dedicated rows, for example for waves 30 and 50.
+The total on-field hard cap is at most 240, the final spawn rate at most 30 enemies/second, base movement speed at most 10, and final enemy health at most 1,000,000.
+The default limits are more conservative: at most 64 opening enemies, a final spawn rate of at most 12 enemies/second, and base movement speed of at most 4.2.
+These limits also apply to regular mode. There are no endless-only enemy types, equipment tiers, or economy curves yet; they can be built on top of this later.
 
-## 代码与检查
+## Code and checks
 
-- `EnemyDefinition.cs`：怪物自身的基础血量与默认值。
-- `WaveRules.cs`：纯 C# 配置模型、默认表、阶段选择和增长逻辑。
-- `WaveConfiguration.cs`：可序列化 Unity 资产与副本创建。
-- `WaveConfigurationEditor.cs`：中文表格编辑窗口。
-- `WaveSession`：按配置计时，区分有限与无尽。
-- `CombatController`：从本局配置读取波次属性；特殊敌人文件只保留对应行为。
-- `WaveSession.TotalWaves` 仅保留为默认 20 波检查的兼容常量；运行时使用 `FinalWave` 与 `Endless`。
+- `EnemyDefinition.cs`: each enemy's own base health and defaults.
+- `WaveRules.cs`: pure C# configuration model, default table, stage selection, and growth logic.
+- `WaveConfiguration.cs`: serializable Unity asset and copy creation.
+- `WaveConfigurationEditor.cs`: the table editor window (Chinese UI).
+- `WaveSession`: timing from the configuration, distinguishing finite and endless runs.
+- `CombatController`: reads wave stats from the run's configuration; special enemy files only keep their own behavior.
+- `WaveSession.TotalWaves` is kept only as a compatibility constant for the default 20-wave checks; the runtime uses `FinalWave` and `Endless`.
 
-自动验证：**Tools → Survivors → Verify Wave Configuration**（退出 Play 模式后运行）。
-覆盖默认配置兼容、三种特殊敌人的回归、修改配置后的新局生效、指定敌人测试、有限终点、无尽 20→21 波商店流程、晚期增长上限。
-成功日志：`WAVE_CONFIGURATION_CHECKS_PASSED`。
+Automated verification: **Tools → Survivors → Verify Wave Configuration** (run outside Play Mode).
+It covers default configuration compatibility, regressions for the three special enemies, edited configurations taking effect in a new run, targeted enemy tests, the finite end, the endless wave 20 → 21 shop flow, and late-game growth caps.
+Success log: `WAVE_CONFIGURATION_CHECKS_PASSED`.
 
-分裂怪完整验证：**Tools → Survivors → Verify Splitter**，包含上述回归与分裂怪专项测试，成功日志为 `SPLITTER_CHECKS_PASSED`。
+Full splitter verification: **Tools → Survivors → Verify Splitter** includes the regressions above plus splitter-specific tests; the success log is `SPLITTER_CHECKS_PASSED`.
 
-独立血量检查随配置验证运行，成功标记 `ENEMY_HEALTH_CHECKS_PASSED`：覆盖第一波石甲重锤存活、跨波相同基础属性、修改隔离、血量倍率、小怪属性、旧数据兼容与重锤回归。
+A separate health check runs with the configuration verification, with the success marker `ENEMY_HEALTH_CHECKS_PASSED`. It covers a stone-armored enemy surviving a wave 1 hammer hit, identical base stats across waves, edit isolation, health multipliers, offspring stats, old-data compatibility, and hammer regressions.

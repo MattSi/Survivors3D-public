@@ -1,43 +1,43 @@
-# 林地石王 / Forest Stone King
+# Forest Stone King
 
-`ForestBoss-Concept.png` 是已确认的 AI 概念参考；实际模型由 `create_forest_boss.py` 使用简单倒角方块制作。
-可编辑源文件为 `ForestStoneKing.blend`，运行资源为 `Assets/Resources/Characters/ForestStoneKing.fbx`。
-`BossLeftArm` / `BossRightArm` 是独立肩部枢轴，`FaceAnchor` 统一朝向，`Boss_Core` / `Boss_Seam` 支持蓄力与狂怒发光。
-模型高度 3.2 米，身体命中半径 1.05 米，实体碰撞限制玩家穿身。
+`ForestBoss-Concept.png` is the approved AI concept reference; the actual model is built by `create_forest_boss.py` from simple beveled blocks.
+The editable source file is `ForestStoneKing.blend`, and the runtime asset is `Assets/Resources/Characters/ForestStoneKing.fbx`.
+`BossLeftArm` / `BossRightArm` are separate shoulder pivots, `FaceAnchor` sets the facing direction, and `Boss_Core` / `Boss_Seam` support the charge-up and rage glow.
+The model is 3.2 m tall with a 1.05 m body hit radius, and solid collision stops the player from walking through it.
 
-## 进入战斗
+## Entering the fight
 
-- 默认普通 Mixed 模式最终波（第 20 波）出现。此波清理随机生成的掩体、隐藏传送门，保留外围森林，停止普通刷怪。
-- Boss 独立血量默认 3600，代码默认值与实际配置资产保持一致，不受普通怪血量倍率影响。当前为强化版数值，仍需结合不同配装试玩平衡。
-- 波次编辑器增加「最终波林地石王」和「林地石王血量」。自定义总波数时跟随最终波；无尽模式和 Only 测试模式保持计时规则。
-- 最终波计时不触发胜利，必须击败 Boss。结算在战斗 tick 完成后执行，避免击杀过程中清空武器遍历集合。
-- 快速试玩：非 Play 模式执行 **Tools > Survivors > Play Forest Stone King**，使用临时第 20 波配置、强化步枪/双刀/冰霜；不修改默认资产。
+- It appears on the final wave (wave 20) of the default regular Mixed mode. This wave clears the randomly generated cover, hides the portals, keeps the surrounding forest, and stops regular spawning.
+- The boss has its own health, 3600 by default. The code default matches the actual configuration asset, and it is not affected by the regular enemy health multiplier. These are the current buffed values and still need balancing through playtests with different loadouts.
+- The wave editor adds **Final-wave Forest Stone King** (`最终波林地石王`) and **Forest Stone King health** (`林地石王血量`). With a custom total wave count, the boss follows the final wave; endless mode and Only test modes keep the timing rules.
+- The final wave's timer does not trigger victory; you must defeat the boss. Settlement runs after the combat tick completes, so kills never clear the collections being iterated by weapons.
+- Quick playtest: outside Play Mode, run **Tools > Survivors > Play Forest Stone King**. It uses a temporary wave 20 configuration with an upgraded rifle, twin blades, and frost, without modifying the default asset.
 
-## 招式
+## Attacks
 
-- **战斗循环**：普通阶段进攻约 18 秒，半血后约 14 秒；时间到后完成当前连招和恢复，再以 9 米/秒跑向远离玩家的场边。退场不造成接触伤害，受霜冻和掩体约束。
-- **场边休息与兵潮**：到达后休息 8 秒，停手并获得 50% 全伤害减免，仍可被击杀。血条下方显示「休息·减伤50%·兵潮」。普通兵潮总预算 24 只、同时存活上限 18；半血后总预算 32 只、上限 24。普通每批最多 4 只，狂怒每批最多 5 只，每批地面预警 1 秒。入口分布在三个场边方向，休息开始时离玩家最近的一侧整轮不刷怪。出生仍检查安全距离、掩体和占位；达到上限则暂缓，清怪后可继续补充至本轮预算，8 秒结束后未出生的名额作废。
-- **冲锋回场**：休息结束先取消未完成的出生预警，再锁定冲锋路线并预警整整 1 秒，冲锋接重砸后留出 2 秒恢复，随后重新进入进攻循环。休息减伤在回场预警开始时结束；剩余小兵继续战斗并计入后续数量上限，不会瞬间消失。半血判定等待完整招式与恢复结束，不会在休息或回场中途改招。
-- 苏醒 2 秒；接近速度 3.6 米/秒，半血强化至 4.6。恢复后只短暂停顿 0.25 秒；取消原来的 11 米出招限制，远处会主动冲锋接近。
-- **重砸**：朝锁定方向前方 0.9 米的地面释放 3 米半径攻击，预警 1.25 秒，伤害 32，单招恢复 1.1 秒。狂怒半径 3.4 米、预警 1 秒、伤害 38。
-- **冲锋接重砸**：宽箭头锁定整条路径，提前量最多 1.8 米；预警 0.85 秒，速度 18 米/秒，最长 14 米。狂怒预警 0.7 秒、速度 22、最长 16 米。普通、连招和回场冲锋共用此速度。伤害 26，狂怒 32，受掩体和边界阻挡。停止后以落点为中心预警 0.6 秒，再重砸。圈和路径锁定后不追踪玩家，长帧也不会跳过预警。
-- **两种骨针齐射**：交替使用当前位置扇射（五发间隔 18 度）和移动预判（五发间隔 12 度，提前量最多 5 米）。预判包含最后锁定时间和弹道飞行时间。抬臂、胸核发光、朝向和顶部名称提示蓄力；每组发射前锁定方向 0.35 秒，锁定后转向可闪避。普通阶段蓄力 1 秒、发一组、恢复 0.9 秒；狂怒蓄力 0.85 秒、发两组，间隔约 0.65 秒。Boss 骨针速度 12 米/秒、射程 26 米、伤害 12（狂怒 14）；普通射手仍为速度 8.5、射程 12、伤害 8。
-- **半血连招**：按「双齐射→冲锋→重砸」和「冲锋→重砸→再次冲锋→重砸」循环；每次追加冲锋都会重新瞄准并给出完整预警。中途不插入恢复或召唤，最后一砸结束后统一恢复 2 秒，顶部显示「连招·冲锋 / 连招·重砸」。普通阶段冲锋接重砸也保留 2 秒恢复。
-- **进攻期少量增援**：开场或回场 6 秒后等待招式间隙召唤，之后普通阶段每 10–12 秒、狂怒每 7–9 秒召唤 3 只普通近战怪；半血觉醒后优先召唤一波 4 只，存活小兵达到 6 只便不再补充。出生点围绕 Boss 分散布置，地面圈预警 1 秒，出生时再次确认与玩家至少相距 3 米；玩家走进预警附近则取消该点出生。召唤后恢复 0.6 秒。小兵沿用普通怪血量、速度和材料掉落，Boss 死亡后随结算清理；失败和重开也取消未完成的召唤及兵潮。
-- **石甲抗弹**：步枪直击 Boss 造成 50% 伤害（取整、最低 1）；与休息减伤叠加时约为原伤害的 25%。其他武器和持续伤害只在休息时减半。普通敌人的伤害规则保持不变。血条、名称和招式提示并入顶部状态区。
-- 半血后在完整恢复期结束后触发一次 1.5 秒狂怒觉醒，不会抢走输出窗口或更换已锁定的攻击。长帧也保留完整觉醒时间，胸核和裂缝增强发光。
-- 所有攻击使用玩家已有护盾、冲刺保护和受伤无敌。恢复期不造成接触伤害，给近战留出空间。
-- 霜冻减速、持续燃烧、中毒、暴击和吸血仍有效。免疫武器击退；重锤每次恢复期最多追加 0.4 秒硬直，防止永久控制。
-- 面积伤害和近战范围针对 Boss 表面计算，普通敌人保留原有范围规则。
+- **Combat loop**: the attack phase lasts about 18 seconds normally and about 14 seconds after half health. When time is up, the boss finishes its current combo and recovery, then runs at 9 m/s to the arena edge away from the player. Leaving deals no contact damage and is affected by frost and cover.
+- **Rest at the edge and horde waves**: on arrival it rests for 8 seconds, stops attacking, and gains 50% damage reduction from all sources, but can still be killed. Below the health bar it shows `休息·减伤50%·兵潮` (Rest · 50% damage reduction · Horde). A normal horde has a total budget of 24 enemies with at most 18 alive at once; after half health, the budget is 32 with a cap of 24. Normal batches have at most 4 enemies, rage batches at most 5, and each batch has a 1-second ground warning. Entry points are spread over three arena edges; the edge closest to the player when the rest starts spawns nothing for the whole round. Spawns still check safe distance, cover, and occupancy. When the cap is reached, spawning pauses; after enemies are cleared it can refill up to the round's budget. Any unspawned slots are discarded when the 8 seconds end.
+- **Charge back in**: when the rest ends, it first cancels any unfinished spawn warnings, then locks its charge path and warns for a full 1 second. The charge is followed by a slam with 2 seconds of recovery, then it re-enters the attack loop. Rest damage reduction ends when the return warning starts. Remaining minions keep fighting and count toward later caps; they don't vanish instantly. The half-health check waits for the full attack and recovery to finish, so it never changes attacks mid-rest or mid-return.
+- Wakes up over 2 seconds. Approach speed is 3.6 m/s, rising to 4.6 after half health. After recovery it pauses for only 0.25 seconds; the old 11 m attack range limit was removed, so from far away it charges in on its own.
+- **Slam**: a 3 m radius attack on the ground 0.9 m in front along the locked direction, with a 1.25-second warning, 32 damage, and 1.1 seconds of recovery for a single slam. In rage: 3.4 m radius, 1-second warning, 38 damage.
+- **Charge into slam**: a wide arrow locks the whole path, leading the player by up to 1.8 m; 0.85-second warning, 18 m/s, up to 14 m. In rage: 0.7-second warning, speed 22, up to 16 m. Regular, combo, and return charges all use this speed. 26 damage, 32 in rage, blocked by cover and boundaries. After stopping, it warns for 0.6 seconds centered on the landing spot, then slams. Once the circle and path are locked they don't track the player, and long frames never skip the warning.
+- **Two kinds of bone-needle volleys**: it alternates between a fan at the player's current position (five needles 18° apart) and a predictive volley (five needles 12° apart, leading by up to 5 m). The prediction accounts for the final lock time and projectile flight time. Raised arms, a glowing chest core, facing, and the name label at the top telegraph the charge-up. The direction locks 0.35 seconds before each volley fires, so turning after the lock lets you dodge. Normally: 1-second charge-up, one volley, 0.9 seconds of recovery. In rage: 0.85-second charge-up, two volleys about 0.65 seconds apart. Boss needles travel at 12 m/s with a 26 m range and 12 damage (14 in rage); regular shooters still use speed 8.5, range 12, and damage 8.
+- **Half-health combos**: it cycles through "double volley → charge → slam" and "charge → slam → charge again → slam". Each extra charge re-aims and gives a full warning. No recovery or summons are inserted mid-combo; after the final slam there is one shared 2-second recovery, and the top shows `连招·冲锋 / 连招·重砸` (Combo · Charge / Combo · Slam). The regular-phase charge into slam also keeps its 2-second recovery.
+- **Small reinforcements during the attack phase**: 6 seconds after the start or the return, it waits for a gap between attacks to summon. After that it summons 3 regular melee enemies every 10–12 seconds normally, or every 7–9 seconds in rage. Right after the half-health awakening it summons a wave of 4 first, and stops adding more once 6 minions are alive. Spawn points are spread around the boss with a 1-second ground circle warning, and at spawn time it re-checks that they are at least 3 m from the player; if the player walks near a warning, that spawn is cancelled. Summoning is followed by 0.6 seconds of recovery. Minions use regular enemy health, speed, and material drops, and are cleaned up with settlement after the boss dies; defeat and restart also cancel unfinished summons and hordes.
+- **Stone armor vs. bullets**: direct rifle hits on the boss deal 50% damage (rounded, minimum 1); stacked with the rest damage reduction, that is about 25% of the original damage. Other weapons and damage over time are only halved during rests. Damage rules for regular enemies are unchanged. The health bar, name, and attack telegraphs are merged into the top status area.
+- After half health, once a full recovery period ends, a one-time 1.5-second rage awakening triggers. It never steals a damage window or changes an attack that is already locked. Long frames still keep the full awakening time, and the chest core and cracks glow brighter.
+- All attacks respect the player's existing shield, dash protection, and post-hit invulnerability. Recovery periods deal no contact damage, leaving room for melee.
+- Frost slow, burning, poison, crits, and life steal still work. It is immune to weapon knockback; the hammer adds at most 0.4 seconds of stagger per recovery period, preventing permanent control.
+- Area damage and melee range are measured against the boss's surface; regular enemies keep their original range rules.
 
-## 验证
+## Verification
 
-**Tools > Survivors > Verify Forest Stone King**，或 Unity `-batchmode -executeMethod ForestBossChecks.Run`（不添加 `-quit`）。
-检查最终波胜利条件、实际配置血量、模型及抬臂、远距离进攻、冲锋接重砸、可闪避且有限的半血连招、完整恢复窗口、两种齐射及锁定后转向、Boss 与普通射手独立数值、召唤预警/节奏/数量上限/安全距离/掉落、长帧、障碍、全部 11 把武器、状态效果、死亡/重开/结算清理。
-兵潮检查另外输出 `FOREST_BOSS_HORDE_PASSED`，覆盖完整循环、24/32 总预算、18/24 存活上限、整侧通路、减伤、长帧和清理。总体输出 `FOREST_BOSS_CHECKS_PASSED`；图形模式下生成战斗、重砸、齐射、召唤、小兵、兵潮（`ForestBoss-Horde.png`）和回场（`ForestBoss-Return.png`）截图。
+**Tools > Survivors > Verify Forest Stone King**, or Unity `-batchmode -executeMethod ForestBossChecks.Run` (don't add `-quit`).
+It checks the final-wave victory condition, the configured health, the model and arm raise, long-range offense, charge into slam, dodgeable and bounded half-health combos, full recovery windows, both volley types and turning after the lock, independent boss and regular-shooter values, summon warnings/pacing/caps/safe distance/drops, long frames, obstacles, all 11 weapons, status effects, and death/restart/settlement cleanup.
+The horde check also outputs `FOREST_BOSS_HORDE_PASSED`, covering the full loop, the 24/32 total budgets, the 18/24 alive caps, the whole-side open lane, damage reduction, long frames, and cleanup. The overall output is `FOREST_BOSS_CHECKS_PASSED`. In graphics mode, it captures screenshots of combat, slam, volleys, summons, minions, the horde (`ForestBoss-Horde.png`), and the return (`ForestBoss-Return.png`).
 
-重新生成模型：
+Regenerate the model:
 
 ```powershell
-& 'C:/Oracle/softs/blender-5.2.1-windows-x64/blender.exe' --background --threads 4 --python ArtSource/Enemies/create_forest_boss.py
+& '<BlenderPath>/blender.exe' --background --threads 4 --python ArtSource/Enemies/create_forest_boss.py
 ```

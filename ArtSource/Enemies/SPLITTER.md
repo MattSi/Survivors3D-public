@@ -1,28 +1,28 @@
-# 分裂怪与分裂小怪
+# Splitter and Splitling
 
-造型沿用已确认概念：蓝青色鼓胀方块身体、黄绿色裂缝、方眼和短脚。小怪约为母体一半高度，裂缝更少。
+The design follows the approved concept: a swollen blue-cyan block body, yellow-green cracks, square eyes, and short feet. The offspring are about half the mother's height, with fewer cracks.
 
-- 母体模型：`Assets/Resources/Characters/EnemySplitter.fbx`，374 三角形，场景高度 1.15。
-- 小怪模型：`Assets/Resources/Characters/EnemySplitling.fbx`，362 三角形，场景高度 0.58。
-- Blender 源文件：`ArtSource/Enemies/BlockSplitter.blend`。
-- 生成脚本：`ArtSource/Enemies/create_splitter.py`，使用 Blender 后台执行即可重建两份 FBX 与模型预览。
-- 模型预览：`Splitter-preview.png`；实际 Unity 森林营地截图：`Splitter-InGame.png`。
+- Mother model: `Assets/Resources/Characters/EnemySplitter.fbx`, 374 triangles, 1.15 tall in the scene.
+- Offspring model: `Assets/Resources/Characters/EnemySplitling.fbx`, 362 triangles, 0.58 tall in the scene.
+- Blender source file: `ArtSource/Enemies/BlockSplitter.blend`.
+- Generator script: `ArtSource/Enemies/create_splitter.py`; run it with Blender in background mode to rebuild both FBX files and the model preview.
+- Model preview: `Splitter-preview.png`; actual Unity Forest Camp screenshot: `Splitter-InGame.png`.
 
-## 行为
+## Behavior
 
-母体以普通怪 80% 的速度追逐，自身基础血量为 45，再乘波次血量倍率。死亡时闪出裂缝色光圈与四块碎片，下一次战斗更新生成两只小怪。小怪独立基础血量为 14，再乘波次血量倍率，移速为 130%；小怪不会继续分裂。血量均向上取整，最低 1。
+The mother chases at 80% of regular enemy speed, with its own base health of 45 multiplied by the wave health multiplier. On death it flashes a crack-colored ring and four fragments, and the next combat update spawns two offspring. Offspring have their own base health of 14 multiplied by the wave health multiplier, and 130% movement speed; offspring don't split again. All health values are rounded up, with a minimum of 1.
 
-出生小怪有 0.4 秒展开动作，此时不移动、不造成接触伤害，但可以被玩家攻击。出生位置在母体死亡点附近选择，检查障碍物、边界、玩家和其他敌人，找不到空位则等待。冰冻减速、重锤眩晕、武器命中范围均使用对应体型。
+Spawned offspring have a 0.4-second unfolding animation during which they don't move or deal contact damage but can be attacked by the player. Spawn positions are chosen near where the mother died, checking obstacles, boundaries, the player, and other enemies; if no space is free, they wait. Frost slow, hammer stun, and weapon hit ranges all use the matching body size.
 
-每只母体提前预留一个分裂名额，母体死亡后自身名额加预留名额足够容纳两只小怪。活跃小怪与待出生小怪均占用总人口预算，防止无尽模式失控。母体及小怪各计一次击杀和正常材料掉落。清场/结算/失败/重开不触发分裂，并取消等待中的出生。
+Each mother reserves one split slot in advance, so after it dies its own slot plus the reserved slot are enough for two offspring. Active and pending offspring both count against the total population budget, which keeps endless mode from getting out of control. Mothers and offspring each count as one kill with normal material drops. Field clearing, settlement, defeat, and restart don't trigger splitting and cancel any pending spawns.
 
-## 配置和测试
+## Configuration and testing
 
-打开 **Tools → Survivors → Wave Configuration**。
+Open **Tools → Survivors → Wave Configuration**.
 
-- 正常混合：第 11 波起，每第 11 次传送门生成可出现一只，母体最多 2 只；第 16 波起最多 3 只。冲锋、石甲、投弹优先级更高。
-- 快速测试：选 `SplitterOnly`，起始波次设 1，保存后开始新局。击杀母体观察分裂；要观察更多母体可调整 Splitter 阶段的存活上限。
-- 「同时攻击」保持 0，此列不控制死亡分裂。总人数上限至少设 2。
-- 旧的自定义配置需要自行加 `Splitter` 阶段；默认资产已经追加，原有参数未重置。
+- Normal mix: from wave 11, one can appear every 11th portal spawn, with at most 2 mothers; from wave 16, at most 3. Chargers, stone-armored enemies, and bombers have higher priority.
+- Quick test: choose `SplitterOnly`, set the start wave to 1, save, and start a new run. Kill a mother to watch it split; to see more mothers, raise the Splitter stage's alive cap.
+- Keep **Simultaneous attacks** (`同时攻击`) at 0; this column doesn't control splitting on death. Set the total on-field cap to at least 2.
+- Older custom configurations need a `Splitter` stage added by hand; the default asset already has one, and existing parameters were not reset.
 
-退出 Play 模式后运行 **Tools → Survivors → Verify Splitter**，测试模型、属性、减速/眩晕、分裂数量、范围击杀、非递归、掉落、障碍物/边界、人数预留与清理，另包含已有特殊敌人及波次配置回归。测试使用临时配置，不修改保存的游戏配置。
+After leaving Play Mode, run **Tools → Survivors → Verify Splitter** to test the model, stats, slow/stun, split count, area kills, non-recursion, drops, obstacles/boundaries, population reservation, and cleanup, plus regressions for the existing special enemies and wave configuration. The test uses a temporary configuration and doesn't modify the saved game configuration.

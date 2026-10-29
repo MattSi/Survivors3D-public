@@ -47,8 +47,6 @@ The `Tools > Survivors` menu contains scene setup, verification scripts for weap
 
 ## Documentation
 
-The design documents are written in Chinese.
-
 | Document | Contents |
 |---|---|
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Runtime module responsibilities |

@@ -1,92 +1,89 @@
-# 武器与装备选择
+# Weapons and Equipment Choices
 
-毒液构筑：新增商店道具「缓释阀」，毒池持续 +3 秒，喷洒间隔 0.8 → 1.0 秒。**Tools → Survivors → Poison Build Lab** 提供毒液、寒霜、阀门与同价升级的对照。见 [毒径牧群](POISON_BUILD.md)。
+Poison build: a new shop item, the **Slow-Release Valve**, adds +3 seconds to poison pool duration and changes the spray interval from 0.8 to 1.0 seconds. **Tools → Survivors → Poison Build Lab** compares poison, frost, the valve, and equal-cost upgrades. See [Poison Trail Herding](POISON_BUILD.md).
 
-贴身构筑实验：**Tools → Survivors → Melee Build Lab** 提供双刀、范围、吸血、重锤的逐项对照、自由配装和本波伤害／回血统计。试玩步骤、初轮结果与限制见 [贴身绞杀实验](MELEE_BUILD.md)。
+Close-range build experiment: **Tools → Survivors → Melee Build Lab** provides item-by-item comparisons of twin blades, range, life steal, and the hammer, free loadouts, and per-wave damage/healing stats. Playtest steps, first-round results, and limitations are in [Close-Quarters Shredding Experiment](MELEE_BUILD.md).
 
-每波 30 秒，共 20 波。现有 12 种武器；开局从 12 种武器中选择 1 种，最多同时装备 3 种不同武器，每种最多 3 级。商店购入新武器花费 20 材料，升级依次为 20、25 材料。
+Each wave lasts 30 seconds, with 20 waves in total. There are currently 12 weapons. At the start you pick 1 of the 12; you can equip up to 3 different weapons at once, each up to level 3. Buying a new weapon in the shop costs 20 materials, and upgrades cost 20, then 25 materials.
 
-满槽购买时，先选择替换对象再付款。取消不扣费；替换不返还材料，旧武器等级丢失。被替换的武器以后可以重新购入，从 1 级开始。已有被动道具保留；当前失去适用武器的商店卡片被移除，刷新时按新装备重新生成。
+When buying with all slots full, you first choose which weapon to replace, then pay. Cancelling costs nothing. Replacing refunds no materials, and the old weapon's level is lost. A replaced weapon can be bought again later, starting at level 1. Existing passive items are kept; shop cards that no longer have a matching weapon are removed, and refreshes generate cards for the new equipment.
 
-| 武器 | 基础伤害 | 间隔 | 范围 | 机制 |
+| Weapon | Base damage | Interval | Range | Mechanics |
 | --- | ---: | ---: | ---: | --- |
-| 三连发步枪 | 每发 6 | 每轮起始间隔 0.7 秒，轮内 0.1 秒 | 14 米 | 三连发，每发重新选目标；无默认溅射，保留弹药强化；木托铁身、枪口闪光、弹道拖尾和后坐力，命中闪白并轻微击退 |
-| 旋转双刀 | 10/12/14 | 同敌命中冷却 1.25/1.125/1 秒 | 2.2/2.42/2.64 米 | 两把短宽铁刃，每 2 秒环绕一圈；木柄、布带、深色护手和浅色刀锋。一级普通命中可击杀第一波 10 血敌人 |
-| 喷火 | 每次直接伤害 3/4/5 | 2/1.8/1.6 秒（浓缩燃料另加冷却） | 5/5.5/6 米 | 扇形火焰与灼烧；独立伤害成长 |
-| 长矛 | 24 | 回手后冷却 0.75 秒 | 8 米选敌，飞至墙或障碍物 | 手持待机，0.12 秒蓄力，20 米/秒直线投掷；优先串中多人，无限贯穿且伤害不衰减，每敌每次投掷只命中一次；撞墙停留 0.2 秒后回手，场上只一支 |
-| 十字弓 | 每箭 12 | 1.2 秒 | 基础 16 米 | 四级发射 2/3/4/5 箭，扇形 15/25/35/45 度；可多箭命中同一目标，普通暴击；穿透由弹药道具提供 |
-| 裂地重锤 | 中心即死 | 1.5 秒 | 3 米内发现敌人，2 米内选择密集落点 | 优先中心击杀数，其次外围命中数，同分选更近处；举锤 0.25 秒后下砸，中心 1.5 米直接砸死并压扁，外围 2.8 米冲击先击退 0.4 米，再眩晕 1 秒 |
-| 寒霜领域 | 落地 20/25/30；后来进入 4 | 2.8 秒 | 2.5/2.9/3.3 米 | 冰晶从 5 米高处落下，0.35 秒后造成范围伤害并留下冰霜，持续 1.6/2/2.4 秒；区域内减速 35/40/45%，不眩晕，不发射投射物 |
-| 火把 | 12/14/16 | 1 秒 | 2.8 米；横扫 140/160/180 度 | 0.14 秒后摆、0.18 秒横扫、0.16 秒回手；每挥每敌一次，点燃并击退 0.9/1.2/1.5 米，攻击和击退受墙壁及障碍物限制 |
-| 火球 | 12/17/22 | 1.2/1.08/0.96 秒 | 射程 12/13.2/14.4 米；爆炸半径 1.5/1.65/1.8 米 | 自动瞄准最近可见敌人当前位置，14 米/秒直线飞行；命中首敌、障碍或射程终点后爆炸，每敌只结算一次；范围伤害受障碍遮挡 |
+| Three-round burst rifle | 6 per shot | 0.7 s between bursts, 0.1 s within a burst | 14 m | Three-round burst, each shot re-selects a target; no default splash, ammo upgrades kept; wooden stock and iron body, muzzle flash, bullet tracer, and recoil; hits flash white with slight knockback |
+| Orbiting twin blades | 10/12/14 | Same-enemy hit cooldown 1.25/1.125/1 s | 2.2/2.42/2.64 m | Two short, wide iron blades orbiting once every 2 s; wooden grips, cloth wraps, dark guards, and light edges. A level 1 regular hit kills a 10-health wave 1 enemy |
+| Flamethrower | 3/4/5 direct damage per hit | 2/1.8/1.6 s (Concentrated Fuel adds cooldown) | 5/5.5/6 m | Cone of flame plus burning; its own damage scaling |
+| Spear | 24 | 0.75 s cooldown after it returns | Targets within 8 m, flies until a wall or obstacle | Held at the ready, 0.12 s wind-up, thrown in a straight line at 20 m/s; prefers lines that skewer several enemies, pierces infinitely with no damage falloff, and hits each enemy once per throw; stays stuck in a wall for 0.2 s before returning; only one on the field |
+| Crossbow | 12 per bolt | 1.2 s | 16 m base | Fires 2/3/4/5 bolts at levels 1–4 in a 15/25/35/45° fan; several bolts can hit the same target, with regular crits; piercing comes from ammo items |
+| Earthbreaker (hammer) | Instant kill at center | 1.5 s | Detects enemies within 3 m, picks a dense landing spot within 2 m | Prefers the most center kills, then the most outer hits, then the closer spot on ties; slams down 0.25 s after raising; the 1.5 m center crushes and flattens, and the 2.8 m outer shockwave knocks back 0.4 m, then stuns for 1 s |
+| Frost Field | 20/25/30 on landing; 4 for later entry | 2.8 s | 2.5/2.9/3.3 m | Ice crystals fall from 5 m up and deal area damage after 0.35 s, leaving frost for 1.6/2/2.4 s; slows by 35/40/45% inside the area, no stun, no projectiles |
+| Torch | 12/14/16 | 1 s | 2.8 m; sweep of 140/160/180° | 0.14 s backswing, 0.18 s sweep, 0.16 s recovery; hits each enemy once per swing, ignites and knocks back 0.9/1.2/1.5 m; attacks and knockback are blocked by walls and obstacles |
+| Fireball | 12/17/22 | 1.2/1.08/0.96 s | Range 12/13.2/14.4 m; explosion radius 1.5/1.65/1.8 m | Auto-aims at the current position of the nearest visible enemy and flies straight at 14 m/s; explodes on the first enemy, an obstacle, or at max range, hitting each enemy once; area damage is blocked by obstacles |
+| Boomerang Blade | 14/19/24 per pass | 1.1/0.99/0.88 s after it returns | Flies out 7/7.7/8.4 m | Automatic piercing throw, hitting each enemy once on the way out and once on the way back; returns to the player's current position, so strafing or dashing changes the return path; hitting an obstacle starts the return early, and a blocked return is caught with no damage |
+| Poison Backpack | 3/4/5 per tick | Spray every 0.8 s, poison ticks every 0.5 s | Pool radius 0.8/0.95/1.1 m | Automatically sprays behind the most recent actual movement direction, landing after 0.18 s; pools last 3/3.5/4 s, and enemies stay poisoned for 1 s after leaving; overlaps don't stack damage; it doesn't hurt the player and can't crit |
 
-| 回旋飞刀 | 每程 14/19/24 | 回手后 1.1/0.99/0.88 秒 | 飞出 7/7.7/8.4 米 | 自动贯穿投掷，飞出和回程每敌各一次；追随玩家当前位置回收，横移或冲刺可改变回程攻击路线；撞障碍提前返程，回程受阻则无伤害收回 |
+Weapon upgrades add 5 base damage and 10% base range, and reduce the base attack interval by 10%. The hammer's center is an instant kill and doesn't use a damage value; the old Ghost Axe kill scaling was removed. Before landing, the target spot follows the player and always stays within 2 m in front. Center kills leave a flat husk for 0.6 s. Enemies stunned by the outer ring stop moving and dealing contact damage; enemies outside the shockwave range or behind obstacles are unaffected. Ground cracks fade after about 1.1 s.
 
-| 毒液背罐 | 每跳 3/4/5 | 洒毒 0.8 秒，毒伤 0.5 秒 | 毒池半径 0.8/0.95/1.1 米 | 向最近实际移动方向后方自动洒毒，落地延迟 0.18 秒；毒池持续 3/3.5/4 秒，离池中毒 1 秒；重叠不叠伤，不伤自己、不暴击 |
+Magazine, Armor-Piercing Rounds, Incendiary Rounds, Ricochet, and Split apply to guns and the crossbow. Frost Field doesn't use ammo upgrades. Melee range and life steal apply to the twin blades, spear, hammer, torch, and boomerang blade. Burn items require the flamethrower, the torch, or an ammo weapon together with Incendiary Rounds. General crit, health, and economy items stay available.
 
-武器升级增加 5 基础伤害、10% 基础范围，并减少 10% 基础攻击间隔。重锤中心即死，不使用伤害数值，已移除原幽魂斧击杀成长；落地前落点随玩家移动，始终位于身前 2 米内。中心击杀留下 0.6 秒扁平残骸。外围眩晕期间停止移动和接触伤害；不影响冲击范围以外或障碍物遮挡的敌人。地面裂纹约 1.1 秒后消退。
+Select the starting weapon with the keyboard arrow keys or gamepad stick and confirm with Enter / A. The replacement screen supports the arrow keys, Enter / A, Esc / B to cancel, and the mouse.
 
-弹匣、穿甲弹、燃烧弹、弹射与分裂适用于枪械和十字弓。寒霜领域不使用弹药强化。近战范围与吸血适用于双刀、长矛、重锤、火把和回旋飞刀。燃烧道具需要喷火、火把，或装备弹药武器与燃烧弹。通用暴击、生命、经济等道具保持可用。
+Verification entry point: Unity menu `Tools > Survivors > Verify Weapon Expansion` (run outside Play Mode); success log `WEAPON_EXPANSION_PASSED`. The pure C# checks are in `WaveSessionChecks.Run()` and cover eleven starters, filtering, full-slot replacement, and charging. The Unity runtime checks cover hammer flattening, area stun, attack timing, and cleanup.
 
-键盘方向键或手柄摇杆选择起始武器，Enter / A 确认。替换界面支持方向键、Enter / A、Esc / B 取消和鼠标操作。
+## Single-shot fireball
 
-验证入口：Unity 菜单 `Tools > Survivors > Verify Weapon Expansion`（退出 Play Mode 后运行），成功日志 `WEAPON_EXPANSION_PASSED`。纯 C# 检查在 `WaveSessionChecks.Run()`，涵盖十一种开局、过滤、满槽替换、扣费；Unity 运行检查覆盖重锤压扁、范围眩晕、攻击时机和清理。
+The fireball is the ninth starter and shop weapon (weapon ID 8). It uses its own magic hit type and supports general crit and general on-hit items, but not ammo, melee, or burn upgrades. The base fireball doesn't home, pierce, split, or ignite. Damage, crit, and explosion radius are locked in at launch; the target dying doesn't change its flight direction.
 
-## 单发火球
+The visuals use a runtime-generated flat-shaded octahedron fire core, a short orange geometric trail, and a 12-segment ground impact ring; explosion fragments shrink and fade within 0.35 s. No external effect assets are needed. Changing waves and restarting clear projectiles and explosions; death clears fireballs in flight. The starter screen shows weapon cards in four columns, with a description of the selected weapon below.
 
-火球为第九种开局及商店武器（武器 ID 8），使用独立魔法命中类型，支持通用暴击与通用命中道具，不使用弹药、近战、燃烧强化。基础火球不追踪、不穿透、不分裂、不点燃。伤害、暴击与爆炸半径在发射时固定；目标死亡不改变飞行方向。
+`WeaponExpansionChecks.Capture` covers single shots and cooldown, hits during long frames, single area damage, explosion at max range, wall blocking, upgrade crits, death cleanup, and purchase/replacement, and outputs `Logs/Fireball-Flight.png`, `Logs/Fireball-Impact.png`, and `Logs/Fireball-Starters.png`.
 
-视觉使用运行时生成的平面着色八面体火核、橙色几何短拖尾和 12 段地面冲击圈，爆炸碎片在 0.35 秒内收缩消散。无需外部特效资源。换波、重开清理弹体与爆炸，死亡清理在途火球。开局界面为四列武器卡片，下方显示选中武器说明。
+Fireball visibility fix: once equipped, a floating fire core and three sparks stay at the player's shoulder, so the weapon is recognizable even with no target; during cooldown the core shrinks and then recovers. The projectile launches from the same side, with a larger core and trail and a raised visible model; near a wall, the launch origin falls back to the character's position to avoid passing through the wall. Area damage and collision still use the original checks. Verification adds idle display with no target, hiding on cleanup, and automatic launch and kill over a full combat tick.
 
-`WeaponExpansionChecks.Capture` 包含火球单发与冷却、长帧命中、单次范围伤害、射程爆炸、墙体遮挡、升级暴击、死亡清理和购买替换验证，并输出 `Logs/Fireball-Flight.png`、`Logs/Fireball-Impact.png` 和 `Logs/Fireball-Starters.png`。
+Fire core animation: the small core orbits the shoulder in an ellipse with a 2.6 s period, bobbing slightly and spinning; the three sparks circle the core once per second. With a target, the core shrinks and brightens during the last 0.22 s of cooldown; on launch it flicks toward the target for 0.18 s, then recovers from a smaller, dimmer state. The idle core uses its own material, so the animation doesn't change the color of the projectile or explosion. It advances with combat time, stops when paused, and resets on wave changes, death, and unequipping.
 
-火球可见性修正：装备后肩侧常驻悬浮火核与三颗火星，无目标时也可识别装备；冷却时火核缩小再恢复。弹体从同侧发射，增大火核与拖尾并抬高可见模型；靠墙时发射原点回退至角色位置以避免穿墙。范围伤害与碰撞仍使用原有判定。验证增加无目标待机显示、清理隐藏与完整战斗 Tick 自动发射击杀。
+## Defensive torch rework
 
-火核动画：肩侧小椭圆环绕周期 2.6 秒，并轻微上下浮动、自转；三颗火星每秒绕火核一圈。有目标时，冷却最后 0.22 秒收缩并提高亮度；发射时向目标方向轻弹 0.18 秒，随后从较小、较暗状态恢复。待机火核使用独立材质，动画不改变飞行弹体和爆炸的颜色。使用战斗时间推进，暂停时停止，换波、死亡和卸下武器时重置。
+The thick wooden handle, cloth-wrapped head, iron bands, and rivets use beveled blocks; the top has three clusters of orange geometric flame with a yellow inner flame that flickers with a few sparks. At idle it's held up at the side; when attacking it swings back, then sweeps, and the short arc trail only shows during the swing. Melee crit, life steal, range, and burn items are kept. Torch upgrades are an exception: each level adds only 2 damage, and range and interval don't change with level; upgrades mainly increase sweep angle and knockback distance.
 
-## 防卫火把重构
+Runtime verification covers no early hits during wind-up, one hit per enemy per sweep segment, upgraded angle/knockback, obstacle blocking, and cleanup. In-game screenshots are `Logs/Torch-Idle.png`, `Logs/Torch-Windup.png`, and `Logs/Torch-Sweep.png`.
 
-粗木柄、布条包头、铁箍与铆钉使用倒角方块，顶部为三簇橙色几何火焰与黄色内焰，火焰跳动并伴随少量火星。待机时在身侧举起，攻击时先后摆再横扫，短弧形轨迹只在挥击期间显示。保留近战暴击、吸血、范围及燃烧道具。火把升级例外：每级只增加 2 点伤害，射程和间隔不随等级变化，主要提升扫击角度与击退距离。
+Torch swing effect upgrade: a wide orange arc connects 12 geometric flame tongues with yellow cores, unfolding along the path swept by the torch tip. It lingers for 0.22 s after the attack, drifting upward and shrinking. The flame on the torch head grows during the swing. Effect objects are reused and hidden on wave changes, death, and unequipping the torch; hit range and damage rules are unchanged.
 
-运行验证包含蓄力不提前命中、逐段扫击每敌一次、升级角度/击退、障碍遮挡与清理；实机截图为 `Logs/Torch-Idle.png`、`Logs/Torch-Windup.png`、`Logs/Torch-Sweep.png`。
+Torch range and visual upgrade: the base hit radius grows from 2 m to 2.8 m, the sweep angles for the three levels become 140/160/180°, and the fire arc trail keeps up to 105°. The swing model and fire arc extend 40% further outward together. The head flame is wider and taller, and grows further to 1.75× during a swing. Damage is 12/14/16, so a level 1 enemy with 10 health dies in one hit without a crit.
 
-火把挥击特效增强：橙色宽弧连接 12 簇带黄色内芯的几何火舌，沿火把尖端扫过的轨迹展开；攻击后保留 0.22 秒，向上飘散并收缩。挥击时火把头部火焰同步增强。特效对象重复使用，换波、死亡和卸下火把时隐藏，命中范围与伤害规则保持不变。
+## Stat and item fixes
 
-火把范围与表现增强：基础命中半径由 2 米扩大至 2.8 米，三级横扫角度改为 140/160/180 度，火弧拖尾保留最多 105 度；挥击模型与火弧同步向外伸展 40%。头部火焰加宽加高，挥击时进一步增强至 1.75 倍。伤害为 12/14/16，初级 10 生命敌人无需暴击即可一击击杀。
+- Upgrade cards show each weapon's base stats as current level → next level, making clear that item bonuses stack separately; long descriptions can be scrolled.
+- With only the hammer, the Whetstone and Hunting Badge are not offered; they return when paired with a weapon that can crit, and items already owned are kept. With only the hammer, the Vengeance Charm is offered only after the Magnetic Coil provides extra damage.
+- Burning first applies Concentrated Fuel and Vengeance bonuses, then accumulates fractional damage per enemy; re-igniting doesn't reset the accumulated value. Without Vengeance, ten burn ticks with 0/1/2/3 stacks of fuel total 20/28/36/44.
 
-## 属性与道具修复
+## Boomerang Blade
 
-- 升级卡片按武器显示当前等级 → 下一等级的基础数值，明确道具加成另行叠加；长说明可滚动阅读。
-- 单持重锤不供应磨刀石、狩猎徽章；搭配可暴击武器恢复供应，已持有道具保留。单持重锤的复仇护符仅在磁力线圈提供额外伤害后供应。
-- 灼烧先计算浓缩燃料及复仇加成，再按敌人累计小数伤害；重新点燃不重置累计值。无复仇时，0/1/2/3 层燃料的十次跳伤合计为 20/28/36/44。
+The tenth weapon, built from the approved concept as a low-poly shallow-V twin-wing model with a silver blade, wooden handle, dark iron bands, and light wraps. It needs no new input keys, can be a starter or bought for 20 materials, and takes one weapon slot. Detailed parameters and in-game images are in the [Boomerang Blade notes](ArtSource/Weapons/BOOMERANG.md).
 
-## 回旋飞刀
+The Unity menu `Tools > Survivors > Verify Boomerang Blade` verifies two-way hits, piercing, catching while moving, obstacles and boundaries, long frames, purchase and upgrades, gamepad card selection, and cleanup on wave change, death, and unequipping.
 
-第十种武器，按已确认概念制作浅 V 双翼低多边形模型，沿用银刃、木柄、深铁护箍和浅色绑带。无需新增操作键，可作为初始武器或花费 20 材料购买，占用一个武器槽；详细参数与实机图片见 [回旋飞刀说明](ArtSource/Weapons/BOOMERANG.md)。
+## Poison Backpack
 
-Unity 菜单 `Tools > Survivors > Verify Boomerang Blade` 验证双程命中、贯穿、移动接刀、障碍与边界、长帧、购买升级、手柄选卡和换波/死亡/卸下清理。
+The eleventh weapon, using the approved wood-and-iron square canister icon and a back-mounted model in the same style. It automatically sprays behind the last actual movement direction. Standing still doesn't change the direction, turning the camera doesn't change it, and short dashes don't raise the spray rate. Poison pools don't stack damage; enemies stay poisoned for 1 s after leaving a pool, and re-entering only refreshes the remaining time. Poison and burn are independent; the white hit flash and frost tint take priority over the poison tint. Poison damage can trigger general on-hit effects and benefits from Vengeance, but doesn't use crit, melee, ammo, or burn-specific bonuses. With only the backpack, the Whetstone and Hunting Badge are not offered.
 
-## 毒液背罐
+The first purchase costs 20 materials and takes one weapon slot, up to level 3. Pools and sprays are blocked by obstacles, and the ground shape is clipped at obstacle edges. Pools and bubbles are reused, with at most 8 pool objects. Death, settlement, restart, or unequipping clears all poison areas and poison status; pausing freezes the timers. Details are in [Poison Backpack](ArtSource/Weapons/POISON.md); the verification entry point is `Tools > Survivors > Verify Poison Backpack`.
 
-第十一种武器，使用已确认的木铁方罐图标与同风格背部模型。自动向最后实际移动方向后方喷洒；原地不改变方向，转镜头不改变方向，短冲刺不额外提高喷洒频率。毒池不叠加伤害，离池后持续中毒 1 秒，重新进入仅刷新剩余时间。中毒和灼烧独立；命中闪白、寒霜染色优先于毒液染色。毒伤可触发通用命中效果并享受复仇加成，不使用暴击、近战、弹药或燃烧专属加成。单持背罐不供应磨刀石或狩猎徽章。
+## Bait Lantern
 
-首次购买 20 材料，占一个武器槽，最高三级。毒池与喷洒受障碍限制，地面形状在障碍边缘裁切；毒池和气泡复用，池对象最多 8 个。死亡、结算、重开或卸下武器清理所有毒区和中毒状态；暂停冻结计时。详细说明见 [毒液背罐](ArtSource/Weapons/POISON.md)，验证入口 `Tools > Survivors > Verify Poison Backpack`。
+Automatically placed about 1.5 m behind the most recent movement direction; it waits when no enemies are nearby. At most one at a time. It takes one weapon slot, costs 20 materials, and upgrades cost 20 / 25 materials. It can be a starter. When it is smashed or expires, it bursts into flame for 24 / 32 / 40 damage within a 2.2 m radius. The burst doesn't hurt the player, can't crit, doesn't apply burn, and is blocked by walls. Elites and bosses are only immune to the lure and still take burst damage; the lantern is placed automatically even when only these enemies are present. Unequipping, death, and wave cleanup don't trigger the explosion.
 
-
-## 诱饵灯笼
-
-自动在最近移动方向的后方约 1.5 米放置，附近没有敌人时等待；同时最多一盏。占用一个武器槽，购买 20 材料，升级 20 / 25 材料。可作为初始武器：被打碎或自然到期时，在 2.2 米半径内造成 24 / 32 / 40 点爆燃伤害；不伤玩家、不暴击、不附加燃烧，墙体阻挡伤害。精英与首领只免疫引诱，仍会受到爆燃伤害；仅有这些敌人时也会自动放置。卸下、死亡、波次清理不触发爆炸。
-
-| 等级 | 耐久 | 引诱半径 | 持续 | 冷却（从放置开始） |
+| Level | Durability | Lure radius | Duration | Cooldown (from placement) |
 | --- | ---: | ---: | ---: | ---: |
-| I | 30 | 5 米 | 5 秒 | 8 秒 |
-| II | 40 | 5.5 米 | 5.5 秒 | 7 秒 |
-| III | 50 | 6 米 | 6 秒 | 6 秒 |
+| I | 30 | 5 m | 5 s | 8 s |
+| II | 40 | 5.5 m | 5.5 s | 7 s |
+| III | 50 | 6 m | 6 s | 6 s |
 
-普通追兵改为靠近并攻击灯笼，每只每秒最多攻击一次，每次扣 10 耐久。精英、分裂怪及其子体、首领保持原行为。障碍物阻断引诱；放置会检查路径、脚架占地及竞技场边界。玩家仍会受到贴身碰撞伤害。灯笼被击碎或到期后追兵恢复追击，冷却结束后再次自动放置。
+Regular chasers instead approach and attack the lantern, each attacking at most once per second for 10 durability per hit. Elites, splitters and their offspring, and bosses keep their original behavior. Obstacles block the lure; placement checks the path, the stand's footprint, and the arena boundary. The player still takes contact damage. After the lantern is smashed or expires, chasers resume chasing, and it is placed again automatically when the cooldown ends.
 
-绿色诱饵瓶、木架和铁箍沿用现有低多边形模型风格；上方绿条显示耐久，最后一秒瓶身脉动。复用模型，暂停不计时；卸下、死亡与波次清理时移除灯笼及攻击记录。
+The green bait bottle, wooden stand, and iron bands follow the existing low-poly model style; a green bar above shows durability, and the bottle pulses during its last second. The model is reused, and timers stop while paused. Unequipping, death, and wave cleanup remove the lantern and its attack records.
 
-玩法：在旧毒池附近转向，把灯笼留在毒径附近，再走短弧回引。短板是扎堆的追兵会很快拆掉灯笼，精英不受控制，而且爆燃输出间隔较长。暂无大量实战平衡结论。
+How to play: turn near an old poison pool, leave the lantern by the poison trail, then walk a short arc to pull enemies back. The weaknesses are that clustered chasers break the lantern quickly, elites aren't controlled, and the burst has a long interval. There are no balance conclusions from extensive play yet.
 
-试玩：**Tools → Survivors → Poison Build Lab → 配装「诱饵：毒液Ⅱ＋寒霜Ⅰ＋灯笼Ⅰ」**。验证：**Tools → Survivors → Verify Bait Lantern**。
+Playtest: **Tools → Survivors → Poison Build Lab → loadout "Bait: Poison II + Frost I + Lantern I"** (`诱饵：毒液Ⅱ＋寒霜Ⅰ＋灯笼Ⅰ`). Verification: **Tools → Survivors → Verify Bait Lantern**.

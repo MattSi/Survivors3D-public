@@ -1,52 +1,52 @@
-# 游戏音频
+# Game Audio
 
-ForestCamp 和 Playground 通过 `SurvivorPlayground` 自动建立场景级 `GameAudio`，无需手动修改场景。
-`Assets/Resources/Config/DefaultAudioBank.asset` 是可在 Inspector 中编辑的音频配置，直接引用 `Assets/Audio/Kenney` 中的素材，构建时保留被引用音频。
+ForestCamp and Playground automatically create a scene-level `GameAudio` through `SurvivorPlayground`, so no manual scene changes are needed.
+`Assets/Resources/Config/DefaultAudioBank.asset` is the audio configuration, editable in the Inspector. It references assets in `Assets/Audio/Kenney` directly, so referenced audio is kept in builds.
 
-## 已绑定事件
+## Bound events
 
-| 事件 | 播放时机 |
+| Event | When it plays |
 | --- | --- |
-| 菜单选择、点击、确认、返回 | 键盘/手柄移动选项、鼠标点击、确认菜单与打开/关闭图鉴 |
-| 商店购买、刷新、锁定、失败 | 成功扣费/交易后播放对应音效；失败请求播放错误提示；替换取消不播放购买声 |
-| 材料拾取 | 实际增加材料或结算飘分时；零数量清理保持安静 |
-| 草地脚步、冲刺 | 玩家实际移动累计 1.65 米；成功启动冲刺时；撞墙原地移动不产生脚步 |
-| 三连发步枪 | 每颗子弹实际发射时；无目标不播放 |
-| 旋转双刀 | 实际扫中敌人时 |
-| 长矛、十字弓、回旋飞刀 | 投掷/发射开始；十字弓一轮齐射只播放一次 |
-| 重锤、寒霜 | 锤击落地、冰晶落地时 |
-| 火把、喷火 | 后摆结束进入挥击、喷火爆发开始时；持续伤害不反复播放 |
-| 火球 | 发射和爆炸各有独立音效 |
-| 毒液背罐 | 成功喷洒时；毒伤跳数不播放 |
-| 炸弹怪 | 炸弹实际爆炸时 |
-| 玩家受伤、普通命中 | 实际受伤；子弹/近战造成伤害时；灼烧、毒伤不反复播放命中声 |
-| 波次开始、完成、失败 | 对应阶段转换时，各播放一次提示乐 |
+| Menu select, click, confirm, back | Moving between options with keyboard/gamepad, mouse clicks, confirming menus, opening/closing the codex |
+| Shop purchase, refresh, lock, failure | The matching sound after a successful charge/trade; failed requests play an error cue; cancelling a replacement plays no purchase sound |
+| Material pickup | When materials are actually added or a floating score is settled; zero-amount cleanup stays silent |
+| Grass footsteps, dash | Every 1.65 m of actual player movement; when a dash starts successfully; pushing against a wall in place makes no footsteps |
+| Three-round burst rifle | Each bullet actually fired; nothing plays without a target |
+| Orbiting twin blades | When they actually hit an enemy |
+| Spear, crossbow, boomerang blade | At the start of a throw/shot; a full crossbow volley plays only once |
+| Hammer, frost | When the hammer lands and when ice crystals land |
+| Torch, flamethrower | When the backswing ends and the swing begins, and when a flame burst starts; damage over time does not replay it |
+| Fireball | Separate sounds for launch and explosion |
+| Poison backpack | On a successful spray; poison ticks do not play it |
+| Bomber enemy | When its bomb actually explodes |
+| Player hurt, regular hit | On actual damage taken; when bullets/melee deal damage; burn and poison do not replay the hit sound |
+| Wave start, complete, fail | One jingle per matching phase transition |
 
-## 音乐与音量
+## Music and volume
 
-默认暂选：主菜单/初始武器选择 `Mishief Stroll`，战斗 `Mission Plausible`，商店/结算 `Wacky Waiting`。失败时音乐淡出。
-切换曲目先淡出再淡入。暂停与图鉴打开时，战斗音效和提示乐暂停，音乐降至当前音量的 30%，界面音效仍可播放；失去焦点时战斗音效停止、音乐静音。
+Current defaults: main menu/starter weapon choice uses `Mishief Stroll`, combat uses `Mission Plausible`, shop/settlement uses `Wacky Waiting`. Music fades out on defeat.
+Switching tracks fades out first, then fades in. While paused or with the codex open, combat sounds and jingles pause and music drops to 30% of its current volume; UI sounds still play. When the window loses focus, combat sounds stop and music is muted.
 
-设置右侧可调总音量、音效、音乐；默认分别为 80%、75%、22%。手柄/键盘上下导航到音量选项，左右调整；鼠标可直接拖动滑块。数值保存在 `Survivors.Audio.*` 的 PlayerPrefs 中。
+The right side of Settings adjusts master, SFX, and music volume; defaults are 80%, 75%, and 22%. Navigate to a volume option with gamepad/keyboard up/down and adjust with left/right; the mouse can drag the sliders directly. Values are saved in PlayerPrefs under `Survivors.Audio.*`.
 
-## 试听与替换
+## Previewing and replacing sounds
 
-在 Unity Project 中选择 `Assets/Resources/Config/DefaultAudioBank.asset`，展开 Sounds，根据 Cue 修改 Clips、Volume、Pitch、Cooldown 和 Max Duration。编号与用途对应 `AudioCue` 枚举；同一事件可配置多个音色变体，播放时避免连续重复同一变体。
+In the Unity Project window, select `Assets/Resources/Config/DefaultAudioBank.asset`, expand Sounds, and edit Clips, Volume, Pitch, Cooldown, and Max Duration per Cue. Indices and purposes match the `AudioCue` enum. One event can have several variants; playback avoids repeating the same variant back to back.
 
-当前步枪使用短金属撞击作临时机械反馈，十字弓使用出刀声作占位；喷火来源为推进器声，寒霜来源为玻璃声。它们已接上事件，但最终音色和三首候选音乐仍应结合实机试听调整。原始音频未被改写；Max Duration 只限制运行时播放长度，末尾有短淡出。
+The rifle currently uses a short metal impact as temporary mechanical feedback, and the crossbow uses a blade-draw sound as a placeholder; the flamethrower comes from a thruster sound and frost from a glass sound. They are wired to their events, but the final sounds and the three candidate music tracks still need tuning through in-game listening. The original audio files are not modified; Max Duration only limits runtime playback length, with a short fade-out at the end.
 
-## 限流与生命周期
+## Limits and lifecycle
 
-- 16 个战斗声道、4 个界面声道、1 个提示乐声道、1 个音乐声道，均复用 AudioSource。
-- 每个事件独立冷却；普通命中至少间隔 90 毫秒，材料拾取至少间隔 70 毫秒，避免群怪与批量结算叠音。
-- 玩家受伤和界面提示可替换对应池中的旧声音；普通战斗音效在池满时跳过。
-- 使用独立 `System.Random` 选择音效与音高，不改变战斗随机数序列。
-- 换波、死亡、重开会清理战斗声道，禁用宿主会停止全部声音；场景销毁时自动清理，无跨场景常驻副本。
-- 当前音效使用 2D 混音，俯视/第三人称切换不会改变音量。
+- 16 combat voices, 4 UI voices, 1 jingle voice, and 1 music voice, all using reusable AudioSources.
+- Each event has its own cooldown: at least 90 ms between regular hits and 70 ms between material pickups, so crowds and batch settlement don't stack sounds.
+- Player-hurt and UI cues can replace older sounds in their pool; regular combat sounds are skipped when the pool is full.
+- A separate `System.Random` picks sounds and pitch, so the combat random sequence is unaffected.
+- Changing waves, dying, and restarting clear combat voices; disabling the host stops all sound. Everything is cleaned up when the scene is destroyed, with no persistent cross-scene copy.
+- Sounds currently use 2D mixing, so switching between top-down and third-person views does not change volume.
 
-## 验证
+## Verification
 
-Unity 菜单：`Tools > Survivors > Verify Audio`（退出 Play Mode 后运行）。验证音频引用、构建依赖、事件绑定、限流、随机数隔离、暂停/清理、音乐切换、音量保存和原架构检查。
-成功标记：`AUDIO_CHECKS_PASSED`。批处理日志：`Logs/AudioChecks.log`。
+Unity menu: `Tools > Survivors > Verify Audio` (run outside Play Mode). It checks audio references, build dependencies, event bindings, rate limiting, random-number isolation, pause/cleanup, music transitions, volume persistence, and the existing architecture checks.
+Success marker: `AUDIO_CHECKS_PASSED`. Batch log: `Logs/AudioChecks.log`.
 
-`ArtSource/Audio/build_audio_bank.py` 可重建最初配置，会覆盖上述配置资产；日常调音请直接编辑 Inspector，不必运行此脚本。
+`ArtSource/Audio/build_audio_bank.py` rebuilds the initial configuration and overwrites the configuration asset above. For everyday tuning, edit it in the Inspector instead of running this script.

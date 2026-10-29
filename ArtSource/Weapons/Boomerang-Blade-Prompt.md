@@ -1,12 +1,14 @@
-# 回旋飞刀概念图
+# Boomerang Blade Concept Art
 
-- 生成方式：内置 imagegen。
-- 图片：`Boomerang-Blade-Concept.png`。
-- 状态：造型与飞行路径概念预览，右侧为生成的玩法示意，并非实机截图。
-- 风格参考：`Orbiting-Blades-Concept.png`、`Orbiting-Blades-InGame.png`。
-- 设计：宽刃浅 V 形双翼、木质连接握把、两道浅色绑带、深铁护箍、银灰刀面与明亮倒角；沿用现有低多边形武器风格。
+- Generated with: built-in imagegen.
+- Image: `Boomerang-Blade-Concept.png`.
+- Status: a concept preview of the design and flight path; the right side is a generated gameplay illustration, not an in-game screenshot.
+- Style references: `Orbiting-Blades-Concept.png`, `Orbiting-Blades-InGame.png`.
+- Design: a wide shallow-V twin-wing blade, a wooden connecting grip, two light wraps, dark iron bands, silver-gray blade faces, and bright bevels, following the existing low-poly weapon style.
 
-## 完整提示词
+## Full prompt
+
+The prompt below is kept exactly as used. The Chinese text in quotes was meant to be rendered in the image: "回旋飞刀" means "Boomerang Blade", and "飞出 · 回收" means "Throw · Return".
 
 Use case: stylized-concept.
 Create one polished landscape concept sheet for a new returning throwing blade weapon (回旋飞刀) for this existing low-poly Unity survival game. The two input images are STYLE REFERENCES only: image 1 shows the established broad steel blades, wood handles, charcoal fittings and chunky beveled construction; image 2 shows the actual game's cuboid hero, materials and camera. Design the new weapon in exactly this visual family.

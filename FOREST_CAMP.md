@@ -1,46 +1,44 @@
-﻿# 林地营地生存场景
+# Forest Camp Survival Scene
 
-打开 `Assets/Scenes/ForestCamp.unity` 后点击 Play，或使用菜单 `Tools > Survivors > Open Forest Camp`。该场景已加入 Build Settings 首位，原 Playground 保留。
+Open `Assets/Scenes/ForestCamp.unity` and press Play, or use the menu `Tools > Survivors > Open Forest Camp`. This scene is first in Build Settings; the original Playground scene is kept.
 
-- 中央约 36 × 36 米的平坦战斗区，低矮石边标识原有游戏边界。
-- 外围草地岛、树林、岩石、木栅栏、帐篷、木箱、宝箱与营火。
-- 沿用当前玩家/敌人模型、键盘和手柄移动、枪、旋转刀、喷火、材料吸取、商店和 20 波玩法（每波 45 秒）。开局选择一种武器，其余在商店购买；16 个被动道具规则见 [ITEM_SYSTEM.md](ITEM_SYSTEM.md)。
-- 每局开始在战斗区随机生成 10 个岩石、木箱、木桶或树桩，避开中央出生区域，并保留通行间距。同一局 20 波共用布局，死亡或胜利后重新开局时刷新。
-- 障碍物阻挡玩家和子弹，敌人使用共享路径图绕行；近战和喷火伤害不会隔着障碍物命中。材料吸取仍可穿过障碍物，避免拾取卡住。
-- `ArenaObstacles` 组件的 Obstacle Count 可调数量（默认 10，上限 18）。森林场景运行时自动添加此组件，也可提前添加到 Forest Camp Arena 对象进行配置。
+- A flat central combat area of about 36 × 36 m, with low stone edges marking the original game boundary.
+- Surrounding grass islands, trees, rocks, wooden fences, tents, crates, chests, and a campfire.
+- Uses the current player/enemy models, keyboard and gamepad movement, gun, orbiting blades, flamethrower, material pickup, shop, and 20-wave gameplay (45 seconds per wave). You pick one weapon at the start and buy the rest in the shop; the 16 passive item rules are in [ITEM_SYSTEM.md](ITEM_SYSTEM.md).
+- At the start of each run, 10 rocks, crates, barrels, or stumps are placed randomly in the combat area, avoiding the central spawn area and keeping walkable gaps. All 20 waves of a run share the layout; it refreshes when a new run starts after death or victory.
+- Obstacles block the player and bullets; enemies route around them using a shared path graph. Melee and flamethrower damage cannot hit through obstacles. Material pickup still passes through obstacles so pickups don't get stuck.
+- The Obstacle Count on the `ArenaObstacles` component sets the number (default 10, maximum 18). The forest scene adds this component automatically at runtime; you can also add it to the Forest Camp Arena object in advance to configure it.
 
-资源包来自 `C:/temp/20260907/kubikos_3d_cube_world.unitypackage`，完整保留在 `Assets/KUBIKOS - World`，导入时保留原 GUID。新场景使用独立的 `Assets/Materials/ForestArena` URP 材质。包内原演示场景的旧烘焙光照可能出现 Unity 版本兼容提示；新场景不依赖这些烘焙数据。
+The environment art comes from the **KUBIKOS - World** asset pack, imported into `Assets/KUBIKOS - World` with its original GUIDs. The pack is not included in this public repository; see the [README](README.md) for how to import it. The new scene uses its own URP materials in `Assets/Materials/ForestArena`. The pack's original demo scenes may show Unity version compatibility warnings for their old baked lighting; the new scene does not depend on that baked data.
 
-## 维护
+## Maintenance
 
-`ArtSource/World/build_forest_scene.py` 可从 Playground 和已导入资源重新生成场景（会覆盖 ForestCamp 的手工编辑）。`layout.json` 记录布景布局，`ForestCamp-preview.blend` 为 Blender 布局预览源文件；Blender 预览不是游戏截图。
+`ArtSource/World/build_forest_scene.py` can regenerate the scene from Playground and the imported assets (this overwrites manual edits to ForestCamp). `layout.json` records the set-dressing layout. The Blender layout preview `ForestCamp-preview.blend` is not included in this repository because it contains meshes from the asset pack. The Blender preview is not a game screenshot.
 
-Unity 批处理校验入口为 `ForestSceneChecks.Verify`，检查模型、材质、玩法组件及波次规则；`ForestSceneChecks.VerifyPlay` 在当前森林场景中检查移动、击杀、受伤、死亡和重新开始，运行此入口时不要带 `-quit`。
+The Unity batch verification entry point is `ForestSceneChecks.Verify`, which checks models, materials, gameplay components, and wave rules. `ForestSceneChecks.VerifyPlay` checks movement, kills, damage, death, and restart in the current forest scene; do not pass `-quit` when running this entry point.
 
-验证结果：Unity 6000.3.22f1 已通过 296 个网格/材质引用和波次规则校验；实际 Play Mode 已通过 WASD 移动、自动攻击击杀、10 点伤害、无敌间隔、死亡和 R 重开检查。日志保存在 Logs/ForestScenePlayVerify.log。
+Verification results: on Unity 6000.3.22f1, 296 mesh/material references and the wave rules passed. In actual Play Mode, WASD movement, auto-attack kills, 10-point damage, invulnerability frames, death, and R to restart all passed. The log is saved in `Logs/ForestScenePlayVerify.log`.
 
+## Upgrade screen
 
-## 升级界面
+When a wave ends, an English card-style shop opens: 4 item cards in the center, live stats on the right, and Refresh and Next Wave below. Click to buy with the mouse. With the keyboard arrow keys or gamepad left stick/D-pad, move across the cards horizontally, move down to the bottom buttons, and confirm with Enter/A. L/X locks an item; Tab/View opens the item codex.
 
-波次结束进入英文卡片式商店：中央 4 张商品卡，右侧实时属性，下方刷新和下一波。鼠标点击购买；键盘方向键或手柄左摇杆/D-pad 横向选择卡片，向下进入底部按钮，Enter/A 确认。L/X 锁定商品，Tab/View 打开道具图鉴。
+## Combat pacing
 
-## 战斗节奏
+The gun is now a wooden-stock three-round burst rifle: 6 base damage per shot, 0.1 s between shots in a burst, 0.7 s between bursts, and a bullet speed of 30 m/s. Each shot re-selects a visible target in range. There is no default splash; pierce, burn, ricochet, and split are still triggered by equipment. It has muzzle flash, a short tracer, recoil, a white hit flash, and a slight 0.12 m knockback. Knockback does not go through walls and does not push stunned enemies. Basic enemies have 10 health, so a regular kill takes two shots.
 
-枪已改为木托三连发步枪：每发基础伤害 6，轮内间隔 0.1 秒，每轮起始间隔 0.7 秒，子弹速度 30 米/秒。每发重新选择射程内可见目标，无默认溅射，穿甲、燃烧、弹射和分裂仍由装备触发。具备枪口闪光、短拖尾、后坐力，以及命中闪白和 0.12 米轻微击退；击退不穿墙，不推动眩晕中的敌人。基础敌人生命值 10，普通命中需要两发击杀。
+Eight red rings in the arena mark spawn points, randomly placed each run away from the center and obstacle areas. Wave 1 opens with 4 enemies, spawns 1 every 1.5 s, and allows at most 14 at once; Danger Contracts adjust the rate and cap. From wave 2 on, the original scaling formula applies: opening count 12 + (wave − 1) × 2, capped at 48; batch size 2 + floor((wave − 1) / 4), capped at 6; base on-field cap 60 + (wave − 1) × 8, capped at 240. A spawn point is skipped when it is less than 8 m from the player or already occupied by an enemy. Enemies keep about 0.85 m apart; separation checks obstacles and boundaries, and stunned enemies stay in place. Enemy speed is 2.8 m/s in wave 1 and increases by 0.1 m/s per wave, reaching the 4.2 m/s cap from wave 15. A new run resets it to 2.8 m/s; the player's base speed is 5 m/s. Player contact damage uses the intersection of a body box with a 0.3 m half-width and the enemy's circular footprint with a 0.375 m radius, which stops the old large box and its corners from triggering damage early.
 
-场内八个红色圆环标记每局随机生成的出生点，避开中央与障碍物区域。第一波开场 4 只，每 1.5 秒生成 1 只，同时最多 14 只；危险契约会调整频率和上限。第二波起沿用原递增公式：开场 12+(波数-1)×2，上限 48；每批 2+floor((波数-1)/4)，上限 6；基础场上上限 60+(波数-1)×8，上限 240。出生点距玩家不足 8 米或已被敌人占用时跳过。敌人之间保持约 0.85 米间距，分离时检查障碍物与边界，眩晕敌人保持原位。第一波敌人速度 2.8 米/秒，每波增加 0.1 米/秒，第 15 波起达到上限 4.2 米/秒；新一局重置为 2.8 米/秒，玩家基础速度 5 米/秒。玩家接触伤害使用半宽 0.3 米的身体方框与敌人半径 0.375 米的圆形足迹相交判定，避免原大方框和角落提前触发伤害。
+When any weapon kills an enemy, a +10 floating score appears above its head and disappears after about 0.9 s. The HUD shows the total SCORE, which resets on restart. Each material picked up adds 1 more point; each kill is still worth 10 points.
 
-敌人被任意武器击杀时，在头顶显示 +10 飘分，约 0.9 秒后消失；HUD 显示总分 SCORE，重开清零。每个拾取的材料额外增加 1 分；击杀分数仍为每个敌人 10 分。
+At the end of each wave the battlefield stays in place and a victory message appears at the top of the screen. Remaining enemies explode where they stand and each drops 1 item. These drops, together with drops still on the ground, fly to the top-right HUD. On arrival, each green crystal from an active kill adds 1 material and 1 point; each gold shard from the wave clear adds only 1 point and does not count as a kill. After the celebration and collection finish, a fixed reward of 5 materials is granted with no extra score; all rewards are settled only once. Ground drops disappear 6 seconds after spawning. Press Space or gamepad A to enter the shop; confirming early waits until drops are collected. After wave 20, the final equipment page opens and offers NEW RUN.
 
-每波结束保留战场，在屏幕上方显示胜利提示。剩余敌人原地爆炸并各生成 1 枚掉落物，与场上尚未消失的掉落物一起飞向右上角 HUD，到达时主动击杀的绿色晶体每枚增加 1 材料和 1 分，清场产生的金色碎片每枚只增加 1 分、不算击杀。庆祝与回收完成后固定奖励 5 材料，不额外加分；所有奖励仅结算一次。地面掉落物在生成 6 秒后消失。按空格或手柄 A 进入商店，提前确认会等待掉落物收取完成。第 20 波后进入最终装备页并提供 NEW RUN。
+## Squash-and-stretch animation
 
-## 角色弹性动画
+The visible player and enemy models stretch on a 0.65 s cycle: about ±12% horizontally and ±18% vertically, with feet kept on the ground. Enemies use staggered animation phases. Scaling applies only to the model child nodes; the character root, CharacterController, enemy hit ranges, weapon roots, and obstacle pathfinding ranges are not scaled. The animation does not play in Edit Mode.
 
-玩家与敌人的可见模型以 0.65 秒周期伸缩：横向约 ±12%，纵向约 ±18%，脚底贴地。敌人使用错开的动画相位。缩放仅施加到模型子节点，角色根节点、CharacterController、敌人命中范围、武器根节点和障碍物寻路范围均不缩放。编辑模式不播放此动画。
+## Third-person camera preview
 
-## 第三人称视角预览
+The default is a third-person follow camera. The right stick controls yaw; pitch is 28°, distance 7 m, and FOV 60°. The Settings page in the start menu can switch back to the original top-down mode; each mode keeps its own angle and distance. The camera avoids obstacles that have colliders. In third person, WASD/left stick moves relative to the camera direction. The camera focus height is 1.35 m. Obstacle avoidance uses the actual visible obstacle bounds, so the tall collision box of a low stump does not falsely pull the camera in. After an occlusion clears, the camera holds briefly and then smoothly restores its distance.
 
-默认使用第三人称跟随镜头，右摇杆左右控制 Yaw，俯角 28°、距离 7 米、FOV 60°。开始菜单的设置页可切回原俯视模式；两种模式分别保留角度和距离。镜头会避让带碰撞体的障碍物。第三人称下 WASD/左摇杆相对镜头方向移动。镜头关注高度 1.35 米，避障采用实际可见障碍物范围，低树桩的高碰撞盒不会触发误拉近；解除遮挡后短暂保持，再平滑恢复距离。
-
-
-开始菜单提供新游戏、设置、结束。镜头角度、距离和视角模式仅在设置页调节并保存，战斗 HUD 不再显示镜头设置按钮；右摇杆仍控制观察方向。
+The start menu offers New Game, Settings, and Quit. Camera angle, distance, and view mode are adjusted and saved only on the Settings page; the combat HUD no longer shows camera settings buttons. The right stick still controls the view direction.

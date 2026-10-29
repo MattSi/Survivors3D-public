@@ -1,36 +1,36 @@
-# 短冲刺
+# Short Dash
 
-基础能力，所有开局武器都可使用，不收费、不占三个武器槽。
+A basic ability available with every starting weapon. It's free and doesn't take one of the three weapon slots.
 
-## 操作与规则
+## Controls and rules
 
-- 键盘空格，或手柄左肩键 LB / L1。按下一次触发一次，长按不会连续冲刺，也不缓存冷却中的按键。
-- 沿当前移动方向冲刺。松开移动输入时，使用最后一次实际移动的世界方向；尚未移动时默认向前。
-  第三人称下沿镜头转换后的移动方向；冲刺中转镜头不会改变已确定的方向。
-- 距离 2.5 米、持续 0.15 秒、冷却 6 秒。移速装备和斜向输入不会增加冲刺距离。
-  冷却从触发开始计算，暂停、图鉴和失焦期间不推进；每波开始恢复可用状态。
-- 使用 CharacterController 的扫掠移动，墙体、障碍物、实体石甲怪和场地边界会提前结束冲刺。
-  冲刺不是传送；长帧也不会把距离放大或越过薄墙。
-- 冲刺期间及最后移动帧免疫伤害。提前撞停则结束保护。免伤不消耗应急护盾、不触发受伤效果；
-  受伤/护盾原有的 0.7 秒无敌计时独立保留。
-- 暂停或图鉴冻结未完成的冲刺，恢复后继续剩余移动。菜单中按住按键不会在恢复或开局时误触发。
-  结算、失败、重开清除冲刺状态和拖尾。
+- Space on the keyboard, or the left shoulder button LB / L1 on a gamepad. Each press triggers one dash; holding the button doesn't dash repeatedly, and presses during cooldown aren't buffered.
+- Dashes along the current movement direction. With no movement input, it uses the last actual world-space movement direction; if you haven't moved yet, it defaults to forward.
+  In third person it follows the camera-relative movement direction; turning the camera during a dash doesn't change the direction already chosen.
+- Distance 2.5 m, duration 0.15 s, cooldown 6 s. Speed items and diagonal input don't increase dash distance.
+  The cooldown starts when the dash triggers and doesn't advance while paused, in the codex, or when the window loses focus; it resets to ready at the start of each wave.
+- It uses CharacterController sweep movement, so walls, obstacles, solid stone-armored enemies, and the arena boundary end the dash early.
+  The dash is not a teleport; long frames don't extend the distance or pass through thin walls.
+- The player is immune to damage during the dash and its final movement frame. Stopping early on a collision ends the protection. Immunity doesn't use up the emergency shield or trigger hurt effects;
+  the existing 0.7-second invulnerability timer from damage/shield is kept separately.
+- Pausing or opening the codex freezes an unfinished dash, and the remaining movement continues on resume. Holding the button in a menu doesn't trigger a dash by accident on resume or at the start of a run.
+  Settlement, defeat, and restart clear the dash state and trails.
 
-## 表现
+## Presentation
 
-角色短暂亮蓝白色，身侧两条短拖尾显示冲刺。HUD 位于三个武器槽右侧，包含双箭头图标、
-空格 / LB / L1 提示、剩余冷却秒数和恢复条；冷却完成闪亮 0.6 秒。
-仅触发冲刺的手柄收到 0.08 秒轻震动；暂停、失焦、禁用、断连或销毁都会停止该反馈。
+The character briefly glows blue-white, and two short trails at its sides show the dash. The HUD element sits to the right of the three weapon slots, with a double-arrow icon,
+a Space / LB / L1 hint, the remaining cooldown in seconds, and a recovery bar; it flashes for 0.6 seconds when the cooldown finishes.
+Only the gamepad that triggered the dash gets a 0.08-second light rumble; pausing, losing focus, disabling, disconnecting, or destroying stops this feedback.
 
-代码分工：PlayerController.Dash 管理输入、移动、冷却与反馈；PlayerHealth 汇总独立免伤来源；
-BattleUI 从 ICombatView 只读展示状态。PlayerController 在默认战斗脚本之前执行，
-使当帧冲刺输入先于敌方伤害结算。
+Code responsibilities: `PlayerController.Dash` handles input, movement, cooldown, and feedback; `PlayerHealth` combines independent immunity sources;
+`BattleUI` displays the state read-only through `ICombatView`. `PlayerController` runs before the default combat scripts,
+so a dash input on a given frame is processed before enemy damage is resolved.
 
-## 验证
+## Verification
 
-Unity 菜单 `Tools > Survivors > Verify Short Dash`，或 batchmode `-executeMethod DashChecks.Run`。
-测试使用虚拟键盘/手柄，覆盖输入边沿、方向、定长移动、冷却、震动请求与停止、实际骨针命中、
-护盾独立性、薄墙/石甲/场地边界、暂停/图鉴/失焦及各阶段清理。
-成功标记 `DASH_CHECKS_PASSED`。虚拟手柄只能验证震动控制逻辑，真实手柄力度需要实际试玩。
+Unity menu `Tools > Survivors > Verify Short Dash`, or batchmode `-executeMethod DashChecks.Run`.
+The tests use a virtual keyboard/gamepad and cover input edges, direction, fixed-length movement, cooldown, rumble requests and stopping, actual bone-needle hits,
+shield independence, thin walls/stone armor/arena boundary, pause/codex/focus loss, and cleanup at each phase.
+The success marker is `DASH_CHECKS_PASSED`. A virtual gamepad can only verify the rumble control logic; the strength on a real gamepad needs actual playtesting.
 
-HUD 实机截图：`Dash-Ready.png`、`Dash-Active.png`、`Dash-Cooldown.png`。
+In-game HUD screenshots: `Dash-Ready.png`, `Dash-Active.png`, `Dash-Cooldown.png`.

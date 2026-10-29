@@ -1,82 +1,80 @@
-﻿# Survivors3D Playground
+# Survivors3D Playground
 
-在 Unity 6000.3.22f1 中打开 `Assets/Scenes/Playground.unity`，点击 Play，然后点击 Game 视图使其获得键盘焦点。
+Open `Assets/Scenes/Playground.unity` in Unity 6000.3.22f1, press Play, then click the Game view so it receives keyboard focus.
 
-## 波次流程
+## Wave flow
 
-- 共 **5 波**，每波战斗 **45 秒**，HUD 显示当前波次和倒计时；总战斗时间为 **3 分 45 秒**，休整不限时。
-- 前四波倒计时归零后进入休整，清除剩余敌人和子弹，停止移动、攻击、刷怪和战斗计时。清场不会增加击杀数。
-- 休整不限时，保留当前血量与累计击杀；按 **Enter / R / 手柄 A / ×** 或点击按钮开始下一波，玩家回到场地中央。
-- 第五波倒计时归零后显示胜利；任何战斗波中血量归零都会失败。
-- 胜利或失败后确认重玩，将恢复 100 血、清零击杀与计时，并从第 1 波开始。
-- 目前各波使用相同的敌人配置；休整阶段可以用材料购买装备。
+- There are **5 waves** of **45 seconds** each. The HUD shows the current wave and countdown. Total combat time is **3 min 45 s**; rest breaks have no time limit.
+- When the countdown reaches zero in the first four waves, a rest break begins: remaining enemies and bullets are cleared, and movement, attacks, spawning, and the combat timer stop. Clearing the field does not add kills.
+- Rest breaks have no time limit and keep current health and total kills. Press **Enter / R / gamepad A / ×** or click the button to start the next wave; the player returns to the center of the arena.
+- When the fifth wave's countdown reaches zero, victory is shown. Reaching zero health in any combat wave is a defeat.
+- Confirming a replay after victory or defeat restores 100 health, resets kills and the timer, and starts again from wave 1.
+- All waves currently use the same enemy configuration; during rest breaks you can buy equipment with materials.
 
-## 材料与装备
+## Materials and equipment
 
-### 武器槽和等级
+### Weapon slots and levels
 
-本阶段提供 **3 个固定武器槽**，开局分别装备 1 级枪、1 级旋转双刀与 1 级喷火器，同时自动攻击。HUD 显示各自等级、伤害、每秒攻击次数和范围。
+This stage has **3 fixed weapon slots**. You start with a level 1 gun, level 1 orbiting twin blades, and a level 1 flamethrower, all attacking automatically at the same time. The HUD shows each weapon's level, damage, attacks per second, and range.
 
-| 武器 | 初始伤害 | 初始攻击间隔 | 初始范围 |
+| Weapon | Starting damage | Starting attack interval | Starting range |
 | --- | --- | --- | --- |
-| 三连发步枪 | 每发 6 | 每轮 0.7 秒，轮内 0.1 秒 | 14 |
-| 砍刀 | 20 | 1.25 秒 | 3 |
+| Three-round burst rifle | 6 per shot | 0.7 s per burst, 0.1 s within a burst | 14 |
+| Machete | 20 | 1.25 s | 3 |
 
-敌人血量为 20，因此初始枪两发击杀，砍刀一刀击杀。枪只瞄准射程内敌人，子弹飞行达到射程或碰到边框就消失。两把刀保持相隔 180°，持续围绕玩家旋转，固定 **2 秒一圈**。刀刃扫过敌人造成近战伤害，对同一敌人的重复命中受近战攻击间隔限制；命中时刀刃短暂闪白。休整、死亡和胜利时停止旋转，下一波恢复。两把刀共用一个近战槽位和升级等级。
+Enemies have 20 health, so the starting gun kills in two shots and the machete in one hit. The gun only aims at enemies in range; bullets disappear when they reach their range or hit the arena border. The two blades stay 180° apart and keep orbiting the player at a fixed **2 seconds per revolution**. Blades deal melee damage as they sweep through enemies; repeated hits on the same enemy are limited by the melee attack interval, and the blade flashes white briefly on a hit. The blades stop orbiting during rest breaks, death, and victory, and resume in the next wave. Both blades share one melee slot and upgrade level.
 
-商店随机提供 `GUN UPGRADE` 和 `MACHETE UPGRADE`，分别升级对应槽位，最高 **3 级**。每升一级伤害 **+5**，攻击间隔减少初始值的 **10%**，范围增加初始值的 **10%**；升级价格依次为 **20、25 材料**。3 级枪每发伤害为 16，可以一发击杀普通敌人。两把武器互不影响，已有弹匣和刀刃装备继续对对应武器生效。重开恢复两把 1 级武器。
+The shop randomly offers `GUN UPGRADE` and `MACHETE UPGRADE`, which upgrade the matching slot up to **level 3**. Each level adds **+5** damage, reduces the attack interval by **10%** of the starting value, and increases range by **10%** of the starting value. Upgrades cost **20, then 25 materials**. A level 3 gun deals 16 damage per shot and kills regular enemies in one shot. The two weapons don't affect each other, and existing magazine and blade equipment keeps applying to its weapon. Restarting restores both weapons to level 1.
 
-- 每击杀一个敌人掉落一枚绿色晶体，价值 **1 材料**。进入 **3.5** 距离后自动吸向玩家并计入 HUD 余额。
-- 波次结束时，剩余敌人原地爆炸并各掉落一枚晶体，与地上尚未消失的晶体一起自动收取；主动击杀留下的晶体每枚增加 1 材料和 1 分；清场敌人的金色碎片每枚只增加 1 分、不算击杀。庆祝与回收结束后，每波固定奖励 5 材料（不额外加分），只发放一次。
-- 每次进入休整免费随机提供 **3～4 个商品**，从快速弹匣（枪射速 +20%，初始 12 材料）、加长刀刃（近战范围 +15%，初始 15 材料）、跑鞋（移速 +10%，初始 10 材料）、枪升级和砍刀升级中抽取，同类商品可能重复出现。每个商品格只能购买一次，购买后显示 `SOLD`。
-- `REFRESH` 每次消耗 **3 材料**，重新抽取 3～4 个商品；材料不足时不能刷新。增益相对初始属性叠加，每件最多 3 级，每次升级价格增加 5，同类剩余商品同步显示下一等级价格。满级装备不会在后续刷新中出现；全部满级后不再收费刷新。
-- 鼠标点击购买，或用方向键 / 手柄左摇杆 / 十字键上下选择，按 Enter / A / × 确认；选择 `START WAVE` 开始下一波。
-- 材料和装备在本局各波之间保留，重新开局后清零。
+- Each enemy killed drops one green crystal worth **1 material**. Within a distance of **3.5**, it is pulled to the player automatically and added to the HUD balance.
+- When a wave ends, remaining enemies explode in place and each drops one crystal; these are collected automatically along with crystals still on the ground. Each crystal from an active kill adds 1 material and 1 point; each gold shard from a cleared enemy adds only 1 point and does not count as a kill. After the celebration and collection, each wave grants a fixed reward of 5 materials (no extra score), paid only once.
+- Each rest break offers **3–4 items** for free at random, drawn from Fast Magazine (gun fire rate +20%, starting price 12 materials), Long Blade (melee range +15%, starting price 15 materials), Running Shoes (movement speed +10%, starting price 10 materials), Gun Upgrade, and Machete Upgrade. The same item can appear more than once. Each item slot can be bought only once and shows `SOLD` after purchase.
+- `REFRESH` costs **3 materials** each time and redraws 3–4 items; you can't refresh without enough materials. Bonuses stack relative to base stats, each item goes up to level 3, and each level raises the price by 5. Remaining items of the same type update to show the next level's price. Maxed items no longer appear in later refreshes; once everything is maxed, refreshing is free.
+- Click to buy, or use the arrow keys / gamepad left stick / D-pad to select up and down and press Enter / A / × to confirm. Select `START WAVE` to start the next wave.
+- Materials and equipment carry over between waves in a run and reset in a new run.
 
-- **WASD / 方向键 / 手柄左摇杆 / 十字方向键**：在地面上移动；斜向移动不会加速，摇杆轻推时慢速移动，并使用 Input System 默认摇杆死区。
-- 玩家外观是 Blender 制作的红衣方块小战士，初始血量 **100**。源文件和预览位于 `ArtSource/Player`，Unity 使用 `Assets/Resources/Characters/BlockHero.fbx`；原移动碰撞体保持不变。
-- 敌人是边长 **0.75** 的灰色立方体，每 **0.65 秒**从场地边缘生成一个并追踪玩家，最多同时存在 **80** 个。
-- 每 **0.9 秒**向最近敌人发射直径 **0.24** 的球形子弹；敌人需要命中 **两发**子弹才能击杀，砍刀仍然一刀击杀。
-- 玩家周围有两把相对排列、持续旋转的银色刀刃、深色握柄砍刀，初始范围 **3**，伤害 **20**，攻击间隔 **1.25 秒**；升级同时作用于两把刀。
-- 子弹接触场地边框就消失，不会穿过边框。
-- 每次接触伤害 **10**，受伤后有 **0.7 秒**保护时间；持续贴着敌人会继续受到伤害。
-- 血量归零时停止移动、刷怪和射击，显示死亡画面。
-- 死亡后按 **R**、手柄南侧按钮（Xbox **A** / PlayStation **×**）或点击 **RESTART** 恢复初始状态。
+- **WASD / arrow keys / gamepad left stick / D-pad**: move on the ground. Diagonal movement is not faster, a light push on the stick moves slowly, and the Input System's default stick dead zone is used.
+- The player is a red-clad blocky warrior made in Blender, with **100** starting health. Source files and previews are in `ArtSource/Player`; Unity uses `Assets/Resources/Characters/BlockHero.fbx`. The original movement collider is unchanged.
+- Enemies are gray cubes with **0.75** sides. One spawns from the arena edge every **0.65 s** and chases the player, with at most **80** at once.
+- Every **0.9 s**, a spherical bullet with a **0.24** diameter is fired at the nearest enemy. Enemies take **two** bullets to kill; the machete still kills in one hit.
+- Two opposed, continuously orbiting machetes with silver blades and dark grips surround the player: starting range **3**, damage **20**, attack interval **1.25 s**. Upgrades apply to both blades.
+- Bullets disappear when they touch the arena border and never pass through it.
+- Each contact hit deals **10** damage, followed by **0.7 s** of protection. Staying in contact with enemies keeps dealing damage.
+- At zero health, movement, spawning, and shooting stop and the death screen appears.
+- After death, press **R**, the gamepad south button (Xbox **A** / PlayStation **×**), or click **RESTART** to reset.
 
-输入使用 Unity **New Input System**，绑定集中在 `Assets/InputSystem_Actions.inputactions` 的 `Player/Move` 和 `Player/Restart`。键盘和手柄可直接切换，手柄连接后自动识别；攻击继续自动执行。死亡只关闭移动，重开输入保持启用。
+Input uses Unity's **New Input System**, with bindings in `Player/Move` and `Player/Restart` in `Assets/InputSystem_Actions.inputactions`. Keyboard and gamepad can be switched freely, and a gamepad is detected automatically when connected; attacks stay automatic. Death only disables movement; the restart input stays enabled.
 
-右下角 HUD 中的圆形摇杆指示器实时显示左摇杆方向、X/Y 模拟值、推力百分比和进度条（采用死区处理后的输入）。未连接手柄时显示 `OFFLINE` 并回中；键盘输入不会冒充摇杆输入。
+The round stick indicator in the bottom-right HUD shows the left stick's direction, X/Y analog values, push percentage, and a progress bar in real time (using input after dead-zone processing). With no gamepad connected, it shows `OFFLINE` and recenters; keyboard input is not shown as stick input.
 
-场地为 36 × 36，玩家不能走出边界。HUD 改为紧凑的半透明角落卡片：左上血量、顶部中央波次与倒计时、右上材料与击杀、左下武器属性、右下摇杆模拟输入。移除了常驻大标题和上下整条信息栏，战斗画面使用全屏。镜头默认向下倾斜 **55°**，比之前更接近正俯视，视野角 **50°**，平滑跟随玩家。点击底部中央 `CAMERA` 展开调节面板，`TILT` 滑条可调倾角 **40～80°**，`DIST` 可调距离 **18～38**，`RESET CAMERA` 恢复默认；Inspector 也可以修改这些参数。镜头调节面板默认收起，可再次点击按钮关闭。运行时调整不跨重新启动保存。
+The arena is 36 × 36, and the player can't leave it. The HUD now uses compact, semi-transparent corner cards: health at top left, wave and countdown at top center, materials and kills at top right, weapon stats at bottom left, and analog stick input at bottom right. The permanent large title and full-width top and bottom bars were removed, so combat uses the full screen. The camera tilts down **55°** by default, closer to straight top-down than before, with a **50°** field of view, and follows the player smoothly. Click `CAMERA` at the bottom center to open the adjustment panel: the `TILT` slider sets the tilt between **40–80°**, `DIST` sets the distance between **18–38**, and `RESET CAMERA` restores the defaults. These parameters can also be changed in the Inspector. The camera panel is collapsed by default; click the button again to close it. Runtime adjustments are not saved across restarts.
 
-选中场景里的 `Playground` 可以调整射击间隔、刷怪间隔、敌人速度和子弹速度；选中 `Player` 可以调整移动速度。
+Select `Playground` in the scene to adjust the fire interval, spawn interval, enemy speed, and bullet speed; select `Player` to adjust movement speed.
 
-原 `SampleScene` 保留，`Playground` 已设为构建列表的第一个场景。菜单 `Tools > Survivors > Create Playground Scene` 可以重建 Playground，重建会覆盖该场景。
+The original `SampleScene` is kept, and `Playground` is set as the first scene in the build list. The menu `Tools > Survivors > Create Playground Scene` rebuilds Playground, overwriting that scene.
 
-## 验证
+## Verification
 
-已使用本机 Unity 6 程序集和 Roslyn 完成运行时代码及编辑器脚本的编译检查。
+Runtime code and editor scripts were compile-checked using the local Unity 6 assemblies and Roslyn.
 
-波次状态逻辑已通过独立 C# 检查，覆盖五波计时、休整、手动继续、胜利、死亡、重开和长帧跨过截止时间的情况；检查源文件为 `Assets/Editor/WaveSessionChecks.cs`。
+The wave state logic passed standalone C# checks covering five-wave timing, rest breaks, manual continuation, victory, death, restart, and long frames that cross a deadline. The check source is `Assets/Editor/WaveSessionChecks.cs`.
 
-本机 Unity 返回 `No valid Unity Editor license found`，因此未完成 Play Mode 或画面验证。许可恢复后，可用以下命令生成场景并验证 WASD、自动击杀、扣血、保护时间、死亡以及 R 重开：
+At the time, the local Unity returned `No valid Unity Editor license found`, so Play Mode and visual verification were not completed. With a valid license, the following command generates the scene and verifies WASD, auto kills, health loss, protection time, death, and R to restart:
 
 ```powershell
-& 'C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Unity.exe' -batchmode -nographics -projectPath 'C:/Oracle/projects/Survivors3D' -executeMethod PlaygroundBuilder.BuildAndVerify -logFile 'C:/Oracle/projects/Survivors3D/Logs/PlaygroundVerify.log'
+& '<UnityEditorPath>/6000.3.22f1/Editor/Unity.exe' -batchmode -nographics -projectPath '<ProjectPath>' -executeMethod PlaygroundBuilder.BuildAndVerify -logFile '<ProjectPath>/Logs/PlaygroundVerify.log'
 ```
 
-成功标记为 `PLAYGROUND_VERIFY_PASSED`。该验证命令会重建 Playground 场景。
+The success marker is `PLAYGROUND_VERIFY_PASSED`. This verification command rebuilds the Playground scene.
 
+## Red fire breath
 
-## 红色吐火
+- The third weapon slot automatically breathes fire at the nearest enemy in range, with a starting length of **5** and a cone angle of **44°**. A short burst of red fire comes out of the character's mouth; each burst lasts **0.45 s**, dense up close and expanding outward, with **2 s** between the starts of two bursts.
+- During a short burst, the flame deals **3 damage** every **0.075 s**, only to enemies inside the forward cone. Flame particle lifetime is limited by range, and particles vanish before the arena border.
+- Hit enemies immediately switch to a charred material and keep burning for up to **2 s** after leaving the flame, taking **1 damage** every **0.5 s**, with rising embers.
+- Charred enemies leave a charred husk for **2 s** after dying; material drops are unchanged. Fire breathing stops during rest breaks, victory, and death, and wave cleanup removes flames, burns, and husks.
+- Flamethrower upgrades appear randomly in the shop, up to level 3, using the same weapon upgrade prices and stat rules. `Slot 3 / Fire Breath` in the Inspector adjusts base range, damage, and burst interval.
 
-- 第三个武器槽自动朝射程内最近敌人喷火，初始长度 **5**，扇形夹角 **44°**。从角色嘴部短促吐出红色火团，一次喷射 **0.45 秒**，近处集中、向外膨胀扩散，两次开始喷射的间隔 **2 秒**。
-- 火焰在一次短促喷吐中每 **0.075 秒**造成 **3 点伤害**，只伤害前方扇形范围内的敌人；火焰粒子寿命按射程限制，并在场地边框前消失。
-- 命中的敌人立即变为焦黑材质，离开火焰后继续灼烧最多 **2 秒**，每 **0.5 秒**造成 **1 点伤害**，伴随上升的余烬。
-- 焦黑敌人死亡后留下 **2 秒**的焦化残骸，材料掉落保持正常。休整、胜利、死亡时停止喷火，波次清理时移除火焰、灼烧和残骸。
-- 商店随机出现喷火器升级，最高 3 级，沿用武器升级价格和属性规则。Inspector 的 `Slot 3 / Fire Breath` 可调整基础射程、伤害和喷射间隔。
+The fire breath no longer uses a gun-barrel shape; the mouth is on the face of the player cube. The fire and glow are all red, and the limited range, charring, and ember effects are kept.
 
-吐火已移除枪管造型，嘴部位于玩家立方体面上。火团和发光统一使用红色，保留有限射程、焦化和余烬效果。
-
-
-角色已适配俯视镜头：头部上仰 15°，眼睛和眉毛放大约 25%，缩短刘海。默认镜头及重置镜头均为 55°。敌人随机使用角怪、兜帽怪、石头怪三款 Blender 模型，保留 20 血、原速度和掉落规则，焦化作用于全模型。模型源文件在 `ArtSource/Enemies/BlockEnemies.blend`。
+The characters are tuned for the top-down camera: the head tilts up 15°, the eyes and eyebrows are about 25% larger, and the bangs are shorter. The default and reset camera angles are both 55°. Enemies randomly use one of three Blender models (horned, hooded, and rock), keeping 20 health, the original speed, and the drop rules; charring applies to the whole model. The model source file is `ArtSource/Enemies/BlockEnemies.blend`.

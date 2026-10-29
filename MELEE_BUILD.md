@@ -1,46 +1,46 @@
-# 贴身绞杀：第一轮可玩实验
+# Close-Quarters Shredding: First Playable Experiment
 
-目标循环：沿敌群外缘保持双刀命中，利用重锤眩晕短暂接近；眩晕结束前向侧后方撤出。吸血补回零星失误，冲刺留给夹击。正常游戏已经可以购买这些组件；本轮增加的是可复现的实验入口、战斗统计和反馈，不新增专属武器或强制套装加成。
+Target loop: keep the twin blades hitting along the edge of the crowd, use the hammer's stun to close in briefly, and pull back to the side and rear before the stun ends. Life steal makes up for occasional mistakes, and the dash is saved for pincer attacks. These components can already be bought in a normal game; this round adds a reproducible experiment entry point, combat stats, and feedback, with no dedicated weapon or forced set bonus.
 
-## 试玩入口
+## Playtest entry point
 
-Unity 菜单 **Tools → Survivors → Melee Build Lab**。选择装备组、敌人场景和种子，点击进入实验。Play Mode 中可以重新开始另一组；窗口可与 Game 视图并排放置。停止 Play Mode 返回原场景配置。
+Unity menu **Tools → Survivors → Melee Build Lab**. Choose a loadout, an enemy scenario, and a seed, then click to start the experiment. In Play Mode you can restart with another loadout; the window can sit beside the Game view. Stopping Play Mode returns to the original scene configuration.
 
-| 装备组 | 初始购买 | 实际花费 | 剩余材料 |
+| Loadout | Initial purchases | Actual cost | Remaining materials |
 |---|---|---:|---:|
-| 双刀＋范围 | 一份范围强化 | 15 | 85 |
-| 双刀＋范围＋吸血 | 上述＋一层吸血挂坠 | 43 | 57 |
-| 完整构筑 | 上述＋一级重锤 | 63 | 37 |
-| 自由配装 | 双刀开局，准备阶段按真实价格购买 | 自选 | 100 减花费 |
+| Twin blades + range | One range upgrade | 15 | 85 |
+| Twin blades + range + life steal | The above + one stack of the life-steal pendant | 43 | 57 |
+| Full build | The above + a level 1 hammer | 63 | 37 |
+| Free loadout | Start with twin blades, buy at real prices during the prep phase | Your choice | 100 minus spending |
 
-前三组是逐个添加组件的对照，不能把不同花费的结果直接解释为等预算优势。自由组可以买 **范围 15＋磨刀石 18＋双刀升级 20＋移速 10＝63**，与完整构筑比较实际花费。准备阶段不推进战斗；使用第 8 波商品资格，满三个武器槽后不再供应新武器，重开可重新配装。护盾、急救在开始自由组战斗时就绪。后续普通商店和波次仍遵循原游戏规则。
+The first three loadouts add one component at a time; their results at different costs can't be read directly as an equal-budget advantage. The free loadout can buy **Range 15 + Whetstone 18 + Twin Blades Upgrade 20 + Speed 10 = 63**, to compare against the full build at the same actual cost. The prep phase doesn't advance combat; it uses wave 8 item eligibility, stops offering new weapons once all three weapon slots are full, and a restart lets you re-equip. Shield and First Aid are ready when the free-loadout fight starts. Later regular shops and waves still follow the normal game rules.
 
-普通追兵、石甲使用第 8 波配置，混合场景使用第 8 波现有敌人组合，包含冲锋、石甲、射手与投弹。Boss 场景进入最终波。每次从默认配置深拷贝，覆盖测试模式、起始波和开局材料，不写回默认资产。固定种子只保证初始条件，攻击、掉落等随机调用会随走位产生分化。
+Regular chasers and stone-armored enemies use the wave 8 configuration; the mixed scenario uses the existing wave 8 enemy mix, including chargers, stone-armored enemies, shooters, and bombers. The boss scenario goes to the final wave. Each run deep-copies the default configuration and overrides the test mode, start wave, and starting materials, without writing back to the default asset. A fixed seed only guarantees the initial conditions; random calls for attacks, drops, and so on diverge depending on movement.
 
-## 反馈与统计
+## Feedback and stats
 
-- 真正恢复生命时出现绿色地面脉冲；满血、死亡或吸血尚未触发时不显示。
-- 眩晕星星在最后 0.3 秒收缩，提示接战窗口结束。原有眩晕时长和免接触伤害规则保留。
-- 窗口显示双刀、重锤、其他来源的有效伤害、命中与击杀，以及受伤次数、实际损血、吸血、急救和眩晕期间的双刀输出。
-- 有效伤害不含过量伤害；实际回血不含溢出；结算清场不记为武器击杀。其他来源包含其他武器、燃烧和道具二次伤害，不细分归属。
-- 每波开始和重开清零，结算、死亡后保留本波统计。CSV 为手动导出当前快照，不是整局累计；花费字段记录实验初始配装，不追踪后续商店购买。
-- 点击“追加记录”输出 `Logs/MeleeBuildLab.csv`。推荐走位记录填写“贴边”“大圈”“站桩”，结合实际购买保持对照可比。
+- A green ground pulse appears when health is actually restored; it doesn't show at full health, on death, or when life steal hasn't triggered.
+- Stun stars shrink during the last 0.3 seconds, signaling the end of the engagement window. The existing stun duration and no-contact-damage rule are unchanged.
+- The window shows effective damage, hits, and kills for the twin blades, the hammer, and other sources, plus times hurt, actual health lost, life steal, First Aid, and twin-blade damage during stuns.
+- Effective damage excludes overkill; actual healing excludes overflow; clearing the field at settlement doesn't count as weapon kills. Other sources include other weapons, burning, and secondary item damage, without a further breakdown.
+- Stats reset at the start of each wave and on restart, and are kept for the current wave after settlement or death. The CSV is a manual export of the current snapshot, not a cumulative total for the run; the cost field records the experiment's initial loadout and doesn't track later shop purchases.
+- Click **Append record** to write to `Logs/MeleeBuildLab.csv`. For recommended movement notes, use "edge", "wide circle", or "stand still", together with the actual purchases, to keep comparisons fair.
 
-## 初轮验证（2026-09-12 本地日期）
+## First-round verification (2026-09-12, local date)
 
-`Tools → Survivors → Verify Melee Build` / batchmode `-executeMethod MeleeBuildChecks.Run`。
-覆盖实际价格与配置隔离、双刀边缘命中/接触/遮挡、重锤控制后的双刀命中、眩晕反馈、伤害归属、过量伤害、实际吸血与共享冷却、死亡/结算/换波重置，并运行现有 16 种道具回归。成功标记为 `MELEE_BUILD_CHECKS_PASSED` 和 `ITEM_SYSTEM_PASSED`。截图：`Logs/MeleeBuild-Feedback.png`。
+`Tools → Survivors → Verify Melee Build` / batchmode `-executeMethod MeleeBuildChecks.Run`.
+It covers actual prices and configuration isolation, twin-blade edge hits/contact/occlusion, twin-blade hits after hammer control, stun feedback, damage attribution, overkill, actual life steal and shared cooldowns, and death/settlement/wave-change resets, and runs the existing regressions for all 16 items. The success markers are `MELEE_BUILD_CHECKS_PASSED` and `ITEM_SYSTEM_PASSED`. Screenshot: `Logs/MeleeBuild-Feedback.png`.
 
-`Tools → Survivors → Probe Melee Build Movement` / `-executeMethod MeleeBuildProbe.Run`。
-36 组短时探测：4 组装备 × 3 种敌人配置 × 3 种移动策略。种子 31415，20 秒上限，0.05 秒步长；均从 90 HP 开始，预置的 10 点损血不计入受伤统计。第四组使用上面的 63 材料对照。输出 `Logs/MeleeBuildProbe.csv`，成功标记 `MELEE_BUILD_PROBE_PASSED`。
+`Tools → Survivors → Probe Melee Build Movement` / `-executeMethod MeleeBuildProbe.Run`.
+36 short probes: 4 loadouts × 3 enemy configurations × 3 movement strategies. Seed 31415, 20-second limit, 0.05-second step. All start at 90 HP; the preset 10 points of health loss don't count toward damage-taken stats. The fourth loadout uses the 63-material comparison above. Outputs `Logs/MeleeBuildProbe.csv`; success marker `MELEE_BUILD_PROBE_PASSED`.
 
-| 第 8 波混合场景 | 存活时间 | 剩余 HP | 双刀有效伤害 | 重锤有效伤害 | 吸血 | 眩晕期间双刀伤害 |
+| Wave 8 mixed scenario | Survival time | Remaining HP | Twin-blade effective damage | Hammer effective damage | Life steal | Twin-blade damage during stun |
 |---|---:|---:|---:|---:|---:|---:|
-| 完整构筑，贴边 | 20.05 秒 | 77 | 372 | 278 | 5 | 114 |
-| 完整构筑，大圈 | 20.05 秒 | 46 | 171 | 282 | 1 | 11 |
-| 完整构筑，站桩 | 13.00 秒，死亡 | 0 | 220 | 259 | 4 | 40 |
-| 同花费暴击/升级/移速对照，贴边 | 20.05 秒 | 25 | 677 | 0 | 0 | 0 |
+| Full build, edge | 20.05 s | 77 | 372 | 278 | 5 | 114 |
+| Full build, wide circle | 20.05 s | 46 | 171 | 282 | 1 | 11 |
+| Full build, stand still | 13.00 s, died | 0 | 220 | 259 | 4 | 40 |
+| Same-cost crit/upgrade/speed comparison, edge | 20.05 s | 25 | 677 | 0 | 0 | 0 |
 
-这组结果支持“重锤控制换取双刀输出窗口”，暂不改动武器伤害、范围、吸血概率或商品价格。完整构筑在石甲贴边场景中有 90 点双刀伤害发生在眩晕期间；普通追兵场景仍可站桩清理，走位压力依赖混合敌人。
+These results support "hammer control buys a twin-blade damage window", so weapon damage, range, life-steal chance, and item prices are unchanged for now. In the stone-armor edge scenario, 90 points of the full build's twin-blade damage happened during stuns. In the regular-chaser scenario, standing still can still clear enemies; movement pressure depends on mixed enemies.
 
-限制：自动策略不使用冲刺，不做障碍路径规划；不同策略随机调用会分化，单种子短时结果不能证明统计显著性或真人手感。Boss 入口可试玩，但本轮短时探测不包含完整 Boss 击杀。尚未证明随机商店第 4–6 波成型概率、全局通关率和后期强度；下一轮真人应重点记录这些内容。不要把探测成功标记解释为平衡验收完成。
+Limitations: the automated strategies don't use the dash or plan paths around obstacles. Random calls diverge between strategies, so short single-seed results can't prove statistical significance or how it feels to a human player. The boss entry point is playable, but this round's short probes don't include a full boss kill. The probability of the build coming together from random shops in waves 4–6, the overall clear rate, and late-game strength are not proven yet; the next round of human playtesting should focus on recording these. Don't read the probe's success marker as balance sign-off.

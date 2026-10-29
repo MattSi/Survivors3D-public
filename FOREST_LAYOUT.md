@@ -1,29 +1,29 @@
-# 森林营地：第一轮布局
+# Forest Camp: First Layout Pass
 
-进入 `Assets/Scenes/ForestCamp.unity` 开始游戏或重新开局，即使用新布局。布局在每局开始生成，波次之间保持；首领战清空战斗障碍，重开恢复。
+Starting a game or a new run in `Assets/Scenes/ForestCamp.unity` uses the new layout. The layout is generated at the start of each run and stays the same between waves. The boss fight clears combat obstacles; restarting restores them.
 
-## 固定骨架
+## Fixed skeleton
 
-- 中央保留半径至少 5.5 米的空地。
-- 西侧木料区使用树桩、木箱；东侧石阵使用岩石。共 8 个固定障碍，位置、大小与朝向不随种子变化。
-- 两侧各有南北两组障碍，每组两个；玩家能绕行，也能从障碍间穿过。横向相邻障碍间净距至少约 1.6 米。
-- 东西、南北两条穿场通路中心线始终保留至少 3 米宽通行空间。
-- 外围以 x/z = ±15 米为中心的方形退路，保留至少 2.4 米宽通行空间，连接两侧和中央出口。
-- 默认额外生成 2 个随机箱桶，仅在南北补给区的 8 个预留位置中选择。小幅变化位置、大小和朝向，不侵占主通路。Inspector 障碍总数支持 8–16。
+- The center keeps a clearing with a radius of at least 5.5 m.
+- The west timber area uses stumps and crates; the east stone circle uses rocks. There are 8 fixed obstacles whose positions, sizes, and orientations do not change with the seed.
+- Each side has a north and a south group of two obstacles each. The player can go around them or pass between them. Horizontally adjacent obstacles have at least about 1.6 m of clearance.
+- The east–west and north–south crossing routes always keep at least 3 m of walkable space along their center lines.
+- An outer square retreat lane centered on x/z = ±15 m keeps at least 2.4 m of walkable space and connects both sides and the central exits.
+- By default, 2 extra random crates/barrels are placed, chosen only from 8 reserved spots in the north and south supply bays. Their positions, sizes, and orientations vary slightly without blocking the main routes. The total obstacle count in the Inspector supports 8–16.
 
-固定骨架让玩家能学习路线；随机补给障碍只改变局部掩护。木料与岩石区域提供辨认方向的差异，沿用现有美术资源。
+The fixed skeleton lets players learn routes; the random supply obstacles only change local cover. The timber and rock areas look different, which helps with orientation, and they reuse the existing art assets.
 
-## 走位意图
+## Movement intent
 
-- 远程：利用穿场通路保持射线，在两侧掩体后调整位置。
-- 近战：借单个障碍分隔追兵，从空地进出战斗。
-- 毒液／灯笼：围绕两侧障碍走短弧，利用间隙回引；灯笼与敌人之间仍需保留视线。
-- 受围攻时：通过中央换边，或沿外围退路转移。当前未增加死胡同、地形伤害和可破坏障碍。
+- Ranged: use the crossing routes to keep lines of fire, and reposition behind cover on either side.
+- Melee: use a single obstacle to split chasers, and move in and out of fights from the clearing.
+- Poison / lantern: walk short arcs around the side obstacles and use the gaps to pull enemies back; the lantern still needs line of sight to enemies.
+- When surrounded: switch sides through the center, or move along the outer retreat lane. Dead ends, terrain damage, and destructible obstacles have not been added yet.
 
-## 验证与限制
+## Verification and limitations
 
-`Tools → Survivors → Verify Forest Layout` 检查 40 个随机种子：骨架稳定、箱桶变化、中央净空、两条捷径、外围闭环、两侧穿越及出生点到中心的敌人寻路、8 个出生点、玩家／投射物碰撞、首领清理和重开恢复。输出 `Logs/ForestLayout.png`。
+`Tools → Survivors → Verify Forest Layout` checks 40 random seeds: skeleton stability, crate/barrel variation, central clearance, the two shortcuts, the closed outer loop, crossing on both sides, enemy pathfinding from spawn points to the center, 8 spawn points, player/projectile collision, boss cleanup, and restart recovery. It outputs `Logs/ForestLayout.png`.
 
-成组障碍暴露了旧寻路在到达拐点后重复选择原节点的问题；现已跳过到达的节点，让路径继续前进。
+The grouped obstacles exposed a problem where the old pathfinding kept re-selecting the same node after reaching a turn point. Reached nodes are now skipped so the path keeps moving forward.
 
-本轮主要验证通路与机制；地表美术、出生点方向设计尚未改动。不同构筑是否实际选择不同区域，需要试玩记录验证，不能仅由通路测试推断。
+This pass mainly verifies routes and mechanics; ground art and spawn-point direction design have not changed yet. Whether different builds actually favor different areas needs playtest records; it cannot be inferred from route tests alone.

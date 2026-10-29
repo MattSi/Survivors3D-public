@@ -98,4 +98,4 @@ Success markers are `ARCHITECTURE_CHECKS_PASSED`, `ITEM_SYSTEM_PASSED`, and `WEA
 
 `StartMenuPreview.Capture` and `VictoryLootPreview.Capture` additionally exercise menu screenshots and simulated keyboard/gamepad settlement confirmation. `GameTestAccess` is an editor-only adapter for legacy test fixtures across the new module boundaries; runtime code does not use reflection.
 
-- `CombatController.BaitLantern.cs`：灯笼自动放置、普通追兵目标覆盖、耐久与可复用低多边形模型；在敌人移动前更新，不更改精英或首领状态机。武器 ID 11 / 商店 ID 31，保留缓释阀 ID 30。`StarterCount` 包含灯笼；破碎/到期爆燃在敌人遍历结束后结算，避免击杀修改遍历中的集合。清理取消待结算爆炸。
+- `CombatController.BaitLantern.cs`: automatic lantern placement, target override for regular chasers, durability, and a reusable low-poly model. It updates before enemy movement and does not change elite or boss state machines. Weapon ID 11 / shop ID 31; the Slow-Release Valve keeps ID 30. `StarterCount` includes the lantern. Shatter/expiry flare-ups are resolved after enemy iteration ends, so kills never modify a collection being iterated. Cleanup cancels pending explosions.

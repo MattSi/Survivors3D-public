@@ -1,28 +1,28 @@
-# 毒液背罐
+# Poison Backpack
 
-自动向最后实际移动方向后方约 1.15 米喷洒毒液。无需新增按键；停下后保持方向，转镜头不改变方向，短冲刺沿用 0.8 秒喷洒间隔。玩家可通过绕圈或撤退，把追兵引入毒池。
+Automatically sprays poison about 1.15 m behind the last actual movement direction. No new buttons are needed: the direction is kept after you stop, turning the camera doesn't change it, and short dashes keep the 0.8-second spray interval. By circling or retreating, the player can lead chasers into the poison pools.
 
-| 等级 | 每 0.5 秒伤害 | 毒池半径 | 毒池持续 |
+| Level | Damage every 0.5 s | Pool radius | Pool duration |
 | --- | --- | --- | --- |
-| 1 | 3 | 0.8 米 | 3 秒 |
-| 2 | 4 | 0.95 米 | 3.5 秒 |
-| 3 | 5 | 1.1 米 | 4 秒 |
+| 1 | 3 | 0.8 m | 3 s |
+| 2 | 4 | 0.95 m | 3.5 s |
+| 3 | 5 | 1.1 m | 4 s |
 
-- 每 0.8 秒喷洒，飞行 0.18 秒落地后生效，没有落地瞬伤。
-- 进入毒池后开始每 0.5 秒跳伤。重叠只使用最高一份毒伤，持续接触不会重置跳伤计时。
-- 离开毒池后中毒持续 1 秒；重新进入只刷新持续时间，不额外增加一次伤害。
-- 不伤害自己，不暴击；不使用近战、弹药、燃烧专属加成。支持通用命中和复仇效果。
-- 毒液不能隔墙攻击；喷洒距离和地面多边形都受场地障碍限制。
-- 毒池末尾 0.35 秒逐渐收缩，命中范围同步缩小。
-- 可以选择开局，或在商店花 20 材料购买，占一个武器槽。升级费用 20、25 材料。
+- Sprays every 0.8 seconds; the poison takes effect after a 0.18-second flight to the ground, with no instant damage on landing.
+- Damage ticks every 0.5 seconds once an enemy enters a pool. Overlapping pools use only the highest poison damage, and staying in contact doesn't reset the tick timer.
+- Poison lasts 1 second after leaving a pool; re-entering only refreshes the duration and doesn't add an extra tick.
+- Doesn't hurt the player and can't crit; doesn't use melee, ammo, or burn-specific bonuses. Supports general on-hit and Vengeance effects.
+- Poison can't hit through walls; spray distance and the ground polygon are both limited by arena obstacles.
+- Pools shrink gradually over their last 0.35 seconds, and the hit area shrinks with them.
+- Can be picked as a starter, or bought in the shop for 20 materials, taking one weapon slot. Upgrades cost 20 and 25 materials.
 
-视觉：木质倒角方罐、深色铁箍、双肩带、黄绿液位窗和短喷嘴；毒池采用深色边缘、黄绿内层和方块气泡。中毒敌人下部染色，受击闪白与寒霜效果仍优先显示。
+Visuals: a beveled wooden square canister, dark iron bands, two shoulder straps, a yellow-green liquid level window, and a short nozzle. Pools have dark edges, a yellow-green inner layer, and square bubbles. Poisoned enemies are tinted on their lower half; the white hit flash and frost effect still take priority.
 
-## 文件
+## Files
 
-- `Poison-Backpack-Icon.png`：透明图标，运行时由 `PoisonBackpackIcon` 绘制并用于装备栏和商店。
-- 验证工具通过后会生成 `Poison-Backpack-Held.png`、`Poison-Backpack-InGame.png`、`Poison-Backpack-Starters.png` 三张 Unity 实机截图。
-- `Assets/Scripts/Core/CombatController.Poison.cs`：模型、毒池、伤害和状态清理。
-- `Assets/Editor/PoisonChecks.cs`：菜单 `Tools/Survivors/Verify Poison Backpack`，日志 `Logs/poison-checks.log`。
+- `Poison-Backpack-Icon.png`: a transparent icon, drawn at runtime by `PoisonBackpackIcon` and used in the equipment bar and shop.
+- When the verification tool passes, it generates three Unity in-game screenshots: `Poison-Backpack-Held.png`, `Poison-Backpack-InGame.png`, and `Poison-Backpack-Starters.png`.
+- `Assets/Scripts/Core/CombatController.Poison.cs`: the model, pools, damage, and status cleanup.
+- `Assets/Editor/PoisonChecks.cs`: menu `Tools/Survivors/Verify Poison Backpack`, log `Logs/poison-checks.log`.
 
-武器 ID 10，商店 ID 29，保留旧武器和被动道具 ID。
+Weapon ID 10, shop ID 29; existing weapon and passive item IDs are kept.

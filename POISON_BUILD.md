@@ -1,61 +1,61 @@
-# 毒径牧群：第二套构筑
+# Poison Trail Herding: The Second Build
 
-毒液背罐铺路，寒霜领域把追兵留在路线附近，缓释阀延长旧毒池的利用窗口。走短弧或马蹄形，转向时把追兵引回尚未消失的毒区；第三武器槽可以补远程或应急清障。
+The Poison Backpack lays down a trail, the Frost Field keeps chasers near the route, and the Slow-Release Valve extends how long old poison pools stay useful. Walk short arcs or horseshoe shapes, and when you turn, lead chasers back into poison areas that haven't faded yet. The third weapon slot can add range or emergency crowd clearing.
 
-## 正常局中的缓释阀
+## The Slow-Release Valve in a normal run
 
-- 价格 **30 材料**，最多一份，持有毒液背罐且完成第 **4 波** 后进入随机商店。
-- 毒池持续增加 **3 秒**：一级/二级/三级分别为 **6/6.5/7 秒**。
-- 代价：喷洒间隔由 **0.8 秒变为 1.0 秒**，伤害、毒池半径、毒伤频率和离池中毒时间不变。
-- 原有无暴击、重叠不叠伤、墙体遮挡规则保留；短冲刺不会提高喷洒频率。
-- 金色阀轮出现在背罐上；商店、中文/英文图鉴、独立阀门图标和武器升级说明均接入。
-- 替换背罐后清理所有毒池及中毒，已买阀门保留；重新装备背罐恢复效果。新局清空。
+- Costs **30 materials**, at most one. It enters the random shop once you hold the Poison Backpack and have finished wave **4**.
+- Poison pools last **3 seconds** longer: **6/6.5/7 seconds** at levels 1/2/3.
+- Trade-off: the spray interval goes from **0.8 to 1.0 seconds**. Damage, pool radius, poison tick rate, and poison duration after leaving a pool are unchanged.
+- The existing rules stay: no crits, overlaps don't stack damage, and walls block it. Short dashes don't raise the spray rate.
+- A gold valve wheel appears on the backpack. The shop, the Chinese/English codex, a dedicated valve icon, and the weapon upgrade descriptions are all wired up.
+- Replacing the backpack clears all poison pools and poison status; a valve you've bought is kept, and re-equipping the backpack restores its effect. A new run clears it.
 
-建议先买背罐升级扩大毒池，再补寒霜，随后决定是否购买缓释阀。想持续回引旧路线时买阀门；需要频繁换向或立即清理新路径时，考虑升级寒霜或补第三武器。
+Buy backpack upgrades first to enlarge pools, then add frost, then decide whether to buy the valve. Buy the valve if you want to keep leading enemies back along old routes; if you need to change direction often or clear a new path right away, consider upgrading frost or adding a third weapon instead.
 
-**走位代价是真实存在的：**基础移速 5 米/秒时，直线全速移动的理论喷洒间距由 4 米增至 5 米。它不是连续毒毯；跑得更快还会进一步拉大间距。远程怪不主动追进毒池、被夹击后被迫改道、以及毒区外的新敌人，都是这套的短板。
+**The movement cost is real:** at a base speed of 5 m/s, the theoretical spray spacing when moving in a straight line at full speed grows from 4 m to 5 m. It's not a continuous poison carpet, and moving faster widens the gaps further. Ranged enemies that don't chase into pools, being forced to change course when caught in a pincer, and new enemies outside the poison area are all weaknesses of this build.
 
-## 构筑实验入口
+## Build experiment entry point
 
-Unity：**Tools → Survivors → Poison Build Lab**。选择配装、场景和种子后进入 Play Mode，也可在 Play Mode 内重开实验。
+Unity: **Tools → Survivors → Poison Build Lab**. Choose a loadout, a scenario, and a seed, then enter Play Mode; you can also restart the experiment inside Play Mode.
 
-| 组别 | 初始配装（背罐开局免费） | 实际花费 |
+| Group | Initial loadout (backpack start is free) | Actual cost |
 |---|---|---:|
-| 0 | 毒液Ⅱ | 20 |
-| 1 | 毒液Ⅱ＋寒霜Ⅰ | 40 |
-| 2 | 毒液Ⅱ＋寒霜Ⅰ＋缓释阀 | 70 |
-| 3 | 毒液Ⅱ＋寒霜Ⅱ＋一份移速 | 70 |
+| 0 | Poison II | 20 |
+| 1 | Poison II + Frost I | 40 |
+| 2 | Poison II + Frost I + Slow-Release Valve | 70 |
+| 3 | Poison II + Frost II + one Speed | 70 |
 
-固定初始预算 100，未花材料保留。前三组逐项添加组件，后两组是同花费选择。前三种场景分别为第 8 波普通怪、石甲和混合敌人；另有最终 Boss 入口。配置使用默认资产深拷贝，仅当前 Play Mode 生效，不修改默认资产。
+The initial budget is fixed at 100, and unspent materials are kept. The first three groups add one component at a time; the last two are same-cost alternatives. The first three scenarios are wave 8 regular enemies, stone-armored enemies, and mixed enemies; there is also a final boss entry point. The configuration is a deep copy of the default asset, applies only to the current Play Mode session, and doesn't modify the default asset.
 
-窗口显示毒液伤害/击杀、寒霜伤害、寒霜减速状态期间的有效毒伤，以及实际受伤。每波开始和重开清零，死亡与结算保留；手动导出 `Logs/PoisonBuildLab.csv`。初始花费不包含后续商店消费。这里的“减速期间毒伤”说明两种效果同时生效，不等于减速额外创造的全部伤害。
+The window shows poison damage/kills, frost damage, effective poison damage while targets are slowed by frost, and actual damage taken. Stats reset at the start of each wave and on restart, and are kept after death and settlement; export manually to `Logs/PoisonBuildLab.csv`. The initial cost doesn't include later shop spending. "Poison damage while slowed" here means both effects were active at once; it doesn't equal all the damage the slow created on its own.
 
-## 验证与限制
+## Verification and limitations
 
-- **Verify Poison Build** / `-executeMethod PoisonBuildChecks.Run`：新旧商品编号兼容、商店过滤/解锁/锁定/购买/替换、配装费用、阀轮、喷洒节奏、延长/过期、长帧池数量、重叠不叠伤、离池中毒、冰毒统计、暂停/死亡/结算与波次规则。标记 `POISON_BUILD_CHECKS_PASSED`。
-- **Verify Poison Backpack**：原背罐回归，标记 `POISON_CHECKS_PASSED`。
-- **Probe Poison Build Movement**：4 组配装 × 3 种场景 × 3 种路线，共 36 组。0.05 秒步长、每组最多 20 秒，种子 31415，从满血开始。路线为半径约 3.2 米的短圈、约 12 米的大圈和原地。使用真实移动更新后方喷洒方向。输出 `Logs/PoisonBuildProbe.csv`。
-- 场景效果截图：`Logs/PoisonBuild-Field.png`。
+- **Verify Poison Build** / `-executeMethod PoisonBuildChecks.Run`: compatibility between old and new item IDs, shop filtering/unlocking/locking/buying/replacing, loadout costs, the valve wheel, spray cadence, extension/expiry, pool count during long frames, no damage stacking on overlap, poison after leaving a pool, frost-poison stats, pause/death/settlement, and wave rules. Marker `POISON_BUILD_CHECKS_PASSED`.
+- **Verify Poison Backpack**: the original backpack regression, marker `POISON_CHECKS_PASSED`.
+- **Probe Poison Build Movement**: 4 loadouts × 3 scenarios × 3 routes, 36 runs in total. 0.05-second step, at most 20 seconds per run, seed 31415, starting at full health. The routes are a short circle with a radius of about 3.2 m, a wide circle of about 12 m, and standing still. Real movement updates drive the rear spray direction. Outputs `Logs/PoisonBuildProbe.csv`.
+- Field effect screenshot: `Logs/PoisonBuild-Field.png`.
 
-自动路线不使用冲刺，也不做障碍路径规划。固定种子只固定初始条件，战斗随机调用会随路线分化。短时结果不能代替真人操作、商店成型概率或完整 Boss 通关验证；阀门不是所有路线上的必买升级。
+The automated routes don't use the dash or plan paths around obstacles. A fixed seed only fixes the initial conditions; random calls during combat diverge with the route. Short results can't replace human play, the probability of the build coming together from shops, or a full boss clear; the valve isn't a must-buy upgrade on every route.
 
-## 首轮结果（2026-09-16）
+## First-round results (2026-09-16)
 
-先试过 1.2 秒喷洒间隔，短时对照显示其铺路代价偏重，调整为当前 1.0 秒；持续时间、毒伤和范围没有随之增强。初版数据保存在 `Logs/PoisonBuildProbe-1.2.csv`，当前版本在 `Logs/PoisonBuildProbe.csv`，两轮各 36 组。
+A 1.2-second spray interval was tried first. Short comparisons showed the trail cost was too high, so it was changed to the current 1.0 seconds; duration, poison damage, and range were not buffed to compensate. The initial data is saved in `Logs/PoisonBuildProbe-1.2.csv` and the current version in `Logs/PoisonBuildProbe.csv`, 36 runs each.
 
-| 当前版本场景/路线 | 配装 | 存活时间 | 毒伤 | 寒霜伤害 | 减速状态期间毒伤 |
+| Current version scenario/route | Loadout | Survival time | Poison damage | Frost damage | Poison damage while slowed |
 |---|---|---:|---:|---:|---:|
-| 普通追兵 / 短圈 | 毒液Ⅱ＋寒霜Ⅰ | 13.55 秒，死亡 | 138 | 92 | 0 |
-| 普通追兵 / 短圈 | 完整阀门组 | 16.20 秒，死亡 | 172 | 128 | 20 |
-| 混合敌人 / 大圈 | 毒液Ⅱ＋寒霜Ⅰ | 13.90 秒，死亡 | 151 | 144 | 48 |
-| 混合敌人 / 大圈 | 完整阀门组 | 16.75 秒，死亡 | 190 | 229 | 94 |
-| 混合敌人 / 短圈 | 完整阀门组 | 14.40 秒，死亡 | 196 | 157 | 28 |
-| 混合敌人 / 短圈 | 同价寒霜升级＋移速组 | 17.05 秒，死亡 | 134 | 354 | 14 |
+| Regular chasers / short circle | Poison II + Frost I | 13.55 s, died | 138 | 92 | 0 |
+| Regular chasers / short circle | Full valve loadout | 16.20 s, died | 172 | 128 | 20 |
+| Mixed enemies / wide circle | Poison II + Frost I | 13.90 s, died | 151 | 144 | 48 |
+| Mixed enemies / wide circle | Full valve loadout | 16.75 s, died | 190 | 229 | 94 |
+| Mixed enemies / short circle | Full valve loadout | 14.40 s, died | 196 | 157 | 28 |
+| Mixed enemies / short circle | Same-cost frost upgrade + speed loadout | 17.05 s, died | 134 | 354 | 14 |
 
-阀门已经改变铺路节奏，在部分路线获得更长接战时间，但**短圈回引尚未稳定胜过同价直接升级**，混合敌人场景也仍偏脆。当前交付是功能完整、可试玩调优的构筑原型，不能据此宣称第二套已经完成平衡验收。下一轮应由真人使用冲刺、主动选择穿过毒池的引流路径，并评估第三武器补短板后的表现。
+The valve does change the trail rhythm and gives longer engagement time on some routes, but **leading enemies back on a short circle does not yet reliably beat a same-cost direct upgrade**, and the mixed-enemy scenario is still fragile. What's delivered now is a feature-complete build prototype ready for playtesting and tuning; it can't be claimed that the second build has passed balance sign-off. The next round should have a human player use the dash, actively choose routes that lead enemies through pools, and evaluate how a third weapon covers the build's weaknesses.
 
-## 实现约定
+## Implementation conventions
 
-保持原有 0–29 商品编号，缓释阀使用商品 ID 30、被动枚举索引 16。新被动一律通过 `ItemLibrary.ShopId / Index` 转换，不再假定所有被动商品 ID 都等于枚举加 6；原先 22–29 的武器编号不变。图鉴数量、导航与图标缓存使用目录数量。
+The existing item IDs 0–29 are kept. The Slow-Release Valve uses item ID 30 and passive enum index 16. New passives always convert through `ItemLibrary.ShopId / Index`, no longer assuming every passive item ID equals the enum value plus 6; the existing weapon IDs 22–29 are unchanged. Codex counts, navigation, and the icon cache use the catalog count.
 
-最长 7 秒毒池配合 1.0 秒间隔，加上 0.18 秒落地仍不会耗尽原有 8 个池对象上限。持续时间和伤害在生成池时取快照；死亡、结算、卸下及重开沿用现有清理路径。
+The longest 7-second pool with a 1.0-second interval, plus the 0.18-second landing delay, still doesn't exhaust the existing limit of 8 pool objects. Duration and damage are snapshotted when a pool spawns; death, settlement, unequipping, and restart reuse the existing cleanup paths.

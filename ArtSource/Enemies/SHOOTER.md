@@ -1,36 +1,36 @@
-# 骨针射手
+# Bone-Needle Shooter
 
-模型按 `Shooter-Concept.png` 制作：灰绿方块身体、骨白发射臂、橙色眼睛与枪口、背部三根骨针。
-`BlockShooter.blend` 是可编辑源文件，`create_shooter.py` 可重新生成模型和 `Shooter-preview.png`。
-运行 Blender `--background --python ArtSource/Enemies/create_shooter.py`。
-导出 `Assets/Resources/Characters/EnemyShooter.fbx`，共 782 三角形。
-独立的 `ShootArm`、`Muzzle`、`Breech` 支持抬臂与枪口定位；`FaceAnchor` 沿用当前模型朝向流程。
+The model is based on `Shooter-Concept.png`: a gray-green block body, a bone-white firing arm, orange eyes and muzzle, and three bone needles on its back.
+`BlockShooter.blend` is the editable source file, and `create_shooter.py` regenerates the model and `Shooter-preview.png`.
+Run Blender with `--background --python ArtSource/Enemies/create_shooter.py`.
+It exports `Assets/Resources/Characters/EnemyShooter.fbx`, 782 triangles in total.
+Separate `ShootArm`, `Muzzle`, and `Breech` nodes support raising the arm and positioning the muzzle; `FaceAnchor` follows the existing model facing workflow.
 
-## 战斗与配置
+## Combat and configuration
 
-- `EnemyKind.Shooter` 和 `ShooterOnly` 追加在枚举末尾，保留已有资产类型编号。
-- 第 6 波起，每第 8 次成功生成有资格替换普通怪；原有特殊敌人优先级保留。
-  第 6–12 波最多 2 只、1 个攻击名额；第 13 波起最多 3 只、2 个攻击名额。
-  攻击名额包含蓄力和飞行中的骨针，避免同时射击形成弹幕。
-- 基础生命 18，乘当前波次生命倍率；接触伤害、掉落、击杀计分沿用普通敌人规则。
-- 超过 8.5 米以基础移速 70% 接近，4.5–8.5 米保持距离。
-  距离不足 4.5 米时，以基础移速 55% 后撤最多 0.6 秒，再停 1.8 秒。
-  冰冻影响移动；后撤受障碍物和场地边界限制。
-- 4.5–9 米、有视线且位于画面安全区域内时蓄力。抬臂和橙色枪口发光，地面细线显示弹道。
-  前 0.5 秒追踪，最后 0.3 秒锁定方向。长帧也至少保留完整锁定窗口。
-  锤击眩晕、死亡或离开画面会取消尚未释放的攻击。
-- 单发直线骨针，速度 7 米/秒、射程 12 米、伤害 8、碰撞半径 0.12 米；带短橙色拖尾。
-  发射后冷却 2–2.4 秒，含蓄力的完整周期约 3 秒。发射后短暂停步。
-- 骨针使用整段移动的碰撞检测，掩体优先挡住子弹；沿用玩家无敌时间与护盾。
-  已经射出的骨针在射手死亡后继续飞行；波次结算、失败、重开和销毁时立即清理。
-- 默认配置资产已追加射手阶段，其余已有配置保持原样。自定义配置需要手动添加 Shooter 阶段。
-  菜单 `Tools > Survivors > Wave Configuration` 的 `ShooterOnly` 可从第一波单独测试。
+- `EnemyKind.Shooter` and `ShooterOnly` are appended to the end of their enums, so existing asset type numbers are kept.
+- From wave 6, every 8th successful spawn is eligible to replace a regular enemy; the existing special enemy priority is kept.
+  Waves 6–12 allow at most 2 alive and 1 attack slot; from wave 13, at most 3 alive and 2 attack slots.
+  Attack slots include charging up and needles in flight, so shooters don't fire at the same time and create bullet hell.
+- Base health is 18, multiplied by the current wave's health multiplier; contact damage, drops, and kill scoring follow the regular enemy rules.
+- Beyond 8.5 m it approaches at 70% of base speed, and between 4.5 and 8.5 m it keeps its distance.
+  Closer than 4.5 m, it backs off at 55% of base speed for up to 0.6 seconds, then stops for 1.8 seconds.
+  Frost affects movement; backing off is limited by obstacles and the arena boundary.
+- It charges up at 4.5–9 m when it has line of sight and is inside the screen's safe area. The arm rises, the muzzle glows orange, and a thin line on the ground shows the trajectory.
+  It tracks for the first 0.5 seconds and locks its direction for the last 0.3 seconds. Long frames still keep at least the full lock window.
+  A hammer stun, death, or leaving the screen cancels an attack that hasn't fired yet.
+- A single straight bone needle: speed 7 m/s, range 12 m, damage 8, collision radius 0.12 m, with a short orange trail.
+  After firing, the cooldown is 2–2.4 seconds, so the full cycle including charge-up is about 3 seconds. It stops briefly after firing.
+- Needles use swept collision over their whole movement, and cover blocks them first; the player's invulnerability time and shield apply.
+  Needles already fired keep flying after the shooter dies; wave settlement, defeat, restart, and destruction clear them immediately.
+- The default configuration asset has the shooter stage added; other existing configurations are unchanged. Custom configurations need a Shooter stage added by hand.
+  `ShooterOnly` in the `Tools > Survivors > Wave Configuration` menu lets you test it alone from wave 1.
 
-## 验证
+## Verification
 
-在非 Play Mode 下执行 `Tools > Survivors > Verify Bone Needle Shooter`，或 Unity batchmode
-`-executeMethod ShooterChecks.Run`（不加 `-quit`，验证流程自行退出）。
+Outside Play Mode, run `Tools > Survivors > Verify Bone Needle Shooter`, or Unity batchmode
+`-executeMethod ShooterChecks.Run` (don't add `-quit`; the verification exits on its own).
 
-验证包含模型导入、抬臂、波次规则、接近/后撤/冰冻、锁定与侧移、长帧命中、掩体、屏幕外限制、
-护盾/无敌、眩晕/死亡、射程、暂停、数量/攻击名额、失败/结算清理和混合阵容。
-成功标记为 `SHOOTER_CHECKS_PASSED`；实机截图为 `Shooter-InGame.png`。
+Verification covers model import, arm raise, wave rules, approach/back-off/frost, lock and strafing, hits during long frames, cover, off-screen limits,
+shield/invulnerability, stun/death, range, pause, count/attack slots, defeat/settlement cleanup, and the mixed lineup.
+The success marker is `SHOOTER_CHECKS_PASSED`; the in-game screenshot is `Shooter-InGame.png`.
