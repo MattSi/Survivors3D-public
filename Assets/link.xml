@@ -1,0 +1,9 @@
+<linker>
+  <!-- GameObject.CreatePrimitive adds colliders internally. With Strip Engine Code on,
+       WebGL builds remove collider classes that no scene or script references directly. -->
+  <assembly fullname="UnityEngine.PhysicsModule">
+    <type fullname="UnityEngine.SphereCollider" preserve="all"/>
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all"/>
+    <type fullname="UnityEngine.BoxCollider" preserve="all"/>
+  </assembly>
+</linker>

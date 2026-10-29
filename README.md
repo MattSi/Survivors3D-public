@@ -2,6 +2,8 @@
 
 A 3D survivors-like action game prototype built with Unity 6. Fight off waves of enemies in a forest camp, spend the materials you collect between waves to buy and upgrade weapons, and finally take on the Forest Stone King boss.
 
+**[▶ Play in your browser](https://mattsi.github.io/Survivors3D-public/)** — desktop browsers, keyboard/mouse or gamepad. The first load downloads about 40 MB.
+
 ![Forest Camp](ArtSource/World/ForestCamp-Unity.png)
 
 ## Features

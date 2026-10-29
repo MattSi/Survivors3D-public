@@ -562,9 +562,13 @@ public partial class CombatController : MonoBehaviour, ICombatView
         visual.transform.position = position;
         visual.transform.localScale = scale;
         visual.GetComponent<Renderer>().sharedMaterial = material;
+        // The collider can be missing in stripped WebGL builds; visuals never need one.
         Collider collider = visual.GetComponent<Collider>();
-        collider.enabled = false;
-        Destroy(collider);
+        if (collider != null)
+        {
+            collider.enabled = false;
+            Destroy(collider);
+        }
         return visual.transform;
     }
 
