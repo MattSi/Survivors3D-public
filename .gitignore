@@ -113,7 +113,7 @@ InitTestScene*.unity*
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
 
-# 第三方付费素材（Unity Asset Store），不随仓库分发，请自行导入
+# Third-party paid assets (Unity Asset Store). Not redistributed; import them yourself.
 /[Aa]ssets/KUBIKOS - World/
 /[Aa]ssets/KUBIKOS - World.meta
 ArtSource/World/ForestCamp-preview.blend

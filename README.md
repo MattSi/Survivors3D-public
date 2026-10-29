@@ -1,79 +1,81 @@
 # Survivors3D
 
-一个用 Unity 6 制作的 3D 割草类（Survivors-like）动作游戏原型。玩家在森林营地里抵御一波波敌人，每波结束后用拾取的材料在商店里购买和升级武器，最后挑战森林石王 Boss。
+A 3D survivors-like action game prototype built with Unity 6. Fight off waves of enemies in a forest camp, spend the materials you collect between waves to buy and upgrade weapons, and finally take on the Forest Stone King boss.
 
-![森林营地](ArtSource/World/ForestCamp-Unity.png)
+![Forest Camp](ArtSource/World/ForestCamp-Unity.png)
 
-## 功能
+## Features
 
-- 波次系统：有限战役和无尽模式，波次表可以在编辑器里配置
-- 12 种武器（枪、喷火器、十字弓、回旋飞刀、毒液背罐、诱饵灯笼等），可以升级、进化，并组成近战流、毒伤流等流派
-- 多种敌人：冲锋、射手、自爆、分裂、石甲等，以及有多个阶段的 Boss
-- 冲刺、商店、物品图鉴、中英文界面、手柄和键鼠操作
-- 完整的音效和音乐系统，可以调节音量
+- Wave system with a finite campaign and an endless mode; the wave table is editable in the Unity Editor
+- 12 weapons (rifle, flamethrower, crossbow, boomerang blade, poison backpack, bait lantern, and more) with levels, evolutions, and builds such as melee and poison
+- Varied enemies (chargers, shooters, bombers, splitters, stone-armored) and a multi-phase boss
+- Dash, shop, item codex, Chinese and English UI, gamepad and keyboard/mouse support
+- Full sound effect and music system with volume controls
 
-## 环境要求
+## Requirements
 
-- Unity **6000.3.22f1**（Unity 6.3），渲染管线是 URP
-- 主要依赖：Input System、AI Navigation，完整列表见 `Packages/manifest.json`
+- Unity **6000.3.22f1** (Unity 6.3) with the Universal Render Pipeline (URP)
+- Main packages: Input System and AI Navigation. See `Packages/manifest.json` for the full list.
 
-## 快速开始
+## Getting started
 
-1. 克隆仓库，用 Unity Hub 打开项目根目录。
-2. 打开 `Assets/Scenes/Playground.unity`，点击 Play，再点击 Game 视图让它获得键盘焦点。
+1. Clone the repository and open the project root in Unity Hub.
+2. Open `Assets/Scenes/Playground.unity`, press Play, then click the Game view so it receives keyboard input.
 
-`Playground` 场景不依赖任何付费素材，可以直接运行。
+The `Playground` scene does not depend on any paid assets and runs out of the box.
 
-## 森林营地场景（需要第三方素材）
+## Forest Camp scene (requires a third-party asset pack)
 
-`Assets/Scenes/ForestCamp.unity` 使用了 Unity Asset Store 上的付费素材包 **KUBIKOS - World**。这个素材包不允许再分发，所以**没有包含在仓库里**。没有导入它也能打开项目，但森林营地场景里的地形、树木和岩石会显示为缺失。
+`Assets/Scenes/ForestCamp.unity` uses **KUBIKOS - World**, a paid asset pack from the Unity Asset Store. Its license does not allow redistribution, so it is **not included in this repository**. The project still opens without it, but the terrain, trees, and rocks in the Forest Camp scene will show up as missing.
 
-如果你已经购买了这个素材包：
+If you own the asset pack:
 
-1. 在 [Unity Asset Store](https://assetstore.unity.com/?q=KUBIKOS) 搜索并下载 KUBIKOS - World。
-2. 用 Package Manager 把它导入项目，保持默认路径 `Assets/KUBIKOS - World/`。
-3. 素材包里资源的 GUID 和场景里的引用一致，导入后引用会自动恢复。
-4. 通过菜单 `Tools > Survivors > Open Forest Camp` 打开场景。
+1. Find and download KUBIKOS - World on the [Unity Asset Store](https://assetstore.unity.com/?q=KUBIKOS).
+2. Import it with the Package Manager, keeping the default path `Assets/KUBIKOS - World/`.
+3. The pack's asset GUIDs match the references in the scene, so the references are restored automatically after import.
+4. Open the scene from `Tools > Survivors > Open Forest Camp`.
 
-`.gitignore` 已经忽略了这个目录，导入后不会被误提交。
+The folder is already listed in `.gitignore`, so it won't be committed by accident.
 
-## 编辑器工具
+## Editor tools
 
-`Tools > Survivors` 菜单下有场景创建、武器和敌人的验证脚本、流派试验场等工具，例如：
+The `Tools > Survivors` menu contains scene setup, verification scripts for weapons and enemies, and build test labs. For example:
 
-- `Wave Configuration`：编辑波次表
-- `Verify Audio`、`Verify Forest Layout`：检查音频绑定和场地连通性
-- `Melee Build Lab`、`Poison Build Lab`：测试特定流派
+- `Wave Configuration`: edit the wave table
+- `Verify Audio`, `Verify Forest Layout`: check audio bindings and arena connectivity
+- `Melee Build Lab`, `Poison Build Lab`: test specific builds
 
-## 文档
+## Documentation
 
-| 文档 | 内容 |
+The design documents are written in Chinese.
+
+| Document | Contents |
 |---|---|
-| [ARCHITECTURE.md](ARCHITECTURE.md) | 运行时模块的职责划分 |
-| [PLAYGROUND.md](PLAYGROUND.md) | 玩法规则、波次、武器数值 |
-| [WAVE_CONFIGURATION.md](WAVE_CONFIGURATION.md) | 波次表和无尽模式 |
-| [WEAPONS.md](WEAPONS.md) | 武器设计 |
-| [ITEM_SYSTEM.md](ITEM_SYSTEM.md) | 物品系统 |
-| [MELEE_BUILD.md](MELEE_BUILD.md) / [POISON_BUILD.md](POISON_BUILD.md) | 近战流 / 毒伤流 |
-| [FOREST_CAMP.md](FOREST_CAMP.md) / [FOREST_LAYOUT.md](FOREST_LAYOUT.md) | 森林营地场景和布局 |
-| [AUDIO.md](AUDIO.md) | 音效事件和音乐 |
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Runtime module responsibilities |
+| [PLAYGROUND.md](PLAYGROUND.md) | Gameplay rules, waves, weapon stats |
+| [WAVE_CONFIGURATION.md](WAVE_CONFIGURATION.md) | Wave table and endless mode |
+| [WEAPONS.md](WEAPONS.md) | Weapon design |
+| [ITEM_SYSTEM.md](ITEM_SYSTEM.md) | Item system |
+| [MELEE_BUILD.md](MELEE_BUILD.md) / [POISON_BUILD.md](POISON_BUILD.md) | Melee build / poison build |
+| [FOREST_CAMP.md](FOREST_CAMP.md) / [FOREST_LAYOUT.md](FOREST_LAYOUT.md) | Forest Camp scene and layout |
+| [AUDIO.md](AUDIO.md) | Sound events and music |
 
-## 目录结构
+## Project structure
 
 ```
 Assets/
-├── Scripts/      # 游戏代码
-├── Editor/       # 编辑器工具和验证脚本
-├── Resources/    # 角色模型、配置（波次、音频）、字体
-├── Audio/Kenney/ # 音效和音乐
+├── Scripts/      # Game code
+├── Editor/       # Editor tools and verification scripts
+├── Resources/    # Character models, config (waves, audio), fonts
+├── Audio/Kenney/ # Sound effects and music
 ├── Materials/
 └── Scenes/
-ArtSource/        # Blender 源文件、概念图和生成脚本
+ArtSource/        # Blender source files, concept art, and generator scripts
 ```
 
-## 许可
+## License
 
-- **代码**：[MIT](LICENSE)
-- **音频**：来自 [Kenney](https://kenney.nl)，CC0，原始许可见 `Assets/Audio/Kenney/Licenses/`
-- **字体**：Noto Sans CJK SC，SIL Open Font License 1.1，见 `Assets/Resources/Fonts/OFL.txt`
-- **KUBIKOS - World**：Unity Asset Store 素材，不包含在本仓库中，使用时请遵守 Asset Store 的许可协议
+- **Code**: [MIT](LICENSE)
+- **Audio**: from [Kenney](https://kenney.nl), CC0. Original licenses are in `Assets/Audio/Kenney/Licenses/`.
+- **Font**: Noto Sans CJK SC, SIL Open Font License 1.1. See `Assets/Resources/Fonts/OFL.txt`.
+- **KUBIKOS - World**: a Unity Asset Store asset, not included in this repository. Follow the Asset Store license terms when using it.
